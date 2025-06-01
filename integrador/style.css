@@ -1,0 +1,457 @@
+body {
+  margin: 0;
+  background-color: #FFD8E7; 
+  font-family: 'Baloo 2', cursive;
+}
+.topo {
+  position: relative;
+  height: 270px;
+  overflow: hidden; 
+}
+
+.granulado-topo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+
+/* nav central no meio do topo */
+.nav-central {
+  position: absolute;
+  top: 40%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 15px;
+  max-width: 1500px;     /* largura máxima (aumentei só um pouco) */
+  width: 100%;            /* largura menor que 90% */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  z-index: 1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/* logo */
+.nav-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-logo img {
+  height: 220px;
+}
+
+/* links à esquerda */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #A31911;
+  font-family: 'Baloo', cursive;
+  font-weight: bold;
+}
+
+/* ícones + botão à direita */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-icons img {
+  width: 22px;
+  height: 22px;
+}
+
+.botao-contato {
+  background-color: #A31911;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Baloo', cursive;
+  font-size: 1rem;
+}
+
+/* ====================== LOGIN - PARTE CENTRAL ====================== */
+
+main.fundo {
+  position: relative;
+  padding: 1rem 1rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* fundo chicletinho rosa centralizado */
+.chicletinho {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 580px;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* imagens de decoração */
+.decoracao {
+  position: absolute;
+  z-index: 1;
+}
+
+/* Donuts (esquerda) — MAIOR e atrás */
+.decoracao.esquerda {
+  position: absolute;
+  bottom: -110px;    /* desce mais */
+  left: 30px;     /* joga bem pro canto, quase fora */
+  width: 1000px;     /* bem maior */
+  z-index: -1;       /* atrás de tudo */
+}
+
+/* Pirulito (direita) — MAIOR e colado no canto */
+.decoracao.direita {
+  position: absolute;
+  top: -10%;
+  right: 0px;     /* mais fora pra colar no canto */
+  width: 650px;     /* maior */
+  z-index: 2;
+}
+
+
+/* caixa de login */
+.login {
+  position: relative;
+  z-index: 2;
+  padding: 3rem 3rem;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ⬅ alinha horizontalmente tudo ao centro */
+  gap: 0.5rem; /* espaçamento vertical entre os elementos */
+}
+
+
+.login h1 {
+  font-family: 'Baloo', cursive;
+  font-size: 80px;      /* ⬅ AUMENTA o tamanho da fonte */
+  font-weight: 2000;       /* ⬅ deixa BEM negrito */
+  color: white;
+  margin-bottom: 0.5rem;    /* ⬅ espaço entre "Login" e o botão Google */
+}
+
+.botao-social {
+  background: #ffffff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  font-family: 'Baloo', cursive;
+  cursor: pointer;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.botao-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.facebook {
+  background-color: #ffffff;
+}
+
+.ou {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  width: 100%;
+  max-width: 320px;
+}
+
+.ou hr {
+  flex-grow: 1;
+  height: 1px;
+  border: none;
+  background-color: #A31911;
+}
+
+.ou span {
+  font-family: 'Baloo', cursive;
+  font-weight: bold;
+  font-size: 1rem; /* aumenta um pouco */
+  color: #A31911;
+}
+
+.campo-input {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.7rem 0;
+  width: 100%;
+  max-width: 370px
+}
+
+.campo-input img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.campo-input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 1rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.lembrar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #A31911;
+  font-family: 'Baloo 2', cursive;
+  margin: 0.5rem 0 1rem;
+  width: 100%;
+  max-width: 320px;
+  gap: 1rem; /* ⬅ isso aqui separa o checkbox do link */
+}
+
+
+
+.lembrar a {
+  color: #A31911;
+  text-decoration: none;
+}
+
+.cadastro {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #000000;
+  font-family: 'Baloo 2', cursive;
+}
+
+.cadastro a {
+  color: #A31911;
+  text-decoration: none;
+}
+
+/* ====== EFEITOS HOVER ====== */
+
+/* Hover nos botões Google e Facebook */
+.botao-social:hover {
+  background-color: #FFD8E7; /* muda o fundo quando passa o mouse */
+  transform: scale(1.02);    /* efeito de leve aumento */
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover nos inputs (e-mail e senha) */
+.campo-input input:hover {
+  background-color: #faeef3; /* levemente rosado */
+  transition: 0.2s;
+}
+
+/* Hover no link "Esqueci a senha" */
+.lembrar a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+/* Hover no link "Crie uma" */
+.cadastro a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+/* ====== HOVER NOS ÍCONES DA NAV BAR ====== */
+.nav-links li a:hover {
+  color: #FC68A1;
+  text-decoration: underline;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-icons img:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* ====== HOVER NO BOTÃO "ENTRE EM CONTATO" ====== */
+.botao-contato:hover {
+  background-color: #FC68A1;  /* muda pra rosa claro */
+  color: white;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: transparent; /* deixa transparente pra ver a imagem */
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 4rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.granulado-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* cobre TODO o rodapé */
+  object-fit: cover;
+  z-index: 0;
+}
+
+.conteudo-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.coluna {
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.coluna h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 1.2rem;
+  color: #A31911;
+}
+
+.coluna ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.coluna ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.95rem;
+  transition: 0.2s;
+}
+
+.coluna ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.coluna p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.coluna img {
+  width: 20px;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social img {
+  width: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.social img:hover {
+  transform: scale(1.2);
+}
+
+.copy {
+  background-color: #FFE4F0;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.copy-conteudo {
+  height: 30px;
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copy-conteudo p {
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.95rem;
+  margin: 0;
+  color: #000000;
+}
+
+.copy-conteudo img {
+  height: 30px;
+}
+
+.bandeiras {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.macaron {
+  width: 120px; /* ou 100px se quiser maior */
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: 120; /* alinha à direita */
+  display: block;
+}
+
+.logo-footer {
+  display: block;
+  height: 100px; /* aumenta a logo */
+  margin: -70px auto 2rem;
+  position: relative;
+  z-index: 2;
+}
+
