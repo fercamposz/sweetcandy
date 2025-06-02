@@ -26,7 +26,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   border-radius: 15px;
-  max-width: 1500px;     /* largura máxima (aumentei só um pouco) */
+  max-width: 1500px;     
   width: 100%;            /* largura menor que 90% */
   height: 70px;
   display: flex;
@@ -61,7 +61,7 @@ body {
 .nav-links li a {
   text-decoration: none;
   color: #A31911;
-  font-family: 'Baloo', cursive;
+  font-family: 'Baloo 2', cursive;
   font-weight: bold;
 }
 
@@ -116,21 +116,22 @@ main.fundo {
   z-index: 1;
 }
 
-/* Donuts (esquerda) — MAIOR e atrás */
+/* Donuts (esquerda) */
 .decoracao.esquerda {
   position: absolute;
-  bottom: -110px;    /* desce mais */
-  left: 30px;     /* joga bem pro canto, quase fora */
-  width: 1000px;     /* bem maior */
-  z-index: -1;       /* atrás de tudo */
+  bottom: -210px;   
+  left: 50px;
+  width: 1000px;    
+  z-index: -1;      
+ 
 }
 
-/* Pirulito (direita) — MAIOR e colado no canto */
+/* Pirulito (direita)  */
 .decoracao.direita {
   position: absolute;
   top: -10%;
-  right: 0px;     /* mais fora pra colar no canto */
-  width: 650px;     /* maior */
+  right: 0px;     
+  width: 650px;     
   z-index: 2;
 }
 
@@ -146,17 +147,17 @@ main.fundo {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* ⬅ alinha horizontalmente tudo ao centro */
-  gap: 0.5rem; /* espaçamento vertical entre os elementos */
+  align-items: center; 
+  gap: 0.5rem; 
 }
 
 
 .login h1 {
   font-family: 'Baloo', cursive;
-  font-size: 80px;      /* ⬅ AUMENTA o tamanho da fonte */
-  font-weight: 2000;       /* ⬅ deixa BEM negrito */
+  font-size: 80px;     
+  font-weight: 2000;       
   color: white;
-  margin-bottom: 0.5rem;    /* ⬅ espaço entre "Login" e o botão Google */
+  margin-bottom: -25px;   
 }
 
 .botao-social {
@@ -203,7 +204,7 @@ main.fundo {
 .ou span {
   font-family: 'Baloo', cursive;
   font-weight: bold;
-  font-size: 1rem; /* aumenta um pouco */
+  font-size: 1rem; 
   color: #A31911;
 }
 
@@ -243,13 +244,13 @@ main.fundo {
   margin: 0.5rem 0 1rem;
   width: 100%;
   max-width: 320px;
-  gap: 1rem; /* ⬅ isso aqui separa o checkbox do link */
+  gap: 1rem; 
 }
 
 
 
 .lembrar a {
-  color: #A31911;
+  color: #858585;
   text-decoration: none;
 }
 
@@ -269,8 +270,8 @@ main.fundo {
 
 /* Hover nos botões Google e Facebook */
 .botao-social:hover {
-  background-color: #FFD8E7; /* muda o fundo quando passa o mouse */
-  transform: scale(1.02);    /* efeito de leve aumento */
+  background-color: #FFD8E7; 
+  transform: scale(1.02);    
   transition: 0.2s ease-in-out;
 }
 
@@ -301,6 +302,11 @@ main.fundo {
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
+.nav-logo img:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
 
 .nav-icons img:hover {
   transform: scale(1.2);
@@ -310,7 +316,7 @@ main.fundo {
 
 /* ====== HOVER NO BOTÃO "ENTRE EM CONTATO" ====== */
 .botao-contato:hover {
-  background-color: #FC68A1;  /* muda pra rosa claro */
+  background-color: #FC68A1;  
   color: white;
   transform: scale(1.05);
   transition: 0.2s ease-in-out;
@@ -318,7 +324,7 @@ main.fundo {
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: transparent; /* deixa transparente pra ver a imagem */
+  background-color: transparent; 
   position: relative;
   padding-top: 160px;
   padding-bottom: 4rem;
@@ -330,7 +336,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* cobre TODO o rodapé */
+  height: 100%; 
   object-fit: cover;
   z-index: 0;
 }
@@ -339,23 +345,38 @@ footer {
   position: relative;
   z-index: 1;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
+  justify-content: center;
+  gap: 20vh;
+  padding: 6vh;
 }
 
 .coluna {
   max-width: 220px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+}
+
+.coluna2 {
+  width: auto;
+  flex-direction: column;
+}
+
+.coluna2 p {
+  width: -10px;
+  height: 12px;
+}
+
+.coluna2 h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 1.2rem;
+  color: #000000;
 }
 
 .coluna h2 {
   font-family: 'Baloo', cursive;
   font-size: 1.2rem;
-  color: #A31911;
+  color: #000000;
 }
 
 .coluna ul {
@@ -405,7 +426,7 @@ footer {
 .copy {
   background-color: #FFE4F0;
   width: 90%;
-  margin: 2rem auto;
+  margin: 0 4rem;
   padding: 1.5rem 2rem;
   border-radius: 30px;
   position: relative;
@@ -440,18 +461,41 @@ footer {
 }
 
 .macaron {
-  width: 120px; /* ou 100px se quiser maior */
-  margin-top: 1.5rem;
   margin-left: auto;
-  margin-right: 120; /* alinha à direita */
+  margin-top: 1.8rem;
+  margin-left: 170vh;
   display: block;
+  transform: scale(1);
+  z-index: 0;
+  position: absolute;
 }
 
 .logo-footer {
-  display: block;
-  height: 100px; /* aumenta a logo */
-  margin: -70px auto 2rem;
-  position: relative;
-  z-index: 2;
+  width: 350px;
+  height: 350px; 
+  margin-top: -15vh;
+  margin-left: 200px;
+  position: absolute;
+  z-index: 10;
 }
 
+/* =================== CADASTRO ========================== */
+.chicletinho2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* Donuts (esquerda) */
+.decoracao.esquerda2 {
+  position: absolute;
+  bottom: -320px;   
+  left: -110px;
+  width: 1150px;    
+  z-index: -1;      
+ 
+}
