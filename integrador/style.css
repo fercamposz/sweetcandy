@@ -105,7 +105,7 @@ main.fundo {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 580px;
+  width: 650px;
   opacity: 1;
   z-index: 0;
 }
@@ -247,6 +247,19 @@ main.fundo {
   gap: 1rem; 
 }
 
+.botao-social.entrar {
+  background-color: #A31911;
+  color: white;
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.botao-social.entrar:hover {
+  background-color: #fc527e;
+  transform: scale(1.02);
+  transition: 0.2s ease-in-out;
+}
 
 
 .lembrar a {
@@ -498,4 +511,83 @@ footer {
   width: 1150px;    
   z-index: -1;      
  
+}
+
+/* ===================== HOMEE ================================== */
+
+/* embarque neste carrosselllll */
+
+.carrossel {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  top: -48px; 
+  z-index: -1;
+}
+
+.slides {
+  display: flex;
+  width: 100%; 
+  height: 100%;
+  animation: slideAuto 25s infinite;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slideAuto {
+  0%   { transform: translateX(0%); }
+  20%  { transform: translateX(0%); }
+  25%  { transform: translateX(-100%); }
+  45%  { transform: translateX(-100%); }
+  50%  { transform: translateX(-200%); }
+  70%  { transform: translateX(-200%); }
+  75%  { transform: translateX(-300%); }
+  95%  { transform: translateX(-300%); }
+  100% { transform: translateX(0%); }
+}
+
+/* =======barrinhado frete ========= */
+
+.info-beneficios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: #FFCCDF;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 50px;
+  margin-bottom: 80px;
+ 
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+}
+
+.bloco img {
+  width: 48px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.bloco h3 {
+  color: #A31911;
+  font-size: 1rem;
+  font-family: 'Baloo', cursive;
+  margin: 0.3rem 0;
+}
+
+.bloco p {
+  font-size: 0.85rem;
+  color: #000;
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
 }
