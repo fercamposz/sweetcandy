@@ -5,6 +5,10 @@ body {
   
 }
 
+#roxo {
+  background-color: #F0E9FF;
+}
+
 .topo {
   position: relative;
   height: 270px;
@@ -1065,13 +1069,12 @@ body.produto {
 
 /* ==========================dETALHE PRODUTO================ */
 
-/* ======================= PRODUTO DETALHE ======================= */
 main.produto-detalhe {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 2rem;
   padding: 4rem 6rem;
-  background-color: #f8ebfb;
+  background-color: #F0E9FF;
 }
 
 .galeria-imagens {
@@ -1130,21 +1133,14 @@ main.produto-detalhe {
 .botoes button {
   padding: 0.6rem 1.2rem;
   margin-right: 1rem;
-  border: none;
+  border: 0.2vh solid #7C76BA;
   border-radius: 20px;
   font-family: 'Baloo 2', cursive;
   cursor: pointer;
+  color: #494949;
+  background-color: transparent;
 }
 
-.comprar {
-  background-color: #7C76BA;
-  color: white;
-}
-
-.favoritar {
-  background-color: #FFD8E7;
-  color: #7C76BA;
-}
 
 .formas-pagamento img {
   width: 40px;
@@ -1156,7 +1152,7 @@ main.produto-detalhe {
   display: flex;
   justify-content: space-between;
   padding: 4rem 6rem;
-  background-color: #f8ebfb;
+  background-color: #F0E9FF;
   gap: 2rem;
 }
 
@@ -1367,7 +1363,7 @@ main.produto-detalhe {
 }
 
 
-/* =================== RODAPÉ COM PRODUTOS RELACIONADOS =================== */
+/* =================== RODAPÉ COM PRODUTOS =================== */
 
 .rodape-produto {
   background-color: #b9aad4;
@@ -1428,6 +1424,7 @@ main.produto-detalhe {
   text-align: center;
   padding: 2rem 2rem;
   font-family: 'Baloo 2', cursive;
+  margin: 10rem 0;
 }
 
 .cardapio1 h2 {
@@ -1449,8 +1446,6 @@ main.produto-detalhe {
   width:250px;
   text-align: center;
 }
-
-
 
 .produto1 img {
   width: 100%;
@@ -1486,11 +1481,9 @@ main.produto-detalhe {
 /* ====================FAQ====================================== */
 .faq-bloco {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-  padding: 6rem 3rem;
+  justify-content: space-around;
   flex-wrap: wrap;
+  margin: 20vh 20vh;
 }
 
 .faq-bloco.reverse {
@@ -1505,7 +1498,7 @@ main.produto-detalhe {
 }
 
 .faq-conteudo {
-  max-width: 500px;
+  max-width: 800px;
   flex: 1;
 }
 
@@ -1556,6 +1549,7 @@ main.produto-detalhe {
   gap: 4rem;
   padding: 4rem 2rem;
   background-color: #FFA1C3;
+  margin: 20vh 0;
   
 }
 
