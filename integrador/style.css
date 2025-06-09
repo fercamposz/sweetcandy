@@ -2,7 +2,9 @@ body {
   margin: 0;
   background-color: #FFD8E7; 
   font-family: 'Baloo 2', cursive;
+  
 }
+
 .topo {
   position: relative;
   height: 270px;
@@ -33,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 8rem;
-  z-index: 1;
+  z-index: 6;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
@@ -86,6 +88,10 @@ body {
   font-family: 'Baloo', cursive;
   font-size: 1rem;
 }
+
+/* ========================PARA PAGINAS COM FUNDO ROXO============================= */
+
+
 
 /* ====================== LOGIN - PARTE CENTRAL ================================= */
 
@@ -745,3 +751,889 @@ footer {
   cursor: pointer;
   color: #A31911;
 }
+
+/* ================sobre nos ====================== */
+
+.sobreNos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffd8e7;
+  padding: 1rem 6rem;
+  font-family: 'Baloo 2', cursive;
+  
+}
+
+.textoSobre {
+  max-width: 700px;
+  
+}
+
+.textoSobre h2 {
+  color: #A01313;
+  font-family: 'Baloo', cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.textoSobre p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #4b4b4b;
+  margin-top: -1.5rem;
+}
+
+.imagemCozinheira {
+  width: 35rem;
+  height: auto;
+}
+
+.icones {
+  background-color: #ffd8e7;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  font-family: 'Baloo 2', cursive;
+  padding: 3rem 0 8rem;
+}
+
+.iconeItem {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 320px;
+}
+
+.iconeItem img {
+  width: 3rem;
+  height: 3rem;
+  background-color: #FC86B1; 
+  border-radius: 50%;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+  
+}
+
+.iconeItem p {
+  font-size: 1rem;
+  color: #4b4b4b;
+  line-height: 1.4;
+}
+
+/* =========================NOSSO CARDAPIO================== */
+.cardapio {
+  background-color: #FC86B1;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.cardapio h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 3rem;
+  color: #A01313;
+  margin-bottom: 2rem;
+}
+.produtos {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.produto {
+  padding: 6rem;
+  border-radius: 20px;
+  width:250px;
+  text-align: center;
+}
+
+
+
+.produto img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.produto h3 {
+  margin-top: 0.6rem;
+  color: #A01313;
+  font-size: 1.2rem;
+}
+
+.produto p {
+  font-size: 0.85rem;
+  color: #4b4b4b;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.produto button {
+  background-color: #A01313;
+  color: white;
+  padding: 0.3rem 1.6rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.faixa-clara {
+  background-color: #FFD8E7; 
+  height: 250px;             
+}
+
+/* =======================PRODUYOS======================== */
+body.produto {
+  background-color: #f8ebfb; 
+}
+
+.titulo-produtos {
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  font-size: 5rem;
+  color: #7C76BA;
+  margin-top: 8rem;
+}
+
+.filtros-categorias {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 0 2rem;
+  flex-wrap: wrap;
+}
+
+.filtro {
+  background-color: #ffffff;
+  border: none;
+  padding: 0.3rem 1.4rem;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filtro:hover,
+.filtro.ativo {
+  background-color: #7C76BA;
+  transform: scale(1.05);
+}
+
+.grade-produtos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem 4rem; 
+  padding: 2rem 6rem;
+  justify-items: center;
+  max-width: 100rem;
+  margin: 12px;
+}
+
+.card-produto {
+  text-align: center;
+  padding: 0;
+  font-family: 'Baloo 2', cursive;
+  background-color: transparent;
+}
+
+.card-produto img {
+  width: 180px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 95% / 50%;
+  margin-bottom: 0.6rem;
+}
+
+.card-produto h3 {
+  font-size: 1.2rem;
+  color: #7C76BA;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-produto .preco {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.card-produto .comprar {
+  background-color: #7C76BA;
+  color: white;
+  border: none;
+  padding: 1rem 1.2rem;
+  border-radius: 20px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card-produto .comprar:hover {
+  background-color: #FC86B1;
+}
+
+.botoes-produto {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(124, 118, 186, 0.1);
+}
+
+.botoes-produto .preco {
+  background-color: #8351AE;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.3rem;
+  font-size: 0.85rem;
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
+}
+
+.botoes-produto .comprar {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 0.3rem 0.3rem;
+  font-size: 0.85rem;
+  font-family: 'Baloo 2', cursive;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.botoes-produto .comprar:hover {
+  background-color: #f2f2f2;
+}
+
+.avaliacao {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  color: #FFC107;
+  font-family: Arial, sans-serif;
+}
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0 5rem;
+}
+
+.pagina {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.pagina.atual {
+  background-color: #7C76BA;
+  color: white;
+}
+
+.pagina:hover:not(.atual) {
+  background-color: #e2dff4;
+}
+
+
+/* ==============footer roxo========== */
+.copy1 {
+  background-color: #EEECF7;
+  width: 90%;
+  margin: 0 4rem;
+  padding: 1.5rem 2rem;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ==========================dETALHE PRODUTO================ */
+
+/* ======================= PRODUTO DETALHE ======================= */
+main.produto-detalhe {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 2rem;
+  padding: 4rem 6rem;
+  background-color: #f8ebfb;
+}
+
+.galeria-imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.galeria-imagens img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.galeria-imagens img:hover {
+  border-color: #7C76BA;
+}
+
+.imagem-principal img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-produto h2 {
+  font-size: 2rem;
+  color: #7C76BA;
+  margin: 0;
+}
+
+.info-produto .resumo {
+  font-size: 1rem;
+  color: #555;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.preco-novo {
+  font-size: 1.8rem;
+  color: #A31911;
+  font-weight: bold;
+}
+
+.botoes button {
+  padding: 0.6rem 1.2rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Baloo 2', cursive;
+  cursor: pointer;
+}
+
+.comprar {
+  background-color: #7C76BA;
+  color: white;
+}
+
+.favoritar {
+  background-color: #FFD8E7;
+  color: #7C76BA;
+}
+
+.formas-pagamento img {
+  width: 40px;
+  margin-right: 0.5rem;
+}
+
+/* ======================= DESCRIÇÃO + TABELA ======================= */
+.descricao-produto {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  background-color: #f8ebfb;
+  gap: 2rem;
+}
+
+.texto-descricao {
+  flex: 2;
+}
+
+.texto-descricao h3 {
+  color: #7C76BA;
+}
+
+.texto-descricao ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.tabela-nutricional {
+  flex: 1;
+}
+
+.tabela-nutricional table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tabela-nutricional th,
+.tabela-nutricional td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* ======================= PRODUTOS RELACIONADOS ======================= */
+.produtos-relacionados {
+  background-color: #b5a5d5;
+  padding: 4rem 6rem;
+  text-align: center;
+}
+
+.produtos-relacionados h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.cards-relacionados {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.cards-relacionados article {
+  background: white;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cards-relacionados img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cards-relacionados h3 {
+  font-size: 1rem;
+  color: #7C76BA;
+}
+
+.cards-relacionados p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cards-relacionados button {
+  background-color: #7C76BA;
+  color: white;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Baloo 2', cursive;
+  margin-top: 0.5rem;
+}
+
+.cards-relacionados button:hover {
+  background-color: #FC86B1;
+}
+
+/* ================== DETALHES DO PRODUTO ================== */
+
+.produto-detalhes {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  gap: 3rem;
+  padding: 4rem 6rem 2rem;
+  align-items: start;
+}
+
+.imagens-laterais {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.galeria-imagens img {
+  width: 175px;
+  height: 175px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.imagem-principal img{
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin-left: -8rem;
+
+  
+}
+
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: -10rem;
+}
+
+.info-produto h1 {
+  font-family: 'Baloo', cursive;
+  color: #7C76BA;
+  font-size: 2rem;
+}
+
+.info-produto p {
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Baloo 2', cursive;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1rem;
+}
+
+.preco-atual {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #A31911;
+}
+
+.botoes-detalhe {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botao-roxo {
+  background-color: #7C76BA;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.botao-rosa {
+  background-color: #f9cce3;
+  color: #A31911;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.icones-pagamento img {
+  width: 32px;
+  margin-top: 1rem;
+  margin-right: 0.5rem; 
+}
+
+/* ================= INFORMAÇÕES NUTRICIONAIS ================== */
+
+.infos-produto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 3rem 6rem;
+}
+
+.infos-produto h2 {
+  font-size: 1.2rem;
+  color: #7C76BA;
+  font-family: 'Baloo 2', cursive;
+  margin-bottom: 1rem;
+}
+
+.infos-produto ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+}
+
+
+/* =================== RODAPÉ COM PRODUTOS RELACIONADOS =================== */
+
+.rodape-produto {
+  background-color: #b9aad4;
+  padding: 3rem 6rem;
+  text-align: center;
+}
+
+.rodape-produto h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.rodape-produto .produtos-relacionados {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.rodape-produto .produto-relacionado {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 200px;
+}
+
+.rodape-produto .produto-relacionado img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.rodape-produto .produto-relacionado h3 {
+  font-size: 1rem;
+  color: #7C76BA;
+}
+
+.rodape-produto .produto-relacionado p {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+
+.rodape-produto .produto-relacionado button {
+  background-color: #7C76BA;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.4rem 1rem;
+  font-family: 'Baloo 2', cursive;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+
+/* ====================nosso cardapio roxo========================== */
+.cardapio1 {
+  background-color: #A8A3D8;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-family: 'Baloo 2', cursive;
+}
+
+.cardapio1 h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.produtos1 {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.produto1 {
+  padding: 6rem;
+  border-radius: 20px;
+  width:250px;
+  text-align: center;
+}
+
+
+
+.produto1 img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.produto1 h3 {
+  margin-top: 0.6rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.produto1 p {
+  font-size: 0.85rem;
+  color: #4b4b4b;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.produto1 button {
+  background-color: #534B9B;
+  color: white;
+  padding: 0.3rem 1.6rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+
+/* ====================FAQ====================================== */
+.faq-bloco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 3rem;
+  flex-wrap: wrap;
+}
+
+.faq-bloco.reverse {
+  flex-direction: row-reverse;
+}
+
+.faq-img img {
+  width: 35vw;
+  max-width: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.faq-conteudo {
+  max-width: 500px;
+  flex: 1;
+}
+
+.faq-conteudo h2 {
+  font-family: 'Baloo', cursive;
+  font-size: 2.5rem;
+  color: #A31911;
+  margin-bottom: 2rem;
+}
+
+.faq-lista details {
+  background-color: #FC86B1;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq-lista summary {
+  font-family: 'Baloo 2', cursive;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-lista summary::marker,
+.faq-lista summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-lista p {
+  padding: 0 1.5rem 1rem;
+  font-family: 'Baloo 2', cursive;
+  color: white;
+  font-size: 0.95rem;
+}
+
+/* =======================AJUDA========================= */
+
+.contato-bloco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 2rem;
+  background-color: #FFA1C3;
+  
+}
+
+.contato-bloco .img-ajuda img {
+  width: 50rem;
+}
+
+.contato-conteudo {
+  flex: 1;
+  max-width: 600px;
+}
+
+.contato-conteudo h2 {
+  font-family: 'Baloo', cursive;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.contato-conteudo p {
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.8rem;
+  color: white;
+  margin-bottom: 1rem;
+  
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+}
+
+.contato-form .linha {
+  display: flex;
+  gap: 0.5rem;
+
+}
+
+::placeholder {
+  color: #A8A3D8;
+  font-family: 'Baloo', cursive;
+}
+
+.contato-form input,
+.contato-form textarea {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 0.9rem;
+  background-color: white;
+  color: #A8A3D8;
+}
+
+.contato-form textarea {
+  height: 100px;
+  resize: none;
+  color: #A8A3D8;
+}
+
+.contato-form button {
+  align-self: flex-start;
+  background-color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  font-family: 'Baloo', cursive;
+  color: #A8A3D8;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  
+}
+
+.contato-form button:hover {
+  background-color: #ffe2ec;
+}
+
