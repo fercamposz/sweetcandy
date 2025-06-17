@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login - SweetCandy</title>
-    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha - Sweet Candy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+    <!-- Nav Bar -->
     <header class="topo">
         <img src="imagens/teste1.png" class="granulado-topo" alt="Fundo com granulados" />
 
         <nav class="nav-central">
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="FAQ.html">Ajuda</a></li>
+                <li><a href="produtos.html">Shop</a></li>
                 <li><a href="#">About Us</a></li>
             </ul>
 
@@ -42,63 +40,23 @@
             </section>
         </nav>
     </header>
-    
+
+    <!-- Fundo Chiclete + Granulado -->
+    <img src="imagens/granulado-topo.png" class="granulado-topo" alt="">
     <main class="fundo">
-    <img src="imagens/chicletinho.png" alt="Chicletinho" class="chicletinho" />
-    <img src="imagens/pirulito.png" alt="Pirulito" class="decoracao direita" />
-    <img src="imagens/donuts.png" alt="Donuts" class="decoracao esquerda" />
+    <h1 class="titulo-recuperar">RECUPERAR SENHA</h1>
 
-    <section class="login">
-        <h1>Login</h1>
+    <section class="container-recuperar">
+        <section class="form-recuperar">
+            <input type="password" placeholder="Nova senha">
+            <input type="password" placeholder="Confirmar nova senha">
+            <button>Alterar senha</button>
+        </section>
 
-        <button class="botao-social">
-            <img src="imagens/google.png" alt="Google" />
-            Login com o Google
-        </button>
-
-        <div class="ou">
-            <hr />
-            <span>Ou</span>
-            <hr />
-        </div>
-
-        <article class="campo-input">
-            <img src="imagens/email.png" alt="Email" />
-            <input type="email" placeholder="Insira seu E-mail" />
-        </article>
-
-        <article class="campo-input">
-            <img src="imagens/senha.png" alt="Senha" />
-            <input type="password" placeholder="Insira sua senha" />
-        </article>
-
-        <div class="lembrar">
-            <label>
-                <input type="checkbox" />
-                Lembre-me
-            </label>
-            <a href="#">Esqueci a minha senha</a>
-        </div>
-
-        <button class="botao-social entrar">
-            Entrar
-        </button>
-
-        <div class="ou">
-            <hr />
-            <span>Ou</span>
-            <hr />
-        </div>
-
-        <button class="botao-social facebook">
-            <img src="imagens/face.png" alt="Facebook" />
-            Login com o Facebook
-        </button>
-
-        <p class="cadastro">Não tem uma conta? <a href="cadastro.html">Crie uma</a></p>
+        <img src="imagens/mocinha.png" alt="Personagem Sweet Candy" class="cozinheira-img">
     </section>
     </main>
-    
+
     <footer>
         <img src="imagens/footerrosa.png" alt="granulados" class="granulado-footer" />
         <img src="imagens/footermacaron.png" alt="Macarons coloridos" class="macaron" />
@@ -144,7 +102,6 @@
                     <li><a href="#">Licença</a></li>
                 </ul>
             </section>
-
         </section>
 
         <section class="copy">
@@ -164,4 +121,5 @@
 </html>
 
 
+      
 

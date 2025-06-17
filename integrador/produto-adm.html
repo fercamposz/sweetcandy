@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Sweet Candy Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy">
+        </div>
+        <ul>
+            <li><a href="dashboard.html"><img src="imagens/caixa.png" alt=""> Dashboard</a></li>
+            <li class="ativo"><a href="#"><img src="imagens/promo.png" alt=""> Produtos</a></li>
+            <li><a href="clientes.html"><img src="imagens/client.png" alt=""> Clientes</a></li>
+            <li><a href="index.html"><img src="imagens/sair.png" alt=""> Sair</a></li>
+        </ul>
+    </aside>
+
+    <main class="dashboard">
+        <header class="topo-admin">
+            <span>Olá, Admin</span>
+            <a href="#" class="botao-sair">Sair</a>
+        </header>
+
+        <h1>Produtos</h1>
+
+        <a href="#" class="botao-adicionar">+Adicionar produtos</a>
+
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Buscar produtos">
+        </div>
+
+        <table class="tabela-produtos">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Estoque</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="imagens/cupadm.png" alt=""> CUPCAKE DE BRIGADEIRO</td>
+                    <td>R$ 15</td>
+                    <td>120</td>
+                    <td><span class="status ativo">ATIVO</span></td>
+                    <td><button class="botao editar">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="imagens/macaronadm.png" alt=""> MACARON DE FRAMBOESA</td>
+                    <td>R$ 15</td>
+                    <td>80</td>
+                    <td><span class="status ativo">ATIVO</span></td>
+                    <td><button class="botao editar">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="imagens/cupmadm.png" alt=""> CUPCAKE DE MORANGO</td>
+                    <td>R$ 13</td>
+                    <td>40</td>
+                    <td><span class="status esgotando">ESGOTANDO</span></td>
+                    <td><button class="botao editar">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="imagens/cheeseadm.png" alt=""> CHEESECAKE DE MORANGO</td>
+                    <td>R$ 20</td>
+                    <td>70</td>
+                    <td><span class="status inativo">INATIVO</span></td>
+                    <td><button class="botao remover">Remover</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+</body>
+</html>
