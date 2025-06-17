@@ -32,7 +32,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: #000;
+    color: #A31611;
     text-decoration: none;
     padding: 0.8rem 1rem;
     display: flex;
@@ -107,14 +107,11 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-.status-cards .pedidos {
-    background-color: #FF6B8A;
-}
-
 .status-cards .produtos,
 .status-cards .clientes,
+.status-cards .pedidos,
 .status-cards .receita {
-    background-color: #B98BE3;
+    background-color: #A8A3D8;
 }
 
 .status-cards .card p {
@@ -132,6 +129,10 @@ h1 {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.bloco h3 {
+    color: #A31611;
 }
 
 .blocos-info .bloco {
@@ -162,6 +163,12 @@ h1 {
     border-radius: 10px;
 }
 
+.ultimos-pedidos h3 {
+    color: #A31611;
+    font-family: 'Baloo', cursive;
+    font-size: 1.3rem;
+
+}
 .ultimos-pedidos ul {
     list-style: none;
     padding: 0;

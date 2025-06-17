@@ -352,6 +352,7 @@ footer {
   padding-top: 160px;
   padding-bottom: 4rem;
   font-family: 'Baloo 2', cursive;
+ 
 }
 
 .granulado-footer {
@@ -1632,7 +1633,249 @@ main.produto-detalhe {
 }
 
 /* ============================CONTATOO====================================== */
+.contato-page main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
 
+.atendimento-container {
+    display: flex;
+    gap: 40px;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+/* BLOCO ESQUERDO */
+
+.bloco-esquerdo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.titulo-suporte {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo-suporte h2 {
+    font-size: 28px;
+    color: #E34F4D;
+    font-weight: bold;
+}
+
+.nossa-loja h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #E34F4D;
+}
+
+.nossa-loja .info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.nossa-loja .info-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.form-contato h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #E34F4D;
+    font-size: 20px;
+}
+
+.form-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-contato .linha-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #FFD8E7;
+    background-color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+}
+
+.form-contato textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-contato button {
+    background-color: #E34F4D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.form-contato button:hover {
+    background-color: #8C1210;
+}
+
+/* BLOCO DIREITO */
+
+.bloco-direito {
+  margin-top: 10rem;
+    flex: 1;
+    min-width: 300px;
+    background-color: #FD85B2;
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+.bloco-direito h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloco-direito p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.bloco-direito form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bloco-direito form .linha-inputs {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.campo-data,
+.campo-hora {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.campo-data h3,
+.campo-hora h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.bloco-direito input[type="date"],
+.bloco-direito input[type="time"],
+.bloco-direito select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #FFD8E7;
+    background-color: #FD85B2;
+    color: #ffffff;
+    font-family: 'Baloo 2', cursive;
+    font-size: 14px;
+}
+
+.bloco-direito select {
+    appearance: none;
+    background-color: #FD85B2;
+    border: 2px solid #FFD8E7;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: left;
+    gap: 10px 30px;
+    margin-top: 10px;
+}
+
+.categorias label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    gap: 8px;
+}
+
+.botao-verde {
+    background-color: #73C8BD;
+    color: white;
+    padding: 14px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.botao-verde:hover {
+    background-color: #5ABF85;
+}
+/*================================ MAPA ----------------------------------------------*/
+
+.mapa-container {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.mapa-container .mapa-fundo {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.botoes-mapa {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes-mapa img {
+    width: 20rem; 
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.botoes-mapa img:hover {
+    transform: scale(1.05);
+}
 
 /* ===========================ERRO 404====================== */
 .pagina-404 {
@@ -1674,8 +1917,17 @@ main.produto-detalhe {
   transition: 0.2s ease-in-out;
 }
 
+/* ====================FOOTER COM OFERTA========================================================= */
+
+.fundo-footer-ofertas {
+  width: 100%;
+  z-index: 5;
+  margin-top: 15rem;
+  margin-bottom: -5rem;
+}
+
 /* =================ESQUECI SENHA=============== */
-/* ======== FORM ESQUECI SENHA ======= */
+
 .form-recuperar {
     background-color: #FFD8E7;
     max-width: 600px;
@@ -1688,6 +1940,7 @@ main.produto-detalhe {
 .form-recuperar h2 {
     color: #A31611;
     margin-bottom: 1rem;
+    
 }
 
 .form-recuperar p {
@@ -1729,14 +1982,13 @@ main.produto-detalhe {
 
 /* =================== RECUPERAR SENHA =================== */
 
-/* =================== RECUPERAR SENHA =================== */
 
 .titulo-recuperar {
     text-align: center;
     color: #A31611;
     font-family: 'Baloo', cursive;
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-right: 30rem;
     width: 100%;
 }
 
@@ -1767,6 +2019,7 @@ main.fundo {
     width: 100%;
     max-width: 350px;
     z-index: 2;
+    margin-top: -10rem;
 }
 
 .form-recuperar input[type="password"] {
@@ -1791,14 +2044,203 @@ main.fundo {
 }
 
 .form-recuperar button:hover {
-    background-color: #e74040;
-    transition: 0.2s;
+  background-color: #e74040;
+  transition: 0.2s;
 }
 
 .cozinheira-img {
-    max-width: 30rem;
-    width: 100%;
+  max-width: 30rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 2;
+}
+
+/* ====================LOCALLL=================== */
+.secao-mapa {
+  text-align: center;
+    
+}
+
+.secao-mapa img {
+  margin-top: 10rem;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 15px;
+}
+
+.secao-disponivel img {
+ margin-top: 10rem;
+}
+
+.chef {
+    margin-top: -50rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.chef img {
+    width: 40rem;
     height: auto;
-    display: block;
-    z-index: 2;
+}
+
+/* =====================detalhes do pedido ====================== */
+.topo-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5rem 1rem;
+    max-width: 100rem;
+    margin: 5rem 10rem;
+    position: relative;
+}
+
+.info-pedido {
+    flex: 1;
+}
+
+.voltar {
+    color: #A31611;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.info-pedido h2 {
+    color: #A31611;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-family: 'Baloo', cursive;
+}
+
+.info-pedido p {
+    color: #A31611;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+    margin: 5px 0;
+}
+
+.info-pedido h3 {
+    color: black;
+    font-size: 18px;
+    margin: 15px 0 8px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.etapas {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    font-size: 16px;
+    color: #A31611;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.status-img {
+    width: 100%;
+    max-width: 80rem;
+}
+
+.chef-lado {
+    width: 260px;
+    position: absolute;
+    top: 5px;
+    left: 70rem;
+}
+
+/* ===============================detalhes pedidos tabela ===================== */
+.tabela-pedido {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px auto;
+    max-width: 1200px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.tabela-pedido .linha {
+    display: grid;
+    grid-template-columns: 1fr 80px 120px;
+    align-items: center;
+    padding: 18px 30px;
+    border-bottom: 2px solid #A01313;
+    font-size: 16px;
+    color: #A31611;
+}
+
+.tabela-pedido .linha:last-child {
+    border-bottom: none;
+}
+
+.tabela-pedido .linha.header {
+    background-color: white;
+    color: #A31611;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px solid #A01313;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-info img {
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.texto-produto {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+.texto-produto strong {
+    font-size: 16px;
+    color: #A31611;
+}
+
+.texto-produto span {
+    font-size: 15px;
+    color: #A31611;
+}
+
+.tabela-pedido .linha.total {
+    background-color: white;
+    color: #A31611;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-top: 2px solid #A01313;
+}
+
+.historico-status {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Baloo 2', cursive;
+}
+
+.linha-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #A31611;
+}
+
+.linha-status span {
+    font-size: 15px;
 }
