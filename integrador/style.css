@@ -2244,3 +2244,739 @@ main.fundo {
 .linha-status span {
     font-size: 15px;
 }
+
+/* =========================politicas================== */
+
+.pagina-politica {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    font-family: 'Baloo 2', sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.pagina-politica h1 {
+    font-family: 'Baloo', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #A31611;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.pagina-politica h2 {
+    font-family: 'Baloo', cursive;
+    font-size: 28px;
+    color: #A31611;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #FFD8E7;
+    padding-bottom: 5px;
+}
+
+.pagina-politica h3 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 22px;
+    color: #A31611;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.pagina-politica p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.pagina-politica ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.pagina-politica li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.pagina-politica strong {
+    color: #A31611;
+    font-weight: bold;
+}
+
+.pagina-politica a {
+    color: #A31611;
+    text-decoration: underline;
+}
+
+.pagina-politica blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #A31611;
+    padding: 12px 20px;
+    margin: 20px 0;
+    color: #444444;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+/* ===============================TERMO DE USO==================== */
+.pagina-politica {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    color: #333333;
+    font-family: 'Baloo 2', sans-serif;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.pagina-politica h1 {
+    font-family: 'Baloo', cursive;
+    font-size: 42px;
+    text-align: center;
+    color: #A31611;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.pagina-politica h2 {
+    font-family: 'Baloo', cursive;
+    font-size: 28px;
+    color: #A31611;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #FFD8E7;
+    padding-bottom: 8px;
+}
+
+.pagina-politica h3 {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 22px;
+    color: #A31611;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.pagina-politica p {
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+.pagina-politica ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.pagina-politica li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.pagina-politica strong {
+    color: #A31611;
+    font-weight: bold;
+}
+
+.pagina-politica a {
+    color: #A31611;
+    text-decoration: underline;
+}
+
+.pagina-politica blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #A31611;
+    padding: 12px 20px;
+    margin: 20px 0;
+    color: #444444;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+/* =========================== MEUS PEDIDOS=============================== */
+.pagina-pedidos {
+    display: flex;
+    background-color: #FFD8E7;
+    padding: 50px 80px;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+/* Menu Lateral */
+.menu-pedidos {
+    width: 220px;
+    background-color: #FFA1C3;
+    border-radius: 20px;
+    padding: 30px 0;
+    margin-right: 30px;
+    align-self: flex-start; 
+}
+.menu-pedidos a {
+    color: #A31611;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.menu-pedidos a:hover {
+    color: #7B0D0D;
+    text-decoration: none;
+}
+
+.menu-pedidos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-pedidos li {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: #A31611;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-pedidos li:hover {
+    background-color: #FFD8E7;
+}
+
+.menu-pedidos li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+/* Área de Conteúdo */
+.area-pedidos {
+    flex-grow: 1;
+    background-color: #FFE6F0;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.area-pedidos h1 {
+    color: #A31611;
+    font-family: 'Baloo', cursive;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* Filtro */
+.box-filtro button {
+    border: 2px solid #A31611;
+    background-color: transparent;
+    color: #A31611;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-family: 'Baloo 2', sans-serif;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.box-filtro button:hover {
+    background-color: #A31611;
+    color: #fff;
+}
+
+/* Caixa de cada Pedido */
+.pedido-item {
+    background-color: #FFD8E7;
+    border: 2px solid #A31611;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    color: #A31611;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.pedido-item p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.pedido-item button {
+    background-color: transparent;
+    border: 2px solid #A31611;
+    color: #A31611;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo 2', sans-serif;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.pedido-item button:hover {
+    background-color: #A31611;
+    color: #fff;
+}
+
+/* ========================MEU DAADOS==================================== */
+.area-dados {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: flex-start;
+    padding: 40px 30px; 
+    background-color: transparent;
+}
+
+.form-dados {
+    width: 700px; 
+    background-color: #FFE6F0;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(255, 161, 195, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-dados h1 {
+    font-family: 'Baloo', cursive;
+    font-size: 36px; 
+    color: #A31611;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-dados input {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA1C3;
+    color: #A31611;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 16px;
+}
+
+.form-dados input::placeholder {
+    color: #A31611;
+    opacity: 0.7;
+}
+
+.linha-dupla {
+    display: flex;
+    gap: 15px;
+}
+
+.linha-dupla input {
+    flex: 1;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.checkbox-group label,
+.checkbox-alterar {
+    font-family: 'Baloo 2', sans-serif;
+    color: #A31611;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-group input[type="checkbox"],
+.checkbox-alterar input[type="checkbox"] {
+    accent-color: #A31611;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.form-dados h2 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-family: 'Baloo', cursive;
+    font-size: 22px;
+    color: #A31611;
+    text-align: left;
+}
+
+.form-dados button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #FFA1C3;
+    color: #A31611;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Baloo 2', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    align-self: flex-end;
+}
+
+.form-dados button:hover {
+    background-color: #A31611;
+    color: #fff;
+}
+
+/* ======================CARTOES ============================================== */
+
+.titulo-cartoes {
+  color: #A31611;
+  font-family: 'Baloo', cursive;
+  margin-top: -4rem;
+  font-size: 20px;
+}
+.area-cartoes {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 30px;
+    max-width: 1000px;
+}
+
+.conteudo-cartoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.cartao-item img {
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lado-direito-cartoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-adicionar-cartao {
+    background-color: #FFA1C3;
+    color: #A31611;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.btn-adicionar-cartao:hover {
+    background-color: #A31611;
+    color: #fff;
+}
+
+.formulario-cartao {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    font-family: 'Baloo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+#abrirCartao:checked ~ .formulario-cartao {
+    display: flex;
+}
+
+.formulario-cartao h2 {
+    font-family: 'Baloo', cursive;
+    font-size: 22px;
+    color: #A31611;
+    margin-bottom: 10px;
+}
+
+.formulario-cartao label {
+    font-size: 18px;
+    color: #A31611;
+    margin-bottom: 4px;
+}
+
+.formulario-cartao input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.linha-dupla-cartao {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.campo-menor {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.linha-dupla-cartao input {
+    flex: 1;
+    min-width: 0;
+}
+
+.btn-salvar-cartao {
+    background-color: #FC86B1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-family: 'Baloo 2', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px; 
+    box-sizing: border-box;
+}
+.btn-salvar-cartao:hover {
+    opacity: 0.9;
+}
+
+
+/* ==============================MEUS ENDEREÇOS=========================================== */
+.titulo-enderecos {
+  color: #A31611;
+  font-family: 'Baloo', cursive;
+  margin-top: -4rem;
+  font-size: 20px;
+}
+.area-enderecos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 30px;
+    max-width: 1000px;
+}
+
+.endereco-salvo {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.btn-editar {
+    background-color: #A31611;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.btn-adicionar-endereco {
+    background-color: #A31611;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-family: 'Baloo 2', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    width: fit-content;       
+    margin-top: 10px;
+}
+
+#abrirEndereco:checked ~ .formulario-endereco {
+    display: flex;
+}
+
+.formulario-endereco {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    background-color: FFD8E7;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 350px;
+    font-family: 'Baloo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+.formulario-endereco h2 {
+    font-family: 'Baloo', cursive;
+    font-size: 22px;
+    color: #A31611;
+    margin-bottom: 10px;
+}
+
+.formulario-endereco label {
+    font-size: 14px;
+    color: #A31611;
+    margin-bottom: 4px;
+}
+
+.formulario-endereco input {
+    padding: 10px;
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: white;
+    color: #333;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.linha-dupla-endereco {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.campo-menor {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.btn-salvar-endereco {
+    background-color: #FF92B2;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-family: 'Baloo 2', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.btn-salvar-endereco:hover {
+    opacity: 0.9;
+}
+
+/* ================================MEUS FAVORITOS======================================= */
+.area-favoritos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 30px;
+    max-width: 1000px;
+}
+
+.area-favoritos h1 {
+    font-family: 'Baloo', cursive;
+    color: #A31611;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.favorito-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.favorito-item img.produto-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.info-favorito {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-favorito h2 {
+    font-family: 'Baloo 2', sans-serif;
+    color: #A31611;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+}
+
+.preco-novo {
+    color: #A31611;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-adicionar-carrinho {
+    background-color: #A31611;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.btn-adicionar-carrinho:hover {
+    opacity: 0.9;
+}
+
+.icone-favorito img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
