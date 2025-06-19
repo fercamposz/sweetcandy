@@ -2456,7 +2456,7 @@ main.fundo {
     margin-right: 12px;
 }
 
-/* Área de Conteúdo */
+
 .area-pedidos {
     flex-grow: 1;
     background-color: #FFE6F0;
@@ -2471,7 +2471,7 @@ main.fundo {
     margin-bottom: 25px;
 }
 
-/* Filtro */
+
 .box-filtro button {
     border: 2px solid #A31611;
     background-color: transparent;
@@ -2489,7 +2489,6 @@ main.fundo {
     color: #fff;
 }
 
-/* Caixa de cada Pedido */
 .pedido-item {
     background-color: #FFD8E7;
     border: 2px solid #A31611;
@@ -2898,15 +2897,16 @@ main.fundo {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     padding: 40px 30px;
-    max-width: 1000px;
+    max-width: 60rem;
+    margin-top: -5rem;
 }
 
 .area-favoritos h1 {
     font-family: 'Baloo', cursive;
     color: #A31611;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
@@ -2915,16 +2915,16 @@ main.fundo {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    border-radius: 12px;
-    padding: 15px 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     gap: 20px;
 }
 
 .favorito-item img.produto-foto {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
@@ -2932,20 +2932,20 @@ main.fundo {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
 .info-favorito h2 {
     font-family: 'Baloo 2', sans-serif;
     color: #A31611;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     margin: 0;
 }
 
 .preco-antigo {
     text-decoration: line-through;
-    color: #999;
+    color: #888;
     font-size: 14px;
     margin: 0;
 }
@@ -2961,14 +2961,16 @@ main.fundo {
     background-color: #A31611;
     color: white;
     border: none;
-    padding: 8px 12px;
+    padding: 15px 20px;
     border-radius: 6px;
     font-family: 'Baloo 2', sans-serif;
     font-size: 12px;
     cursor: pointer;
+    margin-top: 90px;
     width: fit-content;
     transition: 0.3s;
-    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .btn-adicionar-carrinho:hover {
@@ -2976,7 +2978,55 @@ main.fundo {
 }
 
 .icone-favorito img {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+    content: url('imagens/fav.png');
+    transition: 0.3s;
+    margin-bottom: 10rem;
+}
+
+.icone-favorito:hover img {
+    content: url('imagens/fav2.png');
+}
+
+/* ====================================== carrinho identificação========================== */
+.passo-carrinho {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.passo-carrinho img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.passo-carrinho .numeros-etapas {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.passo-carrinho .numeros-etapas span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 18px;
+    color: #A31611;
+    background-color: transparent;
+    position: relative;
+}
+
+.passo-carrinho .numeros-etapas span.ativo {
+    color: white;
 }
