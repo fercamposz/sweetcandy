@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Identificação - Sweet Candy</title>
+    <title>Identificação Cadastro - Sweet Candy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,16 +34,16 @@
     </header>
 
     <main class="fundo">
-        <img src="imagens/chicletinho.png" alt="Chicletinho" class="chicletinho" />
+        <img src="imagens/chicletinho.png" alt="Chicletinho" class="chicletinho2" />
         <img src="imagens/pirulito.png" alt="Pirulito" class="decoracao direita" />
-        <img src="imagens/donuts.png" alt="Donuts" class="decoracao esquerda" />
+        <img src="imagens/donuts.png" alt="Donuts" class="decoracao esquerda2" />
 
         <section class="login">
-            <h1>Login</h1>
+            <h1>Cadastro</h1>
 
             <button class="botao-social">
                 <img src="imagens/google.png" alt="Google" />
-                Login com o Google
+                Cadastre-se com o Google
             </button>
 
             <div class="ou">
@@ -53,24 +53,35 @@
             </div>
 
             <article class="campo-input">
+                <img src="imagens/user.png" alt="Usuário" />
+                <input type="text" placeholder="Nome completo" />
+            </article>
+
+            <article class="campo-input">
                 <img src="imagens/email.png" alt="Email" />
-                <input type="email" placeholder="Insira seu E-mail" />
+                <input type="email" placeholder="Seu e-mail" />
             </article>
 
             <article class="campo-input">
                 <img src="imagens/senha.png" alt="Senha" />
-                <input type="password" placeholder="Insira sua senha" />
+                <input type="password" placeholder="Crie uma senha" />
+            </article>
+
+            <article class="campo-input">
+                <img src="imagens/senha.png" alt="Confirme a Senha" />
+                <input type="password" placeholder="Confirme a senha" />
             </article>
 
             <div class="lembrar">
                 <label>
                     <input type="checkbox" />
-                    Lembre-me
+                    Aceito os termos de uso
                 </label>
-                <a href="#">Esqueci a minha senha</a>
             </div>
 
-            <button class="botao-social entrar">Entrar</button>
+            <button class="botao-social entrar">
+                Entrar
+            </button>
 
             <div class="ou">
                 <hr />
@@ -80,10 +91,12 @@
 
             <button class="botao-social facebook">
                 <img src="imagens/face.png" alt="Facebook" />
-                Login com o Facebook
+                Cadastre-se com o Facebook
             </button>
 
-            <p class="cadastro">Não tem uma conta? <a href="identificaçãoCadastro.html">Crie uma</a></p>
+            <p class="cadastro">
+                Já tem uma conta? <a href="identificacao.html">Faça login</a>
+            </p>
         </section>
     </main>
 

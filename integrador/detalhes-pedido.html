@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>detalhes pedido - SweetCandy</title>
-    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe do pedido - SweetCandy</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,99 +17,177 @@
         <nav class="nav-central">
             <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
-                <li><a href="contato.html">Ajuda</a></li>
+                <li><a href="FAQ.html">Ajuda</a></li>
                 <li><a href="produtos.html">Shop</a></li>
-                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">About Us</a></li>
             </ul>
 
             <div class="nav-logo">
                 <a href="home.html">
-                    <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" />
+                    <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy">
                 </a>
             </div>
 
             <div class="nav-icons">
                 <a href="perfil.html">
-                    <img src="imagens/perfil.png" alt="Perfil" />
+                    <img src="imagens/perfil.png" alt="Perfil">
                 </a>
                 <a href="favoritos.html">
-                    <img src="imagens/favoritos.png" alt="Favoritos" />
+                    <img src="imagens/favoritos.png" alt="Favoritos">
                 </a>
                 <a href="carrinho.html">
-                    <img src="imagens/carrinho.png" alt="Carrinho" />
+                    <img src="imagens/carrinho.png" alt="Carrinho">
                 </a>
-                <a href="contato.html" class="botao-contato">Entre em contato</a>
+                <a href="#" class="botao-contato">Entre em contato</a>
             </div>
         </nav>
     </header>
 
-    <section class="topo-pedido">
-        <a href="meuspedidos.html" class="voltar">Voltar</a>
+    <main class="topo-pedido">
+        <section class="info-pedido">
+            <a href="meus-pedidos.html" class="voltar">Voltar</a>
 
-        <div class="info-pedido">
             <h2>Detalhes do pedido</h2>
             <p>#1234567</p>
             <p>15 junho 2025</p>
+            <p>Status do pedido</p>
 
-            <h3>Status do Pedido</h3>
-            <div class="etapas">
-                <span>Enviado</span>
-                <span>Em andamento</span>
-                <span>Entregue</span>
+            <div class="status-pedido">
+                <div class="status-barra">
+                    <div class="status-preenchido">
+                        <img src="imagens/check.png" alt="Check">
+                    </div>
+                </div>
+                <div class="etapas-status">
+                    <span>Enviado</span>
+                    <span>Em andamento</span>
+                    <span>Entrega</span>
+                </div>
             </div>
 
-            <img src="imagens/porcentagem.png" alt="Barra de Progresso" class="status-img" />
-        </div>
+            <section class="tabela-pedido">
+                <div class="linha header">
+                    <span>Produto</span>
+                    <span>Qtd</span>
+                    <span>Valor</span>
+                </div>
 
-        <img src="imagens/mocinha.png" alt="Chef SweetCandy" class="chef-lado" />
-    </section>
+                <div class="linha">
+                    <div class="item-info">
+                        <img src="imagens/carrinhochoco.png" alt="Cupcake Chocolate">
+                        <div class="texto-produto">
+                            <strong>Cupcake de Chocolate</strong>
+                        </div>
+                    </div>
+                    <span>1x</span>
+                    <span>R$15,00</span>
+                </div>
 
-    <div class="tabela-pedido">
-        <div class="linha header">
-            <span>Item</span>
-            <span>Qtd</span>
-            <span>Valor</span>
-        </div>
+                <div class="linha">
+                    <div class="item-info">
+                        <img src="imagens/carrinhomor.png" alt="Cupcake Morango">
+                        <div class="texto-produto">
+                            <strong>Cupcake de Morango</strong>
+                        </div>
+                    </div>
+                    <span>1x</span>
+                    <span>R$13,00</span>
+                </div>
 
-        <div class="linha">
-            <div class="item-info">
-                <img src="imagens/cupdetal.png" alt="Cupcake Chocolate">
-                <span>Cupcake De Chocolate</span>
+                <div class="linha">
+                    <div class="item-info">
+                        <img src="imagens/carrinhomaca.png" alt="Macaron Framboesa">
+                        <div class="texto-produto">
+                            <strong>Macaron de Framboesa</strong>
+                        </div>
+                    </div>
+                    <span>1x</span>
+                    <span>R$15,00</span>
+                </div>
+
+                <div class="linha total">
+                    <span>Total</span>
+                    <span></span>
+                    <span>R$33,00</span>
+                </div>
+
+                <div class="linha-status">
+                    <span>Pedido Aceito</span>
+                    <span>15 junho 13:21</span>
+                </div>
+                <div class="linha-status">
+                    <span>Em Andamento</span>
+                    <span>15 junho 13:25</span>
+                </div>
+                <div class="linha-status">
+                    <span>Saiu para Entrega</span>
+                    <span>15 junho 13:30</span>
+                </div>
+            </section>
+        </section>
+
+        <img src="imagens/mocinha.png" alt="Chef SweetCandy" class="chef-lado">
+    </main>
+
+    <img src="imagens/footer3.png" alt="Ofertas Doces" class="fundo-footer-ofertas">
+
+    <footer>
+        <img src="imagens/footerrosa.png" alt="granulados" class="granulado-footer">
+        <img src="imagens/footermacaron.png" alt="Macarons coloridos" class="macaron">
+        <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" class="logo-footer">
+
+        <div class="conteudo-footer">
+            <div class="coluna">
+                <p>
+                    Sweet Candy é um universo de sabores! Nossas cores e doces encantam. Tudo feito com muito carinho direto do fundo do coração do açúcar do mundo.
+                </p>
+                <div class="social">
+                    <img src="imagens/insta.png" alt="Instagram">
+                    <img src="imagens/google1.png" alt="Google">
+                    <img src="imagens/x.png" alt="X">
+                </div>
             </div>
-            <span>1X</span>
-            <span>R$15,00</span>
+
+            <section class="coluna">
+                <h2>Links úteis</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </section>
+
+            <section class="coluna2">
+                <h2>Contato</h2>
+                <p><img src="imagens/email1.png" alt="Email"> contato@sweetcandy.com</p>
+                <p><img src="imagens/local.png" alt="Localização"> Campinas - SP</p>
+                <p><img src="imagens/contato.png" alt="Telefone"> (19) 99999-9999</p>
+            </section>
+
+            <section class="coluna">
+                <h2>Legal</h2>
+                <ul>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Licença</a></li>
+                </ul>
+            </section>
         </div>
 
-        <div class="linha">
-            <div class="item-info">
-                <img src="imagens/cupmdetal.png" alt="Cupcake Morango">
-                <span>Cupcake De Morango</span>
+        <div class="copy">
+            <div class="copy-conteudo">
+                <p>© 2025 Sweet Candy - Adoçando seus melhores momentos</p>
+                <div class="bandeiras">
+                    <img src="imagens/Visa.png" alt="Visa">
+                    <img src="imagens/PayPal.png" alt="PayPal">
+                    <img src="imagens/Mastercard.png" alt="Mastercard">
+                    <img src="imagens/GooglePay.png" alt="Google Pay">
+                </div>
             </div>
-            <span>1X</span>
-            <span>R$13,00</span>
         </div>
-
-        <div class="linha">
-            <div class="item-info">
-                <img src="imagens/macadetal.png" alt="Macaron Framboesa">
-                <span>Macaron De Framboesa</span>
-            </div>
-            <span>1X</span>
-            <span>R$15,00</span>
-        </div>
-
-        <div class="linha total">
-            <span>TOTAL</span>
-            <span></span>
-            <span>R$33,00</span>
-        </div>
-    </div>
-
-    <section class="historico-status">
-        <p><strong>Pedido Aceito:</strong> 15 junho 13:12</p>
-        <p><strong>Em Andamento:</strong> 15 junho 13:15</p>
-        <p><strong>Saiu para Entrega:</strong> 15 junho 13:30</p>
-    </section>
+    </footer>
 
 </body>
 </html>

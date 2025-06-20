@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Identificação - Sweet Candy</title>
+    <title>Pedido Concluído - Sweet Candy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +18,7 @@
                 <div class="bolinha">1</div>
                 <div class="texto">Carrinho</div>
             </a>
-            <a href="identificacao.html" class="etapa ativa">
+            <a href="identificacao.html" class="etapa">
                 <div class="bolinha">2</div>
                 <div class="texto">Identificação</div>
             </a>
@@ -26,65 +26,19 @@
                 <div class="bolinha">3</div>
                 <div class="texto">Pagamento</div>
             </a>
-            <a href="concluido.html" class="etapa">
+            <a href="concluido.html" class="etapa ativa">
                 <div class="bolinha">4</div>
                 <div class="texto">Concluído</div>
             </a>
         </nav>
     </header>
 
-    <main class="fundo">
-        <img src="imagens/chicletinho.png" alt="Chicletinho" class="chicletinho" />
-        <img src="imagens/pirulito.png" alt="Pirulito" class="decoracao direita" />
-        <img src="imagens/donuts.png" alt="Donuts" class="decoracao esquerda" />
+    <main class="area-sucesso">
+        <h1>COMPRA EFETUADA COM SUCESSO<br>VOLTE SEMPRE!</h1>
 
-        <section class="login">
-            <h1>Login</h1>
+        <img src="imagens/cupfinal.png" alt="Cupcake Finalizado" class="cupcake-final" />
 
-            <button class="botao-social">
-                <img src="imagens/google.png" alt="Google" />
-                Login com o Google
-            </button>
-
-            <div class="ou">
-                <hr />
-                <span>Ou</span>
-                <hr />
-            </div>
-
-            <article class="campo-input">
-                <img src="imagens/email.png" alt="Email" />
-                <input type="email" placeholder="Insira seu E-mail" />
-            </article>
-
-            <article class="campo-input">
-                <img src="imagens/senha.png" alt="Senha" />
-                <input type="password" placeholder="Insira sua senha" />
-            </article>
-
-            <div class="lembrar">
-                <label>
-                    <input type="checkbox" />
-                    Lembre-me
-                </label>
-                <a href="#">Esqueci a minha senha</a>
-            </div>
-
-            <button class="botao-social entrar">Entrar</button>
-
-            <div class="ou">
-                <hr />
-                <span>Ou</span>
-                <hr />
-            </div>
-
-            <button class="botao-social facebook">
-                <img src="imagens/face.png" alt="Facebook" />
-                Login com o Facebook
-            </button>
-
-            <p class="cadastro">Não tem uma conta? <a href="identificaçãoCadastro.html">Crie uma</a></p>
-        </section>
+        <a href="detalhesPedido.html" class="botao-voltar">Ver detalhes do pedido</a>
     </main>
 
     <img src="imagens/footer3.png" alt="Ofertas Doces" class="fundo-footer-ofertas" />

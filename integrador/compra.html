@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Endereços - Sweet Candy</title>
+    <title>Finalizar Compra - Sweet Candy</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +12,6 @@
 
     <header class="topo">
         <img src="imagens/teste1.png" class="granulado-topo" alt="Fundo com granulados" />
-
         <nav class="nav-central">
             <ul class="nav-links">
                 <li><a href="home.html">Home</a></li>
@@ -26,45 +25,20 @@
                 </a>
             </div>
             <div class="nav-icons">
-                <a href="perfil.html">
-                    <img src="imagens/perfil.png" alt="Perfil" />
-                </a>
-                <a href="favoritos.html">
-                    <img src="imagens/favoritos.png" alt="Favoritos" />
-                </a>
-                <a href="carrinho.html">
-                    <img src="imagens/carrinho.png" alt="Carrinho" />
-                </a>
-                <a href="#" class="botao-contato">Entre em contato</a>
+                <a href="#"><img src="imagens/user.png" alt="Perfil" /></a>
+                <a href="#"><img src="imagens/cart.png" alt="Carrinho" /></a>
             </div>
         </nav>
     </header>
 
-    <main class="pagina-pedidos">
-        <aside class="menu-pedidos">
-            <ul>
-                <li><a href="meus_pedidos.html"><img src="imagens/loja 1.png" alt="Ícone Pedidos"> Meus Pedidos</a></li>
-                <li><a href="meusDados.html"><img src="imagens/perfil1.png" alt="Ícone Dados"> Meus Dados</a></li>
-                <li><a href="cartoes.html"><img src="imagens/card.png" alt="Ícone Cartões"> Meus Cartões</a></li>
-                <li><a href="enderecos.html"><img src="imagens/fixar-mapa 1.png" alt="Ícone Endereços"> Meus Endereços</a></li>
-                <li><a href="favoritos.html"><img src="imagens/fav.png" alt="Ícone Favoritos"> Meus Favoritos</a></li>
-                <li><a href="logout.html"><img src="imagens/sair.png" alt="Ícone Sair"> Sair</a></li>
-            </ul>
-        </aside>
+    <main class="pagina-pagamento">
 
-        <section class="area-enderecos">
-            <div class="titulo-enderecos">
-                <h1>Meus Endereços</h1>
-            </div>
-
-            <div class="endereco-salvo">
-                <p><strong>FERNANDA SOUSA CAMPOS</strong><br>
-                    19999999999<br>
-                    RUA CAMPINAS CAMPINAS 106<br>
-                    JARDIM CAMPINAS CAMPINAS SÃO PAULO BRASIL 13333-633
-                </p>
-                <button class="btn-editar">Editar</button>
-            </div>
+        <section class="endereco-pagamento">
+            <h2>Endereço de Envio</h2>
+            <p><strong>FERNANDA SOUSA CAMPOS</strong></p>
+            <p>19999999999</p>
+            <p>RUA CAMPINAS CAMPINAS 106</p>
+            <p>JARDIM CAMPINAS CAMPINAS - SP</p>
 
             <label for="abrirEndereco" class="btn-adicionar-endereco">Adicionar Endereço</label>
             <input type="checkbox" id="abrirEndereco" hidden>
@@ -102,6 +76,121 @@
 
                 <label for="abrirEndereco" class="btn-salvar-endereco"><span>Adicionar Endereço</span></label>
             </div>
+        </section>
+
+        <section class="area-pagamento-conteudo">
+
+            <section class="detalhes-pedido">
+                <h2>Detalhes do Pedido</h2>
+
+                <div class="produto-pedido">
+                    <img src="imagens/carrinhochoco.png" alt="Cupcake Chocolate">
+                    <div>
+                        <strong>Cupcake de Brigadeiro 90g - SweetCandy</strong>
+                        <p>Quantidade: 1</p>
+                    </div>
+                </div>
+
+                <div class="produto-pedido">
+                    <img src="imagens/carrinhomaca.png" alt="Macaron Framboesa">
+                    <div>
+                        <strong>Macaron de Framboesa 10g - SweetCandy</strong>
+                        <p>Quantidade: 1</p>
+                    </div>
+                </div>
+
+                <div class="produto-pedido">
+                    <img src="imagens/carrinhomor.png" alt="Cupcake Morango">
+                    <div>
+                        <strong>Cupcake de Morango 90g - SweetCandy</strong>
+                        <p>Quantidade: 1</p>
+                    </div>
+                </div>
+
+                <div class="resumo-pedido">
+                    <h3>Resumo do Pedido</h3>
+                    <p>Desconto: <span>-R$5,00</span></p>
+                    <p>Frete: <span class="gratis">Grátis</span></p>
+                    <p>Total: <strong>R$36,00</strong></p>
+                </div>
+
+                <button class="finalizar-compra">Finalizar Compra</button>
+            </section>
+
+            <aside class="opcoes-entrega">
+                <h3>Opções de Entrega</h3>
+
+                <div class="opcao-entrega selecionada">
+                    <p><strong>Padrão</strong> (Hoje, 30 - 39min)</p>
+                    <span class="frete-gratis">Grátis</span>
+                </div>
+
+                <div class="opcao-entrega">
+                    <p><strong>Rápida</strong> (Hoje, 10 - 25min)</p>
+                    <span>R$14,99</span>
+                </div>
+
+                <div class="opcao-entrega">
+                    <p><strong>Agendada</strong> (Hoje, 9h - 11h)</p>
+                    <span class="frete-gratis">Grátis</span>
+
+                    <label for="abrirHorario" class="btn-alterar-horario">Alterar Horário</label>
+                    <input type="checkbox" id="abrirHorario" hidden>
+
+                    <div class="formulario-horario">
+                        <h4>Escolha o novo horário:</h4>
+                        <select>
+                            <option>07h - 09h</option>
+                            <option>09h - 11h</option>
+                            <option>11h - 13h</option>
+                            <option>13h - 15h</option>
+                            <option>15h - 17h</option>
+                        </select>
+                        <label for="abrirHorario" class="btn-confirmar-horario">Confirmar</label>
+                    </div>
+                </div>
+
+                <div class="opcao-entrega">
+                    <p><strong>Retirar na Loja</strong></p>
+                    <span class="frete-gratis">Grátis</span>
+                </div>
+            </aside>
+
+            <aside class="forma-pagamento">
+                <h3>Forma de Pagamento</h3>
+
+                <div class="opcao-pagamento selecionada">
+                    <img src="imagens/pix.png" alt="Pix">
+                    <p>Pix</p>
+                    <div class="bandeiras-cartoes">
+                        <img src="imagens/visa.png" alt="Visa">
+                        <img src="imagens/master.png" alt="Master">
+                    </div>
+                </div>
+
+                <div class="opcao-pagamento">
+                    <img src="imagens/cartao.png" alt="Crédito">
+                    <p>Cartão de Crédito Local</p>
+                    <div class="bandeiras-cartoes">
+                        <img src="imagens/elo.png" alt="Elo">
+                    </div>
+                </div>
+
+                <div class="opcao-pagamento">
+                    <img src="imagens/cartao.png" alt="Débito">
+                    <p>Cartão de Débito Local</p>
+                    <div class="bandeiras-cartoes">
+                        <img src="imagens/visa.png" alt="Visa">
+                        <img src="imagens/master.png" alt="Master">
+                    </div>
+                </div>
+
+                <div class="opcao-pagamento">
+                    <img src="imagens/boleto.png" alt="Boleto">
+                    <p>Boleto Bancário</p>
+                </div>
+            </aside>
+
         </section>
     </main>
 

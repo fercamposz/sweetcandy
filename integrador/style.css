@@ -1,18 +1,17 @@
 body {
   margin: 0;
-  background-color: #FFD8E7; 
-  font-family: 'Baloo 2', cursive;
-  
+  background-color: #ffd8e7;
+  font-family: "Baloo 2", cursive;
 }
 
 #roxo {
-  background-color: #F0E9FF;
+  background-color: #f0e9ff;
 }
 
 .topo {
   position: relative;
   height: 270px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .granulado-topo {
@@ -23,17 +22,15 @@ body {
   z-index: 0;
 }
 
-
-/* nav central no meio do topo */
 .nav-central {
   position: absolute;
-  top: 40%; 
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
   border-radius: 15px;
-  max-width: 1500px;     
-  width: 100%;           
+  max-width: 1500px;
+  width: 100%;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +39,6 @@ body {
   z-index: 6;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
-
 
 /* logo */
 .nav-logo {
@@ -55,7 +51,6 @@ body {
   height: 220px;
 }
 
-/* links à esquerda */
 .nav-links {
   list-style: none;
   display: flex;
@@ -66,12 +61,11 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #A31911;
-  font-family: 'Baloo 2', cursive;
+  color: #a31911;
+  font-family: "Baloo 2", cursive;
   font-weight: bold;
 }
 
-/* ícones + botão à direita */
 .nav-icons {
   display: flex;
   align-items: center;
@@ -84,18 +78,14 @@ body {
 }
 
 .botao-contato {
-  background-color: #A31911;
+  background-color: #a31911;
   color: white;
   padding: 0.4rem 1rem;
   border-radius: 10px;
   text-decoration: none;
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 1rem;
 }
-
-/* ========================PARA PAGINAS COM FUNDO ROXO============================= */
-
-
 
 /* ====================== LOGIN - PARTE CENTRAL ================================= */
 
@@ -109,7 +99,6 @@ main.fundo {
   overflow: hidden;
 }
 
-/* fundo chicletinho rosa centralizado */
 .chicletinho {
   position: absolute;
   top: 50%;
@@ -120,33 +109,27 @@ main.fundo {
   z-index: 0;
 }
 
-/* imagens de decoração */
 .decoracao {
   position: absolute;
   z-index: 1;
 }
 
-/* Donuts (esquerda) */
 .decoracao.esquerda {
   position: absolute;
-  bottom: -210px;   
+  bottom: -210px;
   left: 50px;
-  width: 1000px;    
-  z-index: -1;      
- 
+  width: 1000px;
+  z-index: -1;
 }
 
-/* Pirulito (direita)  */
 .decoracao.direita {
   position: absolute;
   top: -10%;
-  right: 0px;     
-  width: 650px;     
+  right: 0px;
+  width: 650px;
   z-index: 2;
 }
 
-
-/* caixa de login */
 .login {
   position: relative;
   z-index: 2;
@@ -157,17 +140,16 @@ main.fundo {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  gap: 0.5rem; 
+  align-items: center;
+  gap: 0.5rem;
 }
 
-
 .login h1 {
-  font-family: 'Baloo', cursive;
-  font-size: 80px;     
-  font-weight: 2000;       
+  font-family: "Baloo", cursive;
+  font-size: 80px;
+  font-weight: 2000;
   color: white;
-  margin-bottom: -25px;   
+  margin-bottom: -25px;
 }
 
 .botao-social {
@@ -179,7 +161,7 @@ main.fundo {
   align-items: center;
   gap: 1rem;
   justify-content: center;
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   cursor: pointer;
   margin: 1rem 0;
   width: 100%;
@@ -208,14 +190,14 @@ main.fundo {
   flex-grow: 1;
   height: 1px;
   border: none;
-  background-color: #A31911;
+  background-color: #a31911;
 }
 
 .ou span {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-weight: bold;
-  font-size: 1rem; 
-  color: #A31911;
+  font-size: 1rem;
+  color: #a31911;
 }
 
 .campo-input {
@@ -226,7 +208,7 @@ main.fundo {
   padding: 0.5rem 1rem;
   margin: 0.7rem 0;
   width: 100%;
-  max-width: 370px
+  max-width: 370px;
 }
 
 .campo-input img {
@@ -241,7 +223,7 @@ main.fundo {
   width: 100%;
   background: transparent;
   font-size: 1rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
 }
 
 .lembrar {
@@ -249,19 +231,19 @@ main.fundo {
   justify-content: space-between;
   align-items: center;
   font-size: 0.9rem;
-  color: #A31911;
-  font-family: 'Baloo 2', cursive;
+  color: #a31911;
+  font-family: "Baloo 2", cursive;
   margin: 0.5rem 0 1rem;
   width: 100%;
   max-width: 320px;
-  gap: 1rem; 
+  gap: 1rem;
 }
 
 .botao-social.entrar {
-  background-color: #A31911;
+  background-color: #a31911;
   color: white;
   font-weight: bold;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 1rem;
   margin-top: 1rem;
 }
@@ -270,7 +252,6 @@ main.fundo {
   transform: scale(1.02);
   transition: 0.2s ease-in-out;
 }
-
 
 .lembrar a {
   color: #858585;
@@ -281,37 +262,33 @@ main.fundo {
   margin-top: 1rem;
   font-size: 0.85rem;
   color: #000000;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
 }
 
 .cadastro a {
-  color: #A31911;
+  color: #a31911;
   text-decoration: none;
 }
 
 /* ====== EFEITOS HOVER ====== */
 
-/* Hover nos botões Google e Facebook */
 .botao-social:hover {
-  background-color: #FFD8E7; 
-  transform: scale(1.02);    
+  background-color: #ffd8e7;
+  transform: scale(1.02);
   transition: 0.2s ease-in-out;
 }
 
-/* Hover nos inputs (e-mail e senha) */
 .campo-input input:hover {
   background-color: #faeef3;
   transition: 0.2s;
 }
 
-/* Hover no link "Esqueci a senha" */
 .lembrar a:hover {
   text-decoration: underline;
   color: #ffffff;
   transition: 0.2s;
 }
 
-/* Hover no link "Crie uma" */
 .cadastro a:hover {
   text-decoration: underline;
   color: #ffffff;
@@ -320,7 +297,7 @@ main.fundo {
 
 /* ====== HOVER NOS ÍCONES DA NAV BAR ====== */
 .nav-links li a:hover {
-  color: #FC68A1;
+  color: #fc68a1;
   text-decoration: underline;
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
@@ -339,7 +316,7 @@ main.fundo {
 
 /* ====== HOVER NO BOTÃO "ENTRE EM CONTATO" ====== */
 .botao-contato:hover {
-  background-color: #FC68A1;  
+  background-color: #fc68a1;
   color: white;
   transform: scale(1.05);
   transition: 0.2s ease-in-out;
@@ -347,12 +324,11 @@ main.fundo {
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: transparent; 
+  background-color: transparent;
   position: relative;
   padding-top: 160px;
   padding-bottom: 4rem;
-  font-family: 'Baloo 2', cursive;
- 
+  font-family: "Baloo 2", cursive;
 }
 
 .granulado-footer {
@@ -360,7 +336,7 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   object-fit: cover;
   z-index: 0;
 }
@@ -392,13 +368,13 @@ footer {
 }
 
 .coluna2 h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 1.2rem;
   color: #000000;
 }
 
 .coluna h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 1.2rem;
   color: #000000;
 }
@@ -448,7 +424,7 @@ footer {
 }
 
 .copy {
-  background-color: #FFE4F0;
+  background-color: #ffe4f0;
   width: 90%;
   margin: 0 4rem;
   padding: 1.5rem 2rem;
@@ -468,7 +444,7 @@ footer {
 }
 
 .copy-conteudo p {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.95rem;
   margin: 0;
   color: #000000;
@@ -496,7 +472,7 @@ footer {
 
 .logo-footer {
   width: 350px;
-  height: 350px; 
+  height: 350px;
   margin-top: -15vh;
   margin-left: 200px;
   position: absolute;
@@ -514,14 +490,12 @@ footer {
   z-index: 0;
 }
 
-/* Donuts (esquerda) */
 .decoracao.esquerda2 {
   position: absolute;
-  bottom: -320px;   
+  bottom: -320px;
   left: -110px;
-  width: 1150px;    
-  z-index: -1;      
- 
+  width: 1150px;
+  z-index: -1;
 }
 
 /* ===================== HOMEE ================================== */
@@ -540,7 +514,7 @@ footer {
 
 .slides {
   display: flex;
-  width: 400%; 
+  width: 400%;
   height: 100%;
   animation: slideAuto 20s infinite;
 }
@@ -558,18 +532,34 @@ footer {
 }
 
 @keyframes slideAuto {
-  0%   { transform: translateX(0); }
-  20%  { transform: translateX(0); }
-  25%  { transform: translateX(-100vw); }
-  45%  { transform: translateX(-100vw); }
-  50%  { transform: translateX(-200vw); }
-  70%  { transform: translateX(-200vw); }
-  75%  { transform: translateX(-300vw); }
-  95%  { transform: translateX(-300vw); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100vw);
+  }
+  45% {
+    transform: translateX(-100vw);
+  }
+  50% {
+    transform: translateX(-200vw);
+  }
+  70% {
+    transform: translateX(-200vw);
+  }
+  75% {
+    transform: translateX(-300vw);
+  }
+  95% {
+    transform: translateX(-300vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-
-
 
 /* =======barrinha do frete ========= */
 
@@ -580,37 +570,35 @@ footer {
   align-items: center;
   gap: 20rem;
   padding: 2rem;
-  background-color: #FFCCDF;  
+  background-color: #ffccdf;
   flex-wrap: wrap;
   margin-bottom: 50px;
-  
 }
 
 .bloco {
   display: flex;
-  flex-direction:row;        
-  align-items: center;        
-  gap: 1rem;                 
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
   max-width: 300px;
-  text-align:center;           
+  text-align: center;
 }
-
 
 .bloco img {
   width: 60px;
 }
 
 .bloco h3 {
-  color: #A31911;
+  color: #a31911;
   font-size: 0.95rem;
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   margin: 0;
 }
 
 .bloco p {
   font-size: 0.8rem;
   color: #000;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   margin: 0.2rem 0 0 0;
   line-height: 1.2;
 }
@@ -651,17 +639,12 @@ footer {
 .conteudo-populares h2 {
   display: flex;
   position: absolute;
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 3rem;
   color: white;
   text-align: center;
   top: 5vh;
 }
-
-
-
-
-
 
 .itens-populares {
   display: flex;
@@ -710,7 +693,7 @@ footer {
 }
 
 .item p {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 1rem;
   color: white;
   margin: 0;
@@ -742,7 +725,7 @@ footer {
 
 /* ========================EFEITOS HOVER NAS IMAGENS ===================================== */
 
-.itens-populares img:hover{
+.itens-populares img:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
@@ -750,11 +733,11 @@ footer {
 
 /* =========================HOVER NAS LETRAS ============================== */
 
-.itens-populares p:hover{
+.itens-populares p:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
-  color: #A31911;
+  color: #a31911;
 }
 
 /* ================sobre nos ====================== */
@@ -765,18 +748,16 @@ footer {
   align-items: center;
   background-color: #ffd8e7;
   padding: 1rem 6rem;
-  font-family: 'Baloo 2', cursive;
-  
+  font-family: "Baloo 2", cursive;
 }
 
 .textoSobre {
   max-width: 700px;
-  
 }
 
 .textoSobre h2 {
-  color: #A01313;
-  font-family: 'Baloo', cursive;
+  color: #a01313;
+  font-family: "Baloo", cursive;
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -798,7 +779,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 8rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   padding: 3rem 0 8rem;
 }
 
@@ -812,12 +793,11 @@ footer {
 .iconeItem img {
   width: 3rem;
   height: 3rem;
-  background-color: #FC86B1; 
+  background-color: #fc86b1;
   border-radius: 50%;
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   object-fit: contain;
-  
 }
 
 .iconeItem p {
@@ -828,16 +808,16 @@ footer {
 
 /* =========================NOSSO CARDAPIO================== */
 .cardapio {
-  background-color: #FC86B1;
+  background-color: #fc86b1;
   text-align: center;
   padding: 2rem 2rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
 }
 
 .cardapio h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 3rem;
-  color: #A01313;
+  color: #a01313;
   margin-bottom: 2rem;
 }
 .produtos {
@@ -850,11 +830,9 @@ footer {
 .produto {
   padding: 6rem;
   border-radius: 20px;
-  width:250px;
+  width: 250px;
   text-align: center;
 }
-
-
 
 .produto img {
   width: 100%;
@@ -864,7 +842,7 @@ footer {
 
 .produto h3 {
   margin-top: 0.6rem;
-  color: #A01313;
+  color: #a01313;
   font-size: 1.2rem;
 }
 
@@ -875,32 +853,32 @@ footer {
 }
 
 .produto button {
-  background-color: #A01313;
+  background-color: #a01313;
   color: white;
   padding: 0.3rem 1.6rem;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.9rem;
   margin-top: 1rem;
 }
 
 .faixa-clara {
-  background-color: #FFD8E7; 
-  height: 250px;             
+  background-color: #ffd8e7;
+  height: 250px;
 }
 
 /* =======================PRODUYOS======================== */
 body.produto {
-  background-color: #f8ebfb; 
+  background-color: #f8ebfb;
 }
 
 .titulo-produtos {
   text-align: center;
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 5rem;
-  color: #7C76BA;
+  color: #7c76ba;
   margin-top: 8rem;
 }
 
@@ -916,7 +894,7 @@ body.produto {
   background-color: #ffffff;
   border: none;
   padding: 0.3rem 1.4rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 1.5rem;
   border-radius: 20px;
   color: rgb(0, 0, 0);
@@ -926,14 +904,14 @@ body.produto {
 
 .filtro:hover,
 .filtro.ativo {
-  background-color: #7C76BA;
+  background-color: #7c76ba;
   transform: scale(1.05);
 }
 
 .grade-produtos {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 2rem 4rem; 
+  gap: 2rem 4rem;
   padding: 2rem 6rem;
   justify-items: center;
   max-width: 100rem;
@@ -943,7 +921,7 @@ body.produto {
 .card-produto {
   text-align: center;
   padding: 0;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   background-color: transparent;
 }
 
@@ -957,7 +935,7 @@ body.produto {
 
 .card-produto h3 {
   font-size: 1.2rem;
-  color: #7C76BA;
+  color: #7c76ba;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -968,19 +946,19 @@ body.produto {
 }
 
 .card-produto .comprar {
-  background-color: #7C76BA;
+  background-color: #7c76ba;
   color: white;
   border: none;
   padding: 1rem 1.2rem;
   border-radius: 20px;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.85rem;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .card-produto .comprar:hover {
-  background-color: #FC86B1;
+  background-color: #fc86b1;
 }
 
 .botoes-produto {
@@ -992,12 +970,12 @@ body.produto {
 }
 
 .botoes-produto .preco {
-  background-color: #8351AE;
+  background-color: #8351ae;
   color: #fff;
   border: none;
   padding: 0.3rem 0.3rem;
   font-size: 0.85rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   margin: 0;
 }
 
@@ -1007,7 +985,7 @@ body.produto {
   border: none;
   padding: 0.3rem 0.3rem;
   font-size: 0.85rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   cursor: pointer;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -1020,7 +998,7 @@ body.produto {
 .avaliacao {
   margin-top: 0.3rem;
   font-size: 1rem;
-  color: #FFC107;
+  color: #ffc107;
   font-family: Arial, sans-serif;
 }
 
@@ -1037,18 +1015,18 @@ body.produto {
   height: 50px;
   border-radius: 50%;
   border: none;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 1.2rem;
   font-weight: bold;
   background-color: white;
   color: black;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease;
 }
 
 .pagina.atual {
-  background-color: #7C76BA;
+  background-color: #7c76ba;
   color: white;
 }
 
@@ -1056,10 +1034,9 @@ body.produto {
   background-color: #e2dff4;
 }
 
-
-/* ==============footer roxo========== */
+/* ===============================footer roxo============================= */
 .copy1 {
-  background-color: #EEECF7;
+  background-color: #eeecf7;
   width: 90%;
   margin: 0 4rem;
   padding: 1.5rem 2rem;
@@ -1068,368 +1045,17 @@ body.produto {
   z-index: 1;
 }
 
-/* ==========================dETALHE PRODUTO================ */
-
-main.produto-detalhe {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 2rem;
-  padding: 4rem 6rem;
-  background-color: #F0E9FF;
-}
-
-.galeria-imagens {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.galeria-imagens img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 2px solid transparent;
-}
-
-.galeria-imagens img:hover {
-  border-color: #7C76BA;
-}
-
-.imagem-principal img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 20px;
-}
-
-.info-produto {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.info-produto h2 {
-  font-size: 2rem;
-  color: #7C76BA;
-  margin: 0;
-}
-
-.info-produto .resumo {
-  font-size: 1rem;
-  color: #555;
-}
-
-.preco-antigo {
-  text-decoration: line-through;
-  color: #888;
-}
-
-.preco-novo {
-  font-size: 1.8rem;
-  color: #A31911;
-  font-weight: bold;
-}
-
-.botoes button {
-  padding: 0.6rem 1.2rem;
-  margin-right: 1rem;
-  border: 0.2vh solid #7C76BA;
-  border-radius: 20px;
-  font-family: 'Baloo 2', cursive;
-  cursor: pointer;
-  color: #494949;
-  background-color: transparent;
-}
-
-
-.formas-pagamento img {
-  width: 40px;
-  margin-right: 0.5rem;
-}
-
-/* ======================= DESCRIÇÃO + TABELA ======================= */
-.descricao-produto {
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem 6rem;
-  background-color: #F0E9FF;
-  gap: 2rem;
-}
-
-.texto-descricao {
-  flex: 2;
-}
-
-.texto-descricao h3 {
-  color: #7C76BA;
-}
-
-.texto-descricao ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-}
-
-.tabela-nutricional {
-  flex: 1;
-}
-
-.tabela-nutricional table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
-}
-
-.tabela-nutricional th,
-.tabela-nutricional td {
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  text-align: left;
-}
-
-/* ======================= PRODUTOS RELACIONADOS ======================= */
-.produtos-relacionados {
-  background-color: #b5a5d5;
-  padding: 4rem 6rem;
-  text-align: center;
-}
-
-.produtos-relacionados h2 {
-  font-family: 'Baloo', cursive;
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 3rem;
-}
-
-.cards-relacionados {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-}
-
-.cards-relacionados article {
-  background: white;
-  padding: 1rem;
-  border-radius: 15px;
-  width: 200px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.cards-relacionados img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.cards-relacionados h3 {
-  font-size: 1rem;
-  color: #7C76BA;
-}
-
-.cards-relacionados p {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.cards-relacionados button {
-  background-color: #7C76BA;
-  color: white;
-  padding: 0.4rem 1rem;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-family: 'Baloo 2', cursive;
-  margin-top: 0.5rem;
-}
-
-.cards-relacionados button:hover {
-  background-color: #FC86B1;
-}
-
-/* ================== DETALHES DO PRODUTO ================== */
-
-.produto-detalhes {
-  display: grid;
-  grid-template-columns: 100px 1fr 1fr;
-  gap: 3rem;
-  padding: 4rem 6rem 2rem;
-  align-items: start;
-}
-
-.imagens-laterais {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.galeria-imagens img {
-  width: 175px;
-  height: 175px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.imagem-principal img{
-  width: 100%;
-  max-width: 500px;
-  border-radius: 15px;
-  margin-left: -8rem;
-
-  
-}
-
-.info-produto {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-left: -10rem;
-}
-
-.info-produto h1 {
-  font-family: 'Baloo', cursive;
-  color: #7C76BA;
-  font-size: 2rem;
-}
-
-.info-produto p {
-  font-size: 1rem;
-  color: #333;
-  font-family: 'Baloo 2', cursive;
-}
-
-.preco-antigo {
-  text-decoration: line-through;
-  color: #999;
-  font-size: 1rem;
-}
-
-.preco-atual {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #A31911;
-}
-
-.botoes-detalhe {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.botao-roxo {
-  background-color: #7C76BA;
-  color: white;
-  padding: 0.6rem 1.4rem;
-  border: none;
-  border-radius: 12px;
-  font-family: 'Baloo 2', cursive;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.botao-rosa {
-  background-color: #f9cce3;
-  color: #A31911;
-  padding: 0.6rem 1.4rem;
-  border: none;
-  border-radius: 12px;
-  font-family: 'Baloo 2', cursive;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
-.icones-pagamento img {
-  width: 32px;
-  margin-top: 1rem;
-  margin-right: 0.5rem; 
-}
-
-/* ================= INFORMAÇÕES NUTRICIONAIS ================== */
-
-.infos-produto {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-  padding: 3rem 6rem;
-}
-
-.infos-produto h2 {
-  font-size: 1.2rem;
-  color: #7C76BA;
-  font-family: 'Baloo 2', cursive;
-  margin-bottom: 1rem;
-}
-
-.infos-produto ul {
-  list-style: disc;
-  padding-left: 1.2rem;
-}
-
-
-/* =================== RODAPÉ COM PRODUTOS =================== */
-
-.rodape-produto {
-  background-color: #b9aad4;
-  padding: 3rem 6rem;
-  text-align: center;
-}
-
-.rodape-produto h2 {
-  font-family: 'Baloo', cursive;
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 2rem;
-}
-
-.rodape-produto .produtos-relacionados {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-
-.rodape-produto .produto-relacionado {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 12px;
-  width: 200px;
-}
-
-.rodape-produto .produto-relacionado img {
-  width: 100%;
-  border-radius: 12px;
-}
-
-.rodape-produto .produto-relacionado h3 {
-  font-size: 1rem;
-  color: #7C76BA;
-}
-
-.rodape-produto .produto-relacionado p {
-  font-size: 0.9rem;
-  color: #4b4b4b;
-}
-
-.rodape-produto .produto-relacionado button {
-  background-color: #7C76BA;
-  color: white;
-  border: none;
-  border-radius: 12px;
-  padding: 0.4rem 1rem;
-  font-family: 'Baloo 2', cursive;
-  cursor: pointer;
-  margin-top: 0.5rem;
-}
-
-
 /* ====================nosso cardapio roxo========================== */
 .cardapio1 {
-  background-color: #A8A3D8;
+  background-color: #a8a3d8;
   text-align: center;
   padding: 2rem 2rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   margin: 10rem 0;
 }
 
 .cardapio1 h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 3rem;
   color: #ffffff;
   margin-bottom: 2rem;
@@ -1444,7 +1070,7 @@ main.produto-detalhe {
 .produto1 {
   padding: 6rem;
   border-radius: 20px;
-  width:250px;
+  width: 250px;
   text-align: center;
 }
 
@@ -1467,17 +1093,16 @@ main.produto-detalhe {
 }
 
 .produto1 button {
-  background-color: #534B9B;
+  background-color: #534b9b;
   color: white;
   padding: 0.3rem 1.6rem;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.9rem;
   margin-top: 1rem;
 }
-
 
 /* ====================FAQ====================================== */
 .faq-bloco {
@@ -1504,23 +1129,23 @@ main.produto-detalhe {
 }
 
 .faq-conteudo h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   font-size: 2.5rem;
-  color: #A31911;
+  color: #a31911;
   margin-bottom: 2rem;
 }
 
 .faq-lista details {
-  background-color: #FC86B1;
+  background-color: #fc86b1;
   border-radius: 12px;
   margin-bottom: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: 0.3s ease;
 }
 
 .faq-lista summary {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 1rem;
   color: white;
   font-weight: bold;
@@ -1536,7 +1161,7 @@ main.produto-detalhe {
 
 .faq-lista p {
   padding: 0 1.5rem 1rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   color: white;
   font-size: 0.95rem;
 }
@@ -1549,9 +1174,8 @@ main.produto-detalhe {
   align-items: center;
   gap: 4rem;
   padding: 4rem 2rem;
-  background-color: #FFA1C3;
+  background-color: #ffa1c3;
   margin: 20vh 0;
-  
 }
 
 .contato-bloco .img-ajuda img {
@@ -1564,36 +1188,33 @@ main.produto-detalhe {
 }
 
 .contato-conteudo h2 {
-  font-family: 'Baloo', cursive;
+  font-family: "Baloo", cursive;
   color: white;
   font-size: 3rem;
   margin-bottom: 0.2rem;
 }
 
 .contato-conteudo p {
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.8rem;
   color: white;
   margin-bottom: 1rem;
-  
 }
 
 .contato-form {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-
 }
 
 .contato-form .linha {
   display: flex;
   gap: 0.5rem;
-
 }
 
 ::placeholder {
-  color: #A8A3D8;
-  font-family: 'Baloo', cursive;
+  color: #a8a3d8;
+  font-family: "Baloo", cursive;
 }
 
 .contato-form input,
@@ -1602,16 +1223,16 @@ main.produto-detalhe {
   padding: 0.6rem 1rem;
   border: none;
   border-radius: 8px;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 0.9rem;
   background-color: white;
-  color: #A8A3D8;
+  color: #a8a3d8;
 }
 
 .contato-form textarea {
   height: 100px;
   resize: none;
-  color: #A8A3D8;
+  color: #a8a3d8;
 }
 
 .contato-form button {
@@ -1620,12 +1241,11 @@ main.produto-detalhe {
   border: none;
   padding: 0.6rem 1.5rem;
   border-radius: 10px;
-  font-family: 'Baloo', cursive;
-  color: #A8A3D8;
+  font-family: "Baloo", cursive;
+  color: #a8a3d8;
   font-size: 0.9rem;
   cursor: pointer;
   margin-top: 0.5rem;
-  
 }
 
 .contato-form button:hover {
@@ -1634,254 +1254,249 @@ main.produto-detalhe {
 
 /* ============================CONTATOO====================================== */
 .contato-page main {
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
 }
 
 .atendimento-container {
-    display: flex;
-    gap: 40px;
-    width: 90%;
-    max-width: 1200px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  max-width: 1200px;
+  flex-wrap: wrap;
 }
 
-/* BLOCO ESQUERDO */
-
 .bloco-esquerdo {
-    flex: 1;
-    min-width: 300px;
+  flex: 1;
+  min-width: 300px;
 }
 
 .titulo-suporte {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .titulo-suporte h2 {
-    font-size: 28px;
-    color: #E34F4D;
-    font-weight: bold;
+  font-size: 28px;
+  color: #e34f4d;
+  font-weight: bold;
 }
 
 .nossa-loja h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #E34F4D;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #e34f4d;
 }
 
 .nossa-loja .info-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 15px;
-    color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  color: black;
 }
 
 .nossa-loja .info-item img {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .form-contato h3 {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #E34F4D;
-    font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #e34f4d;
+  font-size: 20px;
 }
 
 .form-contato form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .form-contato .linha-inputs {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .form-contato input,
 .form-contato textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    border: 2px solid #FFD8E7;
-    background-color: white;
-    font-family: 'Baloo 2', cursive;
-    font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ffd8e7;
+  background-color: white;
+  font-family: "Baloo 2", cursive;
+  font-size: 15px;
 }
 
 .form-contato textarea {
-    resize: none;
-    height: 100px;
+  resize: none;
+  height: 100px;
 }
 
 .form-contato button {
-    background-color: #E34F4D;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 16px;
+  background-color: #e34f4d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
 }
 
 .form-contato button:hover {
-    background-color: #8C1210;
+  background-color: #8c1210;
 }
-
-/* BLOCO DIREITO */
 
 .bloco-direito {
   margin-top: 10rem;
-    flex: 1;
-    min-width: 300px;
-    background-color: #FD85B2;
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-    font-family: 'Baloo 2', cursive;
+  flex: 1;
+  min-width: 300px;
+  background-color: #fd85b2;
+  border-radius: 15px;
+  padding: 30px;
+  color: white;
+  font-family: "Baloo 2", cursive;
 }
 
 .bloco-direito h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .bloco-direito p {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
 }
 
 .bloco-direito form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .bloco-direito form .linha-inputs {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .campo-data,
 .campo-hora {
-    flex: 1 1 45%;
-    display: flex;
-    flex-direction: column;
-    
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .campo-data h3,
 .campo-hora h3 {
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: white;
 }
 
 .bloco-direito input[type="date"],
 .bloco-direito input[type="time"],
 .bloco-direito select {
-    padding: 10px;
-    border-radius: 6px;
-    border: 2px solid #FFD8E7;
-    background-color: #FD85B2;
-    color: #ffffff;
-    font-family: 'Baloo 2', cursive;
-    font-size: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ffd8e7;
+  background-color: #fd85b2;
+  color: #ffffff;
+  font-family: "Baloo 2", cursive;
+  font-size: 14px;
 }
 
 .bloco-direito select {
-    appearance: none;
-    background-color: #FD85B2;
-    border: 2px solid #FFD8E7;
+  appearance: none;
+  background-color: #fd85b2;
+  border: 2px solid #ffd8e7;
 }
 
 .categorias {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    justify-content: left;
-    gap: 10px 30px;
-    margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: left;
+  gap: 10px 30px;
+  margin-top: 10px;
 }
 
 .categorias label {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    color: white;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  gap: 8px;
 }
 
 .botao-verde {
-    background-color: #73C8BD;
-    color: white;
-    padding: 14px 0;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    max-width: 500px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    transition: 0.3s;
+  background-color: #73c8bd;
+  color: white;
+  padding: 14px 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  transition: 0.3s;
 }
 
 .botao-verde:hover {
-    background-color: #5ABF85;
+  background-color: #5abf85;
 }
 /*================================ MAPA ----------------------------------------------*/
 
 .mapa-container {
-    position: relative;
-    margin-top: 40px;
-    text-align: center;
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .mapa-container .mapa-fundo {
-    width: 100%;
-    border-radius: 20px;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .botoes-mapa {
-    position: absolute;
-    top: 8%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 20px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .botoes-mapa img {
-    width: 20rem; 
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.2s;
+  width: 20rem;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .botoes-mapa img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* ===========================ERRO 404====================== */
 .pagina-404 {
   text-align: center;
   padding: 4rem 2rem;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   color: white;
   position: relative;
 }
@@ -1903,17 +1518,17 @@ main.produto-detalhe {
 }
 
 .botao-voltar {
-  background-color: #A31611;
+  background-color: #a31611;
   color: white;
   padding: 0.8rem 1.5rem;
   border-radius: 12px;
   text-decoration: none;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-weight: bold;
 }
 
 .botao-voltar:hover {
-  background-color: #FC527E;
+  background-color: #fc527e;
   transition: 0.2s ease-in-out;
 }
 
@@ -1929,118 +1544,114 @@ main.produto-detalhe {
 /* =================ESQUECI SENHA=============== */
 
 .form-recuperar {
-    background-color: #FFD8E7;
-    max-width: 600px;
-    margin: 4rem auto;
-    padding: 2rem;
-    border-radius: 10px;
-    font-family: 'Baloo 2', cursive;
+  background-color: #ffd8e7;
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  font-family: "Baloo 2", cursive;
 }
 
 .form-recuperar h2 {
-    color: #A31611;
-    margin-bottom: 1rem;
-    
+  color: #a31611;
+  margin-bottom: 1rem;
 }
 
 .form-recuperar p {
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-recuperar label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #A31611;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #a31611;
 }
 
 .form-recuperar input {
-    width: 100%;
-    padding: 0.7rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    margin-bottom: 1rem;
-    font-family: 'Baloo 2', cursive;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-family: "Baloo 2", cursive;
 }
 
 .form-recuperar button {
-    width: 100%;
-    padding: 0.8rem;
-    background-color: #A31611;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #a31611;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .form-recuperar button:hover {
-    background-color: #d11c1c;
+  background-color: #d11c1c;
 }
-
-
 
 /* =================== RECUPERAR SENHA =================== */
 
-
 .titulo-recuperar {
-    text-align: center;
-    color: #A31611;
-    font-family: 'Baloo', cursive;
-    font-size: 2.5rem;
-    margin-right: 30rem;
-    width: 100%;
+  text-align: center;
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 2.5rem;
+  margin-right: 30rem;
+  width: 100%;
 }
 
 main.fundo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 2rem 1rem;
 }
 
 .container-recuperar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .form-recuperar {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-    max-width: 350px;
-    z-index: 2;
-    margin-top: -10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 350px;
+  z-index: 2;
+  margin-top: -10rem;
 }
 
 .form-recuperar input[type="password"] {
-    width: 100%;
-    padding: 0.8rem 1rem;
-    border-radius: 8px;
-    border: none;
-    font-family: 'Baloo 2', cursive;
-    font-size: 1rem;
-    background-color: white;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-family: "Baloo 2", cursive;
+  font-size: 1rem;
+  background-color: white;
 }
 
 .form-recuperar button {
-    background-color: #A31611;
-    color: white;
-    border: none;
-    padding: 0.8rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: 'Baloo', cursive;
-    font-size: 1rem;
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Baloo", cursive;
+  font-size: 1rem;
 }
 
 .form-recuperar button:hover {
@@ -2059,7 +1670,6 @@ main.fundo {
 /* ====================LOCALLL=================== */
 .secao-mapa {
   text-align: center;
-    
 }
 
 .secao-mapa img {
@@ -2070,963 +1680,1761 @@ main.fundo {
 }
 
 .secao-disponivel img {
- margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 .chef {
-    margin-top: -50rem;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 30px;
+  margin-top: -50rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
 }
 
 .chef img {
-    width: 40rem;
-    height: auto;
-}
-
-/* =====================detalhes do pedido ====================== */
-.topo-pedido {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 5rem 1rem;
-    max-width: 100rem;
-    margin: 5rem 10rem;
-    position: relative;
-}
-
-.info-pedido {
-    flex: 1;
-}
-
-.voltar {
-    color: #A31611;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.info-pedido h2 {
-    color: #A31611;
-    font-size: 45px;
-    margin-bottom: 10px;
-    font-family: 'Baloo', cursive;
-}
-
-.info-pedido p {
-    color: #A31611;
-    font-size: 18px;
-    font-family: 'Baloo 2', cursive;
-    margin: 5px 0;
-}
-
-.info-pedido h3 {
-    color: black;
-    font-size: 18px;
-    margin: 15px 0 8px;
-    font-family: 'Baloo 2', cursive;
-}
-
-.etapas {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80rem;
-    font-size: 16px;
-    color: #A31611;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-family: 'Baloo 2', cursive;
-}
-
-.status-img {
-    width: 100%;
-    max-width: 80rem;
-}
-
-.chef-lado {
-    width: 260px;
-    position: absolute;
-    top: 5px;
-    left: 70rem;
-}
-
-/* ===============================detalhes pedidos tabela ===================== */
-.tabela-pedido {
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 30px auto;
-    max-width: 1200px;
-    font-family: 'Baloo 2', cursive;
-}
-
-.tabela-pedido .linha {
-    display: grid;
-    grid-template-columns: 1fr 80px 120px;
-    align-items: center;
-    padding: 18px 30px;
-    border-bottom: 2px solid #A01313;
-    font-size: 16px;
-    color: #A31611;
-}
-
-.tabela-pedido .linha:last-child {
-    border-bottom: none;
-}
-
-.tabela-pedido .linha.header {
-    background-color: white;
-    color: #A31611;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 15px;
-    border-bottom: 2px solid #A01313;
-}
-
-.item-info {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.item-info img {
-    width: 65px;
-    height: 65px;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
-.texto-produto {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-}
-
-.texto-produto strong {
-    font-size: 16px;
-    color: #A31611;
-}
-
-.texto-produto span {
-    font-size: 15px;
-    color: #A31611;
-}
-
-.tabela-pedido .linha.total {
-    background-color: white;
-    color: #A31611;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 17px;
-    border-top: 2px solid #A01313;
-}
-
-.historico-status {
-    margin-top: 20px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Baloo 2', cursive;
-}
-
-.linha-status {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-    font-size: 15px;
-    color: #A31611;
-}
-
-.linha-status span {
-    font-size: 15px;
+  width: 40rem;
+  height: auto;
 }
 
 /* =========================politicas================== */
 
 .pagina-politica {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 40px 50px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    color: #333333;
-    font-family: 'Baloo 2', sans-serif;
-    line-height: 1.8;
-    text-align: justify;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333333;
+  font-family: "Baloo 2", sans-serif;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .pagina-politica h1 {
-    font-family: 'Baloo', cursive;
-    font-size: 40px;
-    text-align: center;
-    color: #A31611;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+  font-family: "Baloo", cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #a31611;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .pagina-politica h2 {
-    font-family: 'Baloo', cursive;
-    font-size: 28px;
-    color: #A31611;
-    margin-top: 35px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #FFD8E7;
-    padding-bottom: 5px;
+  font-family: "Baloo", cursive;
+  font-size: 28px;
+  color: #a31611;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffd8e7;
+  padding-bottom: 5px;
 }
 
 .pagina-politica h3 {
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 22px;
-    color: #A31611;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 22px;
+  color: #a31611;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .pagina-politica p {
-    font-size: 17px;
-    margin-bottom: 15px;
+  font-size: 17px;
+  margin-bottom: 15px;
 }
 
 .pagina-politica ul {
-    padding-left: 25px;
-    margin-bottom: 20px;
+  padding-left: 25px;
+  margin-bottom: 20px;
 }
 
 .pagina-politica li {
-    margin-bottom: 8px;
-    font-size: 17px;
+  margin-bottom: 8px;
+  font-size: 17px;
 }
 
 .pagina-politica strong {
-    color: #A31611;
-    font-weight: bold;
+  color: #a31611;
+  font-weight: bold;
 }
 
 .pagina-politica a {
-    color: #A31611;
-    text-decoration: underline;
+  color: #a31611;
+  text-decoration: underline;
 }
 
 .pagina-politica blockquote {
-    background-color: #f9f9f9;
-    border-left: 5px solid #A31611;
-    padding: 12px 20px;
-    margin: 20px 0;
-    color: #444444;
-    font-style: italic;
-    border-radius: 10px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #a31611;
+  padding: 12px 20px;
+  margin: 20px 0;
+  color: #444444;
+  font-style: italic;
+  border-radius: 10px;
 }
 
 /* ===============================TERMO DE USO==================== */
 .pagina-politica {
-    max-width: 950px;
-    margin: 60px auto;
-    padding: 40px 50px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-    color: #333333;
-    font-family: 'Baloo 2', sans-serif;
-    line-height: 1.8;
-    text-align: justify;
+  max-width: 950px;
+  margin: 60px auto;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  color: #333333;
+  font-family: "Baloo 2", sans-serif;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .pagina-politica h1 {
-    font-family: 'Baloo', cursive;
-    font-size: 42px;
-    text-align: center;
-    color: #A31611;
-    margin-bottom: 35px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-family: "Baloo", cursive;
+  font-size: 42px;
+  text-align: center;
+  color: #a31611;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .pagina-politica h2 {
-    font-family: 'Baloo', cursive;
-    font-size: 28px;
-    color: #A31611;
-    margin-top: 40px;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #FFD8E7;
-    padding-bottom: 8px;
+  font-family: "Baloo", cursive;
+  font-size: 28px;
+  color: #a31611;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #ffd8e7;
+  padding-bottom: 8px;
 }
 
 .pagina-politica h3 {
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 22px;
-    color: #A31611;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 22px;
+  color: #a31611;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .pagina-politica p {
-    font-size: 17px;
-    margin-bottom: 16px;
+  font-size: 17px;
+  margin-bottom: 16px;
 }
 
 .pagina-politica ul {
-    padding-left: 25px;
-    margin-bottom: 20px;
+  padding-left: 25px;
+  margin-bottom: 20px;
 }
 
 .pagina-politica li {
-    margin-bottom: 8px;
-    font-size: 17px;
+  margin-bottom: 8px;
+  font-size: 17px;
 }
 
 .pagina-politica strong {
-    color: #A31611;
-    font-weight: bold;
+  color: #a31611;
+  font-weight: bold;
 }
 
 .pagina-politica a {
-    color: #A31611;
-    text-decoration: underline;
+  color: #a31611;
+  text-decoration: underline;
 }
 
 .pagina-politica blockquote {
-    background-color: #f9f9f9;
-    border-left: 5px solid #A31611;
-    padding: 12px 20px;
-    margin: 20px 0;
-    color: #444444;
-    font-style: italic;
-    border-radius: 10px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #a31611;
+  padding: 12px 20px;
+  margin: 20px 0;
+  color: #444444;
+  font-style: italic;
+  border-radius: 10px;
 }
 
 /* =========================== MEUS PEDIDOS=============================== */
 .pagina-pedidos {
-    display: flex;
-    background-color: #FFD8E7;
-    padding: 50px 80px;
-    font-family: 'Baloo 2', sans-serif;
+  display: flex;
+  background-color: #ffd8e7;
+  padding: 50px 80px;
+  font-family: "Baloo 2", sans-serif;
 }
 
 /* Menu Lateral */
 .menu-pedidos {
-    width: 220px;
-    background-color: #FFA1C3;
-    border-radius: 20px;
-    padding: 30px 0;
-    margin-right: 30px;
-    align-self: flex-start; 
+  width: 220px;
+  background-color: #ffa1c3;
+  border-radius: 20px;
+  padding: 30px 0;
+  margin-right: 30px;
+  align-self: flex-start;
 }
 .menu-pedidos a {
-    color: #A31611;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    font-family: 'Baloo 2', sans-serif;
+  color: #a31611;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Baloo 2", sans-serif;
 }
 
 .menu-pedidos a:hover {
-    color: #7B0D0D;
-    text-decoration: none;
+  color: #7b0d0d;
+  text-decoration: none;
 }
 
 .menu-pedidos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-pedidos li {
-    display: flex;
-    align-items: center;
-    padding: 15px 20px;
-    color: #A31611;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #a31611;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .menu-pedidos li:hover {
-    background-color: #FFD8E7;
+  background-color: #ffd8e7;
 }
 
 .menu-pedidos li img {
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
 
-
 .area-pedidos {
-    flex-grow: 1;
-    background-color: #FFE6F0;
-    border-radius: 20px;
-    padding: 30px 40px;
+  flex-grow: 1;
+  background-color: #ffe6f0;
+  border-radius: 20px;
+  padding: 30px 40px;
 }
 
 .area-pedidos h1 {
-    color: #A31611;
-    font-family: 'Baloo', cursive;
-    font-size: 28px;
-    margin-bottom: 25px;
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 28px;
+  margin-bottom: 25px;
 }
 
-
 .box-filtro button {
-    border: 2px solid #A31611;
-    background-color: transparent;
-    color: #A31611;
-    padding: 10px 25px;
-    border-radius: 10px;
-    font-family: 'Baloo 2', sans-serif;
-    cursor: pointer;
-    margin-bottom: 30px;
-    transition: 0.3s;
+  border: 2px solid #a31611;
+  background-color: transparent;
+  color: #a31611;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-family: "Baloo 2", sans-serif;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: 0.3s;
 }
 
 .box-filtro button:hover {
-    background-color: #A31611;
-    color: #fff;
+  background-color: #a31611;
+  color: #fff;
 }
 
 .pedido-item {
-    background-color: #FFD8E7;
-    border: 2px solid #A31611;
-    border-radius: 15px;
-    padding: 20px 30px;
-    margin-bottom: 20px;
-    color: #A31611;
-    font-family: 'Baloo 2', sans-serif;
+  background-color: #ffd8e7;
+  border: 2px solid #a31611;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  color: #a31611;
+  font-family: "Baloo 2", sans-serif;
 }
 
 .pedido-item p {
-    margin-bottom: 8px;
-    font-size: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
 }
 
 .pedido-item button {
-    background-color: transparent;
-    border: 2px solid #A31611;
-    color: #A31611;
-    padding: 8px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: 'Baloo 2', sans-serif;
-    margin-top: 10px;
-    transition: 0.3s;
+  background-color: transparent;
+  border: 2px solid #a31611;
+  color: #a31611;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Baloo 2", sans-serif;
+  margin-top: 10px;
+  transition: 0.3s;
 }
 
 .pedido-item button:hover {
-    background-color: #A31611;
-    color: #fff;
+  background-color: #a31611;
+  color: #fff;
 }
 
 /* ========================MEU DAADOS==================================== */
 .area-dados {
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-start;  
-    align-items: flex-start;
-    padding: 40px 30px; 
-    background-color: transparent;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 30px;
+  background-color: transparent;
 }
 
 .form-dados {
-    width: 700px; 
-    background-color: #FFE6F0;
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(255, 161, 195, 0.3);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  width: 700px;
+  background-color: #ffe6f0;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(255, 161, 195, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .form-dados h1 {
-    font-family: 'Baloo', cursive;
-    font-size: 36px; 
-    color: #A31611;
-    margin-bottom: 20px;
-    text-align: left;
+  font-family: "Baloo", cursive;
+  font-size: 36px;
+  color: #a31611;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .form-dados input {
-    padding: 12px 15px;
-    border: none;
-    border-radius: 10px;
-    background-color: #FFA1C3;
-    color: #A31611;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 16px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffa1c3;
+  color: #a31611;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 16px;
 }
 
 .form-dados input::placeholder {
-    color: #A31611;
-    opacity: 0.7;
+  color: #a31611;
+  opacity: 0.7;
 }
 
 .linha-dupla {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .linha-dupla input {
-    flex: 1;
+  flex: 1;
 }
 
 .checkbox-group {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
 }
 
 .checkbox-group label,
 .checkbox-alterar {
-    font-family: 'Baloo 2', sans-serif;
-    color: #A31611;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  font-family: "Baloo 2", sans-serif;
+  color: #a31611;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .checkbox-group input[type="checkbox"],
 .checkbox-alterar input[type="checkbox"] {
-    accent-color: #A31611;
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
+  accent-color: #a31611;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
 }
 
 .form-dados h2 {
-    margin-top: 20px;
-    margin-bottom: 8px;
-    font-family: 'Baloo', cursive;
-    font-size: 22px;
-    color: #A31611;
-    text-align: left;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-family: "Baloo", cursive;
+  font-size: 22px;
+  color: #a31611;
+  text-align: left;
 }
 
 .form-dados button {
-    margin-top: 15px;
-    padding: 12px 20px;
-    background-color: #FFA1C3;
-    color: #A31611;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Baloo 2', sans-serif;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.3s;
-    align-self: flex-end;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #ffa1c3;
+  color: #a31611;
+  border: none;
+  border-radius: 10px;
+  font-family: "Baloo 2", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  align-self: flex-end;
 }
 
 .form-dados button:hover {
-    background-color: #A31611;
-    color: #fff;
+  background-color: #a31611;
+  color: #fff;
 }
 
 /* ======================CARTOES ============================================== */
 
 .titulo-cartoes {
-  color: #A31611;
-  font-family: 'Baloo', cursive;
+  color: #a31611;
+  font-family: "Baloo", cursive;
   margin-top: -4rem;
   font-size: 20px;
 }
 .area-cartoes {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px 30px;
-    max-width: 1000px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 30px;
+  max-width: 1000px;
 }
 
 .conteudo-cartoes {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-
 .cartao-item img {
-    width: 450px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .lado-direito-cartoes {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .btn-adicionar-cartao {
-    background-color: #FFA1C3;
-    color: #A31611;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    width: fit-content;
+  background-color: #ffa1c3;
+  color: #a31611;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
 }
 
 .btn-adicionar-cartao:hover {
-    background-color: #A31611;
-    color: #fff;
+  background-color: #a31611;
+  color: #fff;
 }
 
 .formulario-cartao {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    background-color: white;
-    padding: 25px 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    font-family: 'Baloo 2', sans-serif;
-    box-sizing: border-box;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  font-family: "Baloo 2", sans-serif;
+  box-sizing: border-box;
 }
 
 #abrirCartao:checked ~ .formulario-cartao {
-    display: flex;
+  display: flex;
 }
 
 .formulario-cartao h2 {
-    font-family: 'Baloo', cursive;
-    font-size: 22px;
-    color: #A31611;
-    margin-bottom: 10px;
+  font-family: "Baloo", cursive;
+  font-size: 22px;
+  color: #a31611;
+  margin-bottom: 10px;
 }
 
 .formulario-cartao label {
-    font-size: 18px;
-    color: #A31611;
-    margin-bottom: 4px;
+  font-size: 18px;
+  color: #a31611;
+  margin-bottom: 4px;
 }
 
 .formulario-cartao input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background-color: white;
-    color: #333;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 14px;
-    width: 100%;
-    box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  color: #333;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .linha-dupla-cartao {
-    display: flex;
-    gap: 10px;
-    width: 100%;
+  display: flex;
+  gap: 10px;
+  width: 100%;
 }
 
 .campo-menor {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .linha-dupla-cartao input {
-    flex: 1;
-    min-width: 0;
+  flex: 1;
+  min-width: 0;
 }
 
 .btn-salvar-cartao {
-    background-color: #FC86B1;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 6px;
-    font-family: 'Baloo 2', sans-serif;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
-    transition: 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px; 
-    box-sizing: border-box;
+  background-color: #fc86b1;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  box-sizing: border-box;
 }
 .btn-salvar-cartao:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
-
 
 /* ==============================MEUS ENDEREÇOS=========================================== */
 .titulo-enderecos {
-  color: #A31611;
-  font-family: 'Baloo', cursive;
+  color: #a31611;
+  font-family: "Baloo", cursive;
   margin-top: -4rem;
   font-size: 20px;
 }
 .area-enderecos {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px 30px;
-    max-width: 1000px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 30px;
+  max-width: 1000px;
 }
 
 .endereco-salvo {
-    background-color: white;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    font-family: 'Baloo 2', sans-serif;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Baloo 2", sans-serif;
 }
 
 .btn-editar {
-    background-color: #A31611;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-family: 'Baloo 2', sans-serif;
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Baloo 2", sans-serif;
 }
 
 .btn-adicionar-endereco {
-    background-color: #A31611;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 6px;
-    font-family: 'Baloo 2', sans-serif;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
-    display: inline-block;
-    width: fit-content;       
-    margin-top: 10px;
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+  width: fit-content;
+  margin-top: 10px;
 }
 
 #abrirEndereco:checked ~ .formulario-endereco {
-    display: flex;
+  display: flex;
 }
 
 .formulario-endereco {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    background-color: FFD8E7;
-    padding: 25px 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    width: 350px;
-    font-family: 'Baloo 2', sans-serif;
-    box-sizing: border-box;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  background-color: FFD8E7;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  font-family: "Baloo 2", sans-serif;
+  box-sizing: border-box;
 }
 
 .formulario-endereco h2 {
-    font-family: 'Baloo', cursive;
-    font-size: 22px;
-    color: #A31611;
-    margin-bottom: 10px;
+  font-family: "Baloo", cursive;
+  font-size: 22px;
+  color: #a31611;
+  margin-bottom: 10px;
 }
 
 .formulario-endereco label {
-    font-size: 14px;
-    color: #A31611;
-    margin-bottom: 4px;
+  font-size: 14px;
+  color: #a31611;
+  margin-bottom: 4px;
 }
 
 .formulario-endereco input {
-    padding: 10px;
-    border: 1px solid #666666;
-    border-radius: 6px;
-    background-color: white;
-    color: #333;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 14px;
-    width: 100%;
-    box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #666666;
+  border-radius: 6px;
+  background-color: white;
+  color: #333;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .linha-dupla-endereco {
-    display: flex;
-    gap: 10px;
-    width: 100%;
+  display: flex;
+  gap: 10px;
+  width: 100%;
 }
 
 .campo-menor {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .btn-salvar-endereco {
-    background-color: #FF92B2;
-    border: none;
-    padding: 12px;
-    border-radius: 6px;
-    font-family: 'Baloo 2', sans-serif;
-    cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
-    transition: 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    box-sizing: border-box;
+  background-color: #ff92b2;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  box-sizing: border-box;
 }
 
 .btn-salvar-endereco:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 /* ================================MEUS FAVORITOS======================================= */
 .area-favoritos {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding: 40px 30px;
-    max-width: 60rem;
-    margin-top: -5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 40px 30px;
+  max-width: 60rem;
+  margin-top: -5rem;
 }
 
 .area-favoritos h1 {
-    font-family: 'Baloo', cursive;
-    color: #A31611;
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-family: "Baloo", cursive;
+  color: #a31611;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .favorito-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 15px;
-    padding: 20px 30px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  gap: 20px;
 }
 
 .favorito-item img.produto-foto {
-    width: 130px;
-    height: 130px;
-    border-radius: 12px;
-    object-fit: cover;
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .info-favorito {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .info-favorito h2 {
-    font-family: 'Baloo 2', sans-serif;
-    color: #A31611;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin: 0;
+  font-family: "Baloo 2", sans-serif;
+  color: #a31611;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .preco-antigo {
-    text-decoration: line-through;
-    color: #888;
-    font-size: 14px;
-    margin: 0;
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+  margin: 0;
 }
 
 .preco-novo {
-    color: #A31611;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 0;
+  color: #a31611;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
 }
 
 .btn-adicionar-carrinho {
-    background-color: #A31611;
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    border-radius: 6px;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 12px;
-    cursor: pointer;
-    margin-top: 90px;
-    width: fit-content;
-    transition: 0.3s;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 90px;
+  width: fit-content;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .btn-adicionar-carrinho:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .icone-favorito img {
-    content: url('imagens/fav.png');
-    transition: 0.3s;
-    margin-bottom: 10rem;
+  content: url("imagens/fav.png");
+  transition: 0.3s;
+  margin-bottom: 10rem;
 }
 
 .icone-favorito:hover img {
-    content: url('imagens/fav2.png');
+  content: url("imagens/fav2.png");
 }
 
 /* ====================================== carrinho identificação========================== */
-.passo-carrinho {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
+.nav-etapas {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px auto;
+  gap: 70px;
+  position: relative;
 }
 
-.passo-carrinho img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    position: relative;
+.nav-etapas::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 38%;
+  right: 38%;
+  height: 15px;
+  background-color: #ffd8e7;
+  z-index: 0;
+  border-radius: 4px;
 }
 
-.passo-carrinho .numeros-etapas {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
+.etapa {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Baloo 2", sans-serif;
 }
 
-.passo-carrinho .numeros-etapas span {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    font-family: 'Baloo 2', sans-serif;
-    font-size: 18px;
-    color: #A31611;
-    background-color: transparent;
-    position: relative;
+.etapa .bolinha {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffd8e7;
+  color: #5c5c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6px;
 }
 
-.passo-carrinho .numeros-etapas span.ativo {
-    color: white;
+.etapa .texto {
+  font-size: 15px;
+  color: #555353;
+  text-align: center;
+  max-width: 60px;
+  line-height: 1.1;
+}
+
+.etapa.ativa .bolinha {
+  background-color: #a31611;
+  color: white;
+}
+
+.etapa.ativa .texto {
+  font-weight: bold;
+}
+
+/* ==========================finalizado============================= */
+.area-sucesso {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.area-sucesso h1 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cupcake-final {
+  max-width: 80rem;
+  width: 100%;
+  margin: 25px auto;
+  display: block;
+  margin-left: 15rem;
+}
+
+.botao-voltar {
+  display: inline-block;
+  background-color: #a31611;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: "Baloo 2", sans-serif;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.botao-voltar:hover {
+  opacity: 0.9;
+}
+
+/* ==============================caRRINHO============================== */
+.area-carrinho {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 40px;
+  flex-wrap: wrap;
+}
+
+.produtos-carrinho {
+  flex: 3;
+  max-width: 900px;
+}
+
+.produtos-carrinho h1 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
+.item-carrinho {
+  display: flex;
+  position: relative;
+  background: white;
+  padding: 15px;
+
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.item-carrinho img {
+  width: 150px;
+  object-fit: cover;
+  margin-right: 25px;
+}
+
+.info-produto h2 {
+  font-family: "Baloo", cursive;
+  font-size: 18px;
+  color: #a31611;
+  margin: 0 0 5px 0;
+  margin-left: 10rem;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.preco-atual {
+  color: #a31611;
+  font-size: 16px;
+}
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 8px;
+  font-family: "Baloo 2", sans-serif;
+  color: #a31611;
+  margin-left: 10rem;
+}
+
+.quantidade button {
+  background-color: transparent;
+  border: 1px solid #a31611;
+  color: #a31611;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quantidade button:hover {
+  background-color: #a31611;
+  color: white;
+}
+
+.botao-remover {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #a31611;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.botao-remover:hover {
+  color: #7b0f0f;
+}
+
+.info-produto p {
+  margin: 4px 0;
+  font-size: 15px;
+  margin-left: 10rem;
+}
+
+.info-produto a {
+  color: #a31611;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 10rem;
+}
+
+.resumo-carrinho {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  margin-top: 10rem;
+}
+
+.resumo-carrinho h2 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  margin-bottom: 15px;
+}
+
+.miniaturas-produtos {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.miniaturas-produtos img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.resumo-carrinho p {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 15px;
+}
+
+.resumo-carrinho p span,
+.resumo-carrinho p strong {
+  font-weight: bold;
+}
+
+.resumo-carrinho .preco span,
+.resumo-carrinho .desconto span,
+.resumo-carrinho .frete span,
+.resumo-carrinho .total strong {
+  color: #a31611;
+}
+
+.resumo-carrinho .frete span.gratis {
+  color: green;
+}
+
+.resumo-carrinho .botao-comprar,
+.resumo-carrinho .botao-continuar {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.resumo-carrinho .botao-comprar {
+  background-color: #a31611;
+  color: white;
+}
+
+.resumo-carrinho .botao-comprar:hover {
+  opacity: 0.9;
+}
+
+.resumo-carrinho .botao-continuar {
+  background-color: transparent;
+  color: #a31611;
+  border: 1px solid #a31611;
+}
+
+.resumo-carrinho .botao-continuar:hover {
+  background-color: #a31611;
+  color: white;
+}
+
+/* ===============================COMPRA DOS PRODUTOS========================================= */
+.pagina-pagamento {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  gap: 30px;
+  background-color: #ffd8e7;
+  font-family: "Baloo 2", sans-serif;
+}
+
+/* ====== ENDEREÇO NO TOPO ====== */
+.endereco-pagamento {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.endereco-pagamento h2 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  margin-bottom: 10px;
+}
+
+.endereco-pagamento p {
+  margin: 3px 0;
+  color: #a31611;
+}
+
+.btn-editar {
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-editar:hover {
+  background-color: #7b0f0f;
+}
+/* ============================================================= DETALHES DO PEDIDO ============================ */
+.area-pagamento-conteudo {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.detalhes-pedido {
+  flex: 2;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detalhes-pedido h2,
+.detalhes-pedido h3 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+}
+
+.produto-pedido {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.produto-pedido img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.resumo-pedido p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  color: #a31611;
+}
+
+.resumo-pedido span,
+.resumo-pedido strong {
+  font-weight: bold;
+}
+
+.resumo-pedido .gratis {
+  color: green;
+}
+
+.finalizar-compra {
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.finalizar-compra:hover {
+  opacity: 0.9;
+}
+
+/* ================================== OPÇÕES DE ENTREGA ========================== */
+.opcoes-entrega {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.opcoes-entrega h3 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  margin-bottom: 10px;
+}
+
+.opcao-entrega {
+  padding: 12px;
+  border: 2px solid #ffd8e7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.opcao-entrega:hover {
+  background-color: #ffe6f0;
+}
+
+.opcao-entrega.selecionada {
+  border-color: #a31611;
+  background-color: #ffd8e7;
+}
+
+.opcao-entrega p {
+  margin: 0;
+  color: #a31611;
+  font-weight: bold;
+}
+
+.opcao-entrega span {
+  font-size: 14px;
+  color: #a31611;
+}
+
+.opcao-entrega .frete-gratis {
+  color: green;
+}
+
+/* ====================================== FORMA DE PAGAMENTO ====================== */
+.forma-pagamento {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forma-pagamento h3 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  margin-bottom: 10px;
+}
+
+.opcao-pagamento {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #ffd8e7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.opcao-pagamento:hover {
+  background-color: #ffe6f0;
+}
+
+.opcao-pagamento.selecionada {
+  border-color: #a31611;
+  background-color: #ffd8e7;
+}
+
+.opcao-pagamento img {
+  width: 40px;
+  height: 40px;
+}
+
+.opcao-pagamento p {
+  margin: 0;
+  color: #a31611;
+  font-weight: bold;
+  flex: 1;
+}
+
+.bandeiras-cartoes img {
+  width: 30px;
+  height: auto;
+}
+
+/* =============================================== FORMULÁRIO DE ADICIONAR ENDEREÇO ============================= */
+#abrirEndereco:checked ~ .formulario-endereco {
+  display: flex;
+}
+
+.formulario-endereco {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffe6f0;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin-top: 10px;
+  font-family: "Baloo 2", sans-serif;
+}
+
+.formulario-endereco h2 {
+  font-family: "Baloo", cursive;
+  font-size: 22px;
+  color: #a31611;
+  margin-bottom: 10px;
+}
+
+.formulario-endereco label {
+  font-size: 14px;
+  color: #a31611;
+  margin-bottom: 4px;
+}
+
+.formulario-endereco input {
+  padding: 10px;
+  border: 1px solid #666666;
+  border-radius: 6px;
+  background-color: white;
+  color: #333;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+.linha-dupla-endereco {
+  display: flex;
+  gap: 10px;
+}
+
+.campo-menor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-salvar-endereco {
+  background-color: #fc86b1;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.btn-salvar-endereco:hover {
+  opacity: 0.9;
+}
+.btn-alterar-horario {
+  background-color: transparent;
+  color: #a31611;
+  border: 1px solid #a31611;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btn-alterar-horario:hover {
+  background-color: #a31611;
+  color: white;
+  transition: 0.2s;
+}
+
+.formulario-horario {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  background-color: #ffe6f0;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+#abrirHorario:checked ~ .formulario-horario {
+  display: flex;
+}
+
+.formulario-horario select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+}
+
+.btn-confirmar-horario {
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-confirmar-horario:hover {
+  opacity: 0.9;
+}
+
+/* =======================DETALHES DA COMPRA================================================ */
+.topo-pedido {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  position: relative;
+  gap: 2rem;
+}
+
+.info-pedido {
+  flex: 1;
+  max-width: 60rem;
+}
+
+.info-pedido h2 {
+  color: #a31611;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-family: "Baloo", cursive;
+  text-align: left;
+}
+
+.info-pedido p {
+  color: #a31611;
+  font-size: 18px;
+  font-family: "Baloo 2", cursive;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.voltar {
+  color: #a31611;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-left: -15rem;
+}
+
+.status-pedido {
+  width: 100%;
+  margin: 2rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.status-barra {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.status-preenchido {
+  background-color: #a31611;
+  height: 100%;
+  border-radius: 30px;
+  width: 40%;
+  position: relative;
+}
+
+.status-preenchido img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -10px;
+  left: -15px;
+}
+
+.etapas-status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: "Baloo 2", cursive;
+  font-size: 0.9rem;
+  color: #a31611;
+  font-weight: bold;
+}
+
+.tabela-pedido {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  font-family: "Baloo 2", cursive;
+  width: 100%;
+}
+
+.tabela-pedido .linha {
+  display: grid;
+  grid-template-columns: 1fr 80px 120px;
+  align-items: center;
+  padding: 18px 30px;
+  border-bottom: 2px solid #a01313;
+  font-size: 16px;
+  color: #a31611;
+}
+
+.tabela-pedido .linha:last-child {
+  border-bottom: none;
+}
+
+.tabela-pedido .linha.header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: 2px solid #a01313;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item-info img {
+  width: 65px;
+  height: 65px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.texto-produto strong {
+  font-size: 16px;
+  color: #a31611;
+}
+
+.linha-status {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #a31611;
+  border-top: 1px solid #ffd8e7;
+  font-family: "Baloo 2", cursive;
+}
+
+.linha-status span:first-child {
+  grid-column: 1 / 2;
+}
+
+.linha-status span:last-child {
+  text-align: right;
+}
+
+.chef-lado {
+  width: 260px;
+  position: absolute;
+  top: 10px;
+  right: -150px;
+}
+
+/* ==================================================DETALHES DO PRODUTO ESCOLHIDO============================================================ */
+main.produto-detalhe {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 2rem;
+  padding: 4rem 6rem;
+  background-color: #f0e9ff;
+}
+
+.inf .info-produto h2 {
+  font-family: "Baloo", cursive;
+  color: #7c76ba;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-produto .resumo {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 1rem;
+}
+
+.preco-novo {
+  font-size: 2rem;
+  color: #a31611;
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+.quantidade-produto {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.quantidade-produto button {
+  background-color: transparent;
+  border: 2px solid #7c76ba;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: #7c76ba;
+  cursor: pointer;
+}
+
+.quantidade-produto span {
+  font-family: "Baloo 2", cursive;
+  font-size: 1rem;
+  color: #000;
+}
+
+.botoes {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.botoes button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #7c76ba;
+  background-color: transparent;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  color: #494949;
+}
+
+.favoritar-produto {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  font-family: "Baloo 2", cursive;
+  color: #000;
+}
+
+.favoritar-produto img {
+  width: 20px;
+  height: 20px;
+}
+
+.garantia-pagamento {
+  margin-top: 1.5rem;
+}
+
+.garantia-pagamento p {
+  font-size: 0.9rem;
+  color: #494949;
+  margin-bottom: 0.5rem;
+}
+
+.formas-pagamento {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formas-pagamento img {
+  width: 40px;
+  height: auto;
+}
+
+/* ===== GALERIA LATERAL ===== */
+.galeria-imagens {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.galeria-imagens img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.galeria-imagens img:hover {
+  border-color: #7c76ba;
+}
+
+.imagem-principal img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  margin-left: -8rem;
+}
+
+/* ===== DESCRIÇÃO E TABELA NUTRICIONAL ===== */
+.descricao-produto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 6rem;
+  background-color: #f0e9ff;
+  margin-top: 3rem;
+}
+
+.texto-descricao {
+  flex: 2;
+}
+
+.texto-descricao h3 {
+  color: #7c76ba;
+  margin-bottom: 0.5rem;
+  font-family: "Baloo", cursive;
+  font-size: 1.3rem;
+}
+
+.texto-descricao p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.ingredientes-beneficios {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.ingredientes-lista,
+.beneficios-lista {
+  flex: 1;
+}
+
+.ingredientes-lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredientes-lista li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Baloo 2", cursive;
+}
+
+.ingredientes-lista li img {
+  width: 20px;
+  height: 20px;
+}
+
+.linha-icone-beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.linha-icone-beneficios img {
+  width: 60px;
+  height: auto;
+}
+
+/* ===== TABELA NUTRICIONAL ===== */
+.tabela-nutricional img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
 }
