@@ -16,11 +16,15 @@
 
         <nav class="nav-central">
             <ul class="nav-links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="produtos.html">Shop</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="FAQ.html">Ajuda</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="home.html#sobre-nos">Sobre Nós</a></li>
+                <li><a href="local.html">Local</a></li>
             </ul>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="Buscar produtos...">
+            </div>
 
             <div class="nav-logo">
                 <a href="home.html">
@@ -29,7 +33,7 @@
             </div>
 
             <div class="nav-icons">
-                <a href="perfil.html">
+                <a href="meusDados.html">
                     <img src="imagens/perfil.png" alt="Perfil" />
                 </a>
                 <a href="favoritos.html">
@@ -68,23 +72,28 @@
     </div>
 
     <section class="produtos-destaque">
-        <h2 class="titulo-produtos">Favoritos</h2>
-        <div class="filtros-categorias">
-            <button class="filtro ativo">Cupcake</button>
-            <button class="filtro">Donuts</button>
-            <button class="filtro">Cookies</button>
-            <button class="filtro">Macaron</button>
-            <button class="filtro">Cheesecake</button>
-        </div>
-    </section>
+    <h2 class="titulo-produtos">Favoritos</h2>
+    <div class="filtros-categorias">
+        <a href="produtos.html" class="filtro ativo">Cupcake</a>
+        <a href="erro.html" class="filtro">Donuts</a>
+        <a href="erro.html" class="filtro">Cookies</a>
+        <a href="produtos2.html" class="filtro">Macaron</a>
+        <a href="erro.html" class="filtro">Cheesecake</a>
+    </div>
+</section>
+
 
      <section class="grade-produtos">
         <article class="card-produto">
+            <a href="detalhes.html">
             <img src="imagens/brigadeiro1.jfif" alt="Cupcake de Brigadeiro" />
+        </a>
             <h3>Brigadeiro</h3>
             <div class="botoes-produto">
                 <button class="preco">R$12,00</button>
+                <a href="detalhes.html">
                 <button class="comprar">Comprar</button>
+            </a>
             </div>
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>

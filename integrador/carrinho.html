@@ -2,43 +2,51 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho - Sweet Candy</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
+    <!-- NAV BAR INÍCIO -->
     <header class="topo">
         <img src="imagens/teste1.png" class="granulado-topo" alt="Fundo com granulados" />
-
-        <nav class="nav-etapas">
-            <a href="carrinho.html" class="etapa ativa">
-                <div class="bolinha">1</div>
-                <div class="texto">Carrinho</div>
-            </a>
-            <a href="identificacao.html" class="etapa">
-                <div class="bolinha">2</div>
-                <div class="texto">Identificação</div>
-            </a>
-            <a href="pagamento.html" class="etapa">
-                <div class="bolinha">3</div>
-                <div class="texto">Pagamento</div>
-            </a>
-            <a href="concluido.html" class="etapa">
-                <div class="bolinha">4</div>
-                <div class="texto">Concluído</div>
-            </a>
+        <nav class="nav-central">
+            <ul class="nav-links">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="FAQ.html">Ajuda</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="home.html#sobre-nos">Sobre Nós</a></li>
+                <li><a href="local.html">Local</a></li>
+            </ul>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="Buscar produtos...">
+            </div>
+            <div class="nav-logo">
+                <a href="home.html">
+                    <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy">
+                </a>
+            </div>
+            <div class="nav-icons">
+                <a href="meusDados.html"><img src="imagens/perfil.png" alt="Perfil"></a>
+                <a href="favoritos.html"><img src="imagens/favoritos.png" alt="Favoritos"></a>
+                <a href="carrinho.html"><img src="imagens/carrinho.png" alt="Carrinho"></a>
+                <a href="contato.html" class="botao-contato">Entre em contato</a>
+            </div>
         </nav>
     </header>
+    <!-- NAV BAR FIM -->
 
+    <!-- MAIN INÍCIO -->
     <main class="area-carrinho">
 
         <section class="produtos-carrinho">
             <h1>Carrinho de Compras</h1>
             <p>Aqui estão todos os produtos que foram adicionados à sua sacola.</p>
 
+            <!-- Produto 1 -->
             <div class="item-carrinho">
                 <span class="botao-remover">X</span>
                 <img src="imagens/carrinhochoco.png" alt="Cupcake de Chocolate">
@@ -55,6 +63,7 @@
                 </div>
             </div>
 
+            <!-- Produto 2 -->
             <div class="item-carrinho">
                 <span class="botao-remover">X</span>
                 <img src="imagens/carrinhomaca.png" alt="Macaron de Framboesa">
@@ -71,6 +80,7 @@
                 </div>
             </div>
 
+            <!-- Produto 3 -->
             <div class="item-carrinho">
                 <span class="botao-remover">X</span>
                 <img src="imagens/carrinhomor.png" alt="Cupcake de Morango">
@@ -102,12 +112,15 @@
             <p class="frete">Frete: <span class="gratis">Grátis</span></p>
             <p class="total">Total: <strong>R$36,00</strong></p>
 
-            <a href="identificacao.html" class="botao-comprar">Comprar</a>
+            <a href="compra.html" class="botao-comprar">Comprar</a>
             <a href="produtos.html" class="botao-continuar">Continuar Comprando</a>
         </aside>
-    </main>
 
-    <img src="imagens/footer3.png" alt="Ofertas Doces" class="fundo-footer-ofertas">
+    </main>
+    
+
+    <!-- FOOTER INÍCIO -->
+    <img src="imagens/footer3.png" alt="Ofertas Doces" class="fundo-footer-ofertas" />
 
     <footer>
         <img src="imagens/footerrosa.png" alt="granulados" class="granulado-footer" />
@@ -116,23 +129,21 @@
 
         <div class="conteudo-footer">
             <div class="coluna">
-                <p>
-                    Sweet Candy é um universo de sabores! Nossas cores e doces encantam. Tudo feito com muito carinho direto do fundo do coração do açúcar do mundo.
-                </p>
+                <p>Sweet Candy é um universo de sabores! Nossas cores e doces encantam. Tudo feito com muito carinho direto do fundo do coração do açúcar do mundo.</p>
                 <div class="social">
-                    <img src="imagens/insta.png" alt="Instagram">
-                    <img src="imagens/google1.png" alt="Google">
-                    <img src="imagens/x.png" alt="X">
+                    <img src="imagens/insta.png" alt="Instagram" />
+                    <img src="imagens/google1.png" alt="Google" />
+                    <img src="imagens/x.png" alt="X" />
                 </div>
             </div>
 
             <section class="coluna">
                 <h2>Links úteis</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="FAQ.html">Ajuda</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="home.html#sobre-nos">Sobre Nós</a></li>
                 </ul>
             </section>
 
@@ -146,10 +157,10 @@
             <section class="coluna">
                 <h2>Legal</h2>
                 <ul>
-                    <li><a href="#">Política</a></li>
-                    <li><a href="#">Cookies</a></li>
-                    <li><a href="#">Suporte</a></li>
-                    <li><a href="#">Licença</a></li>
+                    <li><a href="politicas.html">Política</a></li>
+                    <li><a href="erro.html">Cookies</a></li>
+                    <li><a href="erro.html">Suporte</a></li>
+                    <li><a href="termodeuso.html">Termos</a></li>
                 </ul>
             </section>
         </div>
@@ -162,6 +173,8 @@
                     <img src="imagens/PayPal.png" alt="PayPal" />
                     <img src="imagens/Mastercard.png" alt="Mastercard" />
                     <img src="imagens/GooglePay.png" alt="Google Pay" />
+                    <img src="imagens/pix.png" alt="Pix" />
+                    <img src="imagens/boleto.png" alt="Boleto" />
                 </div>
             </div>
         </div>
@@ -169,3 +182,7 @@
 
 </body>
 </html>
+
+
+
+

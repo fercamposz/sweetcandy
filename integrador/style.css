@@ -2390,14 +2390,14 @@ main.fundo {
   margin: 0;
 }
 
-.preco-antigo {
+.preco-antigo2 {
   text-decoration: line-through;
   color: #888;
   font-size: 14px;
   margin: 0;
 }
 
-.preco-novo {
+.preco-novo2 {
   color: #a31611;
   font-weight: bold;
   font-size: 16px;
@@ -2556,6 +2556,13 @@ main.fundo {
   font-size: 3rem;
 }
 
+.produtos-carrinho h2 {
+  color: #a31611 !important;
+  font-family: "Baloo", cursive;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
 .item-carrinho {
   display: flex;
   position: relative;
@@ -2576,18 +2583,18 @@ main.fundo {
   font-family: "Baloo", cursive;
   font-size: 18px;
   color: #a31611;
-  margin: 0 0 5px 0;
-  margin-left: 10rem;
+  margin: 0;
+  margin-left: 10rem !important;
 }
 
-.preco-antigo {
+.preco-antigo1 {
   text-decoration: line-through;
   color: #888;
   font-size: 14px;
   margin-bottom: 3px;
 }
 
-.preco-atual {
+.preco-atual1 {
   color: #a31611;
   font-size: 16px;
 }
@@ -2644,6 +2651,7 @@ main.fundo {
   text-decoration: underline;
   margin-left: 10rem;
 }
+
 
 .resumo-carrinho {
   flex: 1;
@@ -2809,7 +2817,7 @@ main.fundo {
 .resumo-pedido p {
   display: flex;
   justify-content: space-between;
-  margin: 5px 0;
+  margin: 25px 0;
   color: #a31611;
 }
 
@@ -2826,11 +2834,13 @@ main.fundo {
   background-color: #a31611;
   color: white;
   border: none;
-  padding: 12px;
+  padding: 12px 15rem;
   border-radius: 8px;
   cursor: pointer;
   width: 100%;
   margin-top: 10px;
+  text-decoration: none;
+  
 }
 
 .finalizar-compra:hover {
@@ -3228,79 +3238,118 @@ main.fundo {
 }
 
 /* ==================================================DETALHES DO PRODUTO ESCOLHIDO============================================================ */
+
 main.produto-detalhe {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 3fr;
   gap: 2rem;
   padding: 4rem 6rem;
   background-color: #f0e9ff;
+  align-items: start;
 }
 
-.inf .info-produto h2 {
+.produto-imagem-info {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.imagem-principal {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  margin-left: -8rem;
+}
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+  margin-left: -8rem;
+}
+
+.info-produto h2 {
   font-family: "Baloo", cursive;
   color: #7c76ba;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
+  margin-left: 0rem;
 }
 
 .info-produto .resumo {
   font-size: 1rem;
   color: #555;
   margin-bottom: 0.8rem;
+  margin-left: 0rem;
 }
 
-.preco-antigo {
-  text-decoration: line-through;
+.valor1 {
+  text-decoration: line-through ;
   color: #888;
-  font-size: 1rem;
+  font-size: 1.4rem!important;
+  margin-left: 0 !important;
 }
 
-.preco-novo {
-  font-size: 2rem;
+.valor2 {
+  font-size: 2.5rem!important;
   color: #a31611;
   font-weight: bold;
   margin-top: -8px;
+  margin-left: 0 !important;
 }
 
 .quantidade-produto {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  margin: 1rem 0;
-}
-
-.quantidade-produto button {
-  background-color: transparent;
-  border: 2px solid #7c76ba;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  font-size: 18px;
-  color: #7c76ba;
-  cursor: pointer;
-}
-
-.quantidade-produto span {
-  font-family: "Baloo 2", cursive;
-  font-size: 1rem;
-  color: #000;
-}
-
-.botoes {
-  display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  font-family: "Baloo 2", cursive;
 }
 
-.botoes button {
-  padding: 0.6rem 1.2rem;
-  border-radius: 20px;
-  border: 2px solid #7c76ba;
-  background-color: transparent;
-  font-family: "Baloo 2", cursive;
-  cursor: pointer;
-  color: #494949;
+.quantidade-produto label {
+  font-size: 1rem;
+  color: #7c76ba;
 }
+
+.quantidade-produto select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #7c76ba;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #494949;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Baloo 2", cursive;
+}
+
+.quantidade-produto select:focus {
+  outline: none;
+  border-color: #e1cecd;
+}
+
+.botaocomprar {
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #7c76ba;
+    background-color: transparent;
+    font-family: "Baloo 2", cursive;
+    cursor: pointer;
+    color: #494949 !important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    transition: 0.2s ease-in-out;
+    margin-left: 5rem !important;
+}
+
+.botaocomprar:hover {
+    background-color: #c3a0e9;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+
 
 .favoritar-produto {
   display: flex;
@@ -3310,10 +3359,20 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
   color: #000;
 }
+.icone-favorito.vazio {
+  width: 1.5rem;
+}
+.icone-favorito.cheio {
+  display: none;
+  width: 1.5rem;
+}
 
-.favoritar-produto img {
-  width: 20px;
-  height: 20px;
+#favoritar:checked + label .vazio {
+  display: none;
+}
+
+#favoritar:checked + label .cheio {
+  display: inline-block;
 }
 
 .garantia-pagamento {
@@ -3324,19 +3383,20 @@ main.produto-detalhe {
   font-size: 0.9rem;
   color: #494949;
   margin-bottom: 0.5rem;
+  margin-left: 0rem;
 }
 
 .formas-pagamento {
-  display: flex;
   gap: 0.5rem;
+  margin-left: 10rem;
+  margin-top: -2rem;
 }
 
 .formas-pagamento img {
-  width: 40px;
-  height: auto;
+  width: 3rem;
+  height: 2rem;
 }
 
-/* ===== GALERIA LATERAL ===== */
 .galeria-imagens {
   display: flex;
   flex-direction: column;
@@ -3344,8 +3404,8 @@ main.produto-detalhe {
 }
 
 .galeria-imagens img {
-  width: 140px;
-  height: 140px;
+  width: 138px;
+  height: 138px;
   object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
@@ -3363,7 +3423,6 @@ main.produto-detalhe {
   margin-left: -8rem;
 }
 
-/* ===== DESCRIÇÃO E TABELA NUTRICIONAL ===== */
 .descricao-produto {
   display: flex;
   justify-content: space-between;
@@ -3417,12 +3476,12 @@ main.produto-detalhe {
 
 .ingredientes-lista li img {
   width: 20px;
-  height: 20px;
+  height: 25px;
 }
 
 .linha-icone-beneficios {
   display: flex;
-  justify-content: center;
+  margin-left: 43rem;
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -3437,4 +3496,176 @@ main.produto-detalhe {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
+}
+
+.avaliacoes-produto {
+  background-color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 15px;
+  margin: 4rem auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: "Baloo 2", cursive;
+}
+
+.avaliacoes-produto h2 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.avaliacao {
+  border-bottom: 1px solid #ffd8e7;
+  padding: 1rem 0;
+}
+
+.avaliacao:last-child {
+  border-bottom: none;
+}
+
+.avaliacao p {
+  margin: 0.4rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+.popup-carrinho {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #a31611;
+    padding: 1.5rem 2rem;
+    border: 3px solid #a31611;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    z-index: 999;
+    display: none;
+}
+
+.popup-carrinho p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+   margin-right: 10rem;
+}
+
+.popup-carrinho label {
+    background-color: #a31611;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+
+#popup-carrinho:checked ~ .popup-carrinho {
+    display: block;
+}
+
+.botao-estilo {
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #7c76ba;
+    background-color: transparent;
+    font-family: "Baloo 2", cursive;
+    cursor: pointer;
+    color: #494949;
+    display: inline-block;
+    text-align: center;
+}
+/* =============================senha pop================================ */
+.popup-recuperar {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: #ffd8e7;
+    border: 3px solid #a31611;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    z-index: 999;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup-recuperar p {
+    color: #a31611;
+    font-family: "Baloo 2", cursive;
+    margin-bottom: 1rem;
+}
+
+.popup-recuperar input {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+    font-family: "Baloo 2", cursive;
+}
+
+.botao-popup {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #a31611;
+    color: white;
+    border-radius: 8px;
+    font-family: "Baloo 2", cursive;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* Mostrar o popup quando o checkbox estiver marcado */
+#popup-recuperar:checked ~ .popup-recuperar {
+    display: block;
+}
+
+.link-recuperar {
+    color: #a31611;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: "Baloo 2", cursive;
+}
+
+.link-recuperar:hover {
+    color: #7b0d0d;
+}
+
+/* ==tira linha dos links======== */
+.filtros-categorias a {
+    text-decoration: none;
+}
+
+.itens-populares a {
+    text-decoration: none;
+}
+
+.info-beneficios a {
+  text-decoration: none;
+  color: #212121;
+}
+
+
+/* ==================barra d pesquisa======== */
+.barra-pesquisa {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 25rem;
+}
+
+.barra-pesquisa input {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #a31911;
+    font-family: "Baloo 2", cursive;
+    width: 200px;
+}
+
+.barra-pesquisa button:hover {
+    background-color: #505050;
 }

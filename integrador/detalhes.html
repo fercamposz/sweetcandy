@@ -2,83 +2,116 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cupcake de Brigadeiro - SweetCandy</title>
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="roxo">
 
+    <!-- NAV BAR INÍCIO -->
     <header class="topo">
         <img src="imagens/navroxo.png" class="granulado-topo" alt="Fundo com granulados" />
         <nav class="nav-central">
             <ul class="nav-links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="produtos.html">Shop</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="FAQ.html">Ajuda</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="home.html#sobre-nos">Sobre Nós</a></li>
+                <li><a href="local.html">Local</a></li>
             </ul>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="Buscar produtos...">
+            </div>
             <div class="nav-logo">
                 <a href="home.html"><img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" /></a>
             </div>
             <div class="nav-icons">
-                <a href="perfil.html"><img src="imagens/perfil.png" alt="Perfil" /></a>
+                <a href="meusDados.html"><img src="imagens/perfil.png" alt="Perfil" /></a>
                 <a href="favoritos.html"><img src="imagens/favoritos.png" alt="Favoritos" /></a>
                 <a href="carrinho.html"><img src="imagens/carrinho.png" alt="Carrinho" /></a>
-                <a href="#" class="botao-contato">Entre em contato</a>
+                <a href="contato.html" class="botao-contato">Entre em contato</a>
             </div>
         </nav>
     </header>
+    <!-- NAV BAR FIM -->
 
+    <!-- MAIN PRODUTO DETALHE INÍCIO -->
     <main class="produto-detalhe">
 
+        <!-- MINIATURAS PRODUTO INÍCIO -->
         <section class="galeria-imagens">
             <img src="imagens/cup2detalhes.png" class="thumb" alt="Imagem 1">
             <img src="imagens/cup3detalhes.png" class="thumb" alt="Imagem 2">
             <img src="imagens/cup4detalhes.png" class="thumb" alt="Imagem 3">
         </section>
+        <!-- MINIATURAS PRODUTO FIM -->
 
-        <section class="imagem-principal">
-            <img src="imagens/cupddetalhes.png" alt="Cupcake de Brigadeiro">
-        </section>
+        <!-- IMAGEM PRINCIPAL + INFOS INÍCIO -->
+        <section class="produto-imagem-info">
 
-        <section class="info-produto">
-            <h2>Cupcake De Brigadeiro</h2>
-            <p class="resumo">Delicioso cupcake com cobertura cremosa de brigadeiro.</p>
-            <p class="preco-antigo">R$20,00</p>
-            <p class="preco-novo">R$15,00</p>
+            <section class="imagem-principal">
+                <img src="imagens/cupddetalhes.png" alt="Cupcake de Brigadeiro">
+            </section>
 
-            <div class="quantidade-produto">
-                <button>-</button>
-                <span>01</span>
-                <button>+</button>
-            </div>
+            <section class="info-produto">
+                <h2>Cupcake De Brigadeiro</h2>
+                <p class="resumo">Delicioso cupcake com cobertura cremosa de brigadeiro.</p>
+                <p class="valor1">R$20,00</p>
+                <p class="valor2">R$15,00</p>
 
-            <div class="botoes">
-                <button>Adicionar ao Carrinho</button>
-                <button>Comprar Agora</button>
-            </div>
-
-            <div class="favoritar-produto">
-                <img src="imagens/heart.png" alt="Coração Favoritos">
-                <span>Adicionar Aos Favoritos</span>
-            </div>
-
-            <div class="garantia-pagamento">
-                <p>Garantia de segurança</p>
-                <div class="formas-pagamento">
-                    <img src="imagens/visa.png" alt="Visa">
-                    <img src="imagens/mastercard.png" alt="Mastercard">
-                    <img src="imagens/pix.png" alt="Pix">
-                    <img src="imagens/googlepay.png" alt="Google Pay">
+                <!-- QUANTIDADE PRODUTO -->
+                <div class="quantidade-produto">
+                    <label for="quantidade">Quantidade:</label>
+                    <select id="quantidade" name="quantidade">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                    </select>
                 </div>
-            </div>
+
+                <!-- BOTÕES DE COMPRA -->
+                <div class="botoes">
+                    <label for="popup-carrinho" class="botao-carrinho botao-estilo">Adicionar ao Carrinho</label>
+                    <a href="carrinho.html" class="botaocomprar">Comprar</a>
+                </div>
+
+                <input type="checkbox" id="popup-carrinho" hidden>
+                <div class="popup-carrinho">
+                    <p>Produto adicionado ao carrinho!</p>
+                    <label for="popup-carrinho">OK</label>
+                </div>
+
+                <!-- FAVORITAR PRODUTO -->
+                <input type="checkbox" id="favoritar" hidden>
+                <label for="favoritar" class="favoritar-produto">
+                    <img src="imagens/heart.png" alt="Coração vazio" class="icone-favorito vazio">
+                    <img src="imagens/heart1.png" alt="Coração cheio" class="icone-favorito cheio">
+                    <span>Adicionar aos Favoritos</span>
+                </label>
+
+                <!-- GARANTIA E FORMAS DE PAGAMENTO -->
+                <div class="garantia-pagamento">
+                    <p>Garantia de segurança</p>
+                    <div class="formas-pagamento">
+                        <img src="imagens/visa.png" alt="Visa">
+                        <img src="imagens/mastercard.png" alt="Mastercard">
+                        <img src="imagens/pix.png" alt="Pix">
+                        <img src="imagens/googlepay.png" alt="Google Pay">
+                    </div>
+                </div>
+            </section>
         </section>
+        <!-- IMAGEM PRINCIPAL + INFOS FIM -->
 
     </main>
+    <!-- MAIN PRODUTO DETALHE FIM -->
 
+    <!-- DESCRIÇÃO + INGREDIENTES + BENEFÍCIOS INÍCIO -->
     <section class="descricao-produto">
         <div class="texto-descricao">
             <h3>Descrição:</h3>
@@ -103,12 +136,11 @@
                 <div class="beneficios-lista">
                     <h3>Benefícios Para Sua Saúde</h3>
                     <p>Fonte De Fibras Que Ajudam Na Saciedade<br>
-                    Ingredientes Naturais E Nutritivos<br>
-                    Sem Glúten E Sem Lactose<br>
-                    Açúcar Do Bem (não Refinado)<br>
-                    Rico Em Antioxidantes Do Cacau</p>
+                        Ingredientes Naturais E Nutritivos<br>
+                        Sem Glúten E Sem Lactose<br>
+                        Açúcar Do Bem (não Refinado)<br>
+                        Rico Em Antioxidantes Do Cacau</p>
                 </div>
-
             </div>
 
             <div class="linha-icone-beneficios">
@@ -123,35 +155,128 @@
             <img src="imagens/informaçoes nutricionais.png" alt="Tabela Nutricional">
         </div>
     </section>
+    <!-- DESCRIÇÃO + INGREDIENTES + BENEFÍCIOS FIM -->
 
+    <!-- CARDÁPIO OUTROS PRODUTOS INÍCIO -->
     <section class="cardapio1">
         <h2>Nosso Cardápio</h2>
         <div class="produtos1">
             <article class="produto1">
                 <img src="imagens/frutasdetalhes.png" alt="Cupcake de frutas vermelhas">
                 <h3>Cupcake de frutas vermelhas</h3>
-                <p>A Partir De 10R$</p>
+                <p>A partir de R$10,00</p>
                 <button>Pedir</button>
             </article>
             <article class="produto1">
                 <img src="imagens/donutsdetalhes.png" alt="Donuts de redvelvet">
                 <h3>Donuts de redvelvet</h3>
-                <p>A Partir De 10R$</p>
+                <p>A partir de R$10,00</p>
                 <button>Pedir</button>
             </article>
             <article class="produto1">
                 <img src="imagens/cheesedetalhes.png" alt="Cheesecake de morango">
                 <h3>Cheesecake de morango</h3>
-                <p>A Partir De 10R$</p>
+                <p>A partir de R$10,00</p>
                 <button>Pedir</button>
             </article>
         </div>
-        <div class="paginacao">
-            <span class="ativo"></span>
-            <span></span>
-            <span></span>
+    </section>
+    <!-- CARDÁPIO OUTROS PRODUTOS FIM -->
+
+    <!-- AVALIAÇÕES CLIENTES INÍCIO -->
+    <section class="avaliacoes-produto">
+        <h2>Avaliações de Clientes</h2>
+
+        <div class="avaliacao">
+            <p><strong>Fernanda S.</strong></p>
+            <p>⭐️⭐️⭐️⭐️⭐️</p>
+            <p>O melhor cupcake que já comi! Doce na medida certa e entrega rápida.</p>
+        </div>
+
+        <div class="avaliacao">
+            <p><strong>Lucas M.</strong></p>
+            <p>⭐️⭐️⭐️⭐️</p>
+            <p>Gostei bastante, o sabor de brigadeiro é bem intenso!</p>
+        </div>
+
+        <div class="avaliacao">
+            <p><strong>Ana P.</strong></p>
+            <p>⭐️⭐️⭐️⭐️⭐️</p>
+            <p>Entrega super rápida e o cupcake veio bem embalado. Recomendo muito!</p>
+        </div>
+
+         <div class="avaliacao">
+            <p><strong>Thiago M.</strong></p>
+            <p>⭐️⭐️⭐️⭐️</p>
+            <p>Gostoso demais!</p>
+        </div>
+
+        <div class="avaliacao">
+            <p><strong>Nylmar S.</strong></p>
+            <p>⭐️⭐️⭐️⭐️⭐️</p>
+            <p>Melhor cupcake do planeta!!</p>
         </div>
     </section>
+    <!-- AVALIAÇÕES CLIENTES FIM -->
+
+    <!-- FOOTER INÍCIO -->
+    <footer>
+        <img src="imagens/footerroxo.png" alt="granulados" class="granulado-footer" />
+        <img src="imagens/footermacaron.png" alt="Macarons coloridos" class="macaron" />
+        <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" class="logo-footer" />
+
+        <div class="conteudo-footer">
+            <div class="coluna">
+                <p>Sweet Candy é um universo de sabores! Nossas cores e doces encantam. Tudo feito com muito carinho direto do fundo do coração do açúcar do mundo.</p>
+                <div class="social">
+                    <img src="imagens/insta.png" alt="Instagram" />
+                    <img src="imagens/google1.png" alt="Google" />
+                    <img src="imagens/x.png" alt="X" />
+                </div>
+            </div>
+
+            <section class="coluna">
+                <h2>Links úteis</h2>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="FAQ.html">Ajuda</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="home.html#sobre-nos">Sobre Nós</a></li>
+                </ul>
+            </section>
+
+            <section class="coluna2">
+                <h2>Contato</h2>
+                <p><img src="imagens/email1.png" alt="Email"> contato@sweetcandy.com</p>
+                <p><img src="imagens/local.png" alt="Localização"> Campinas - SP</p>
+                <p><img src="imagens/contato.png" alt="Telefone"> (19) 99999-9999</p>
+            </section>
+
+            <section class="coluna">
+                <h2>Legal</h2>
+                <ul>
+                    <li><a href="politicas.html">Política</a></li>
+                    <li><a href="erro.html">Cookies</a></li>
+                    <li><a href="erro.html">Suporte</a></li>
+                    <li><a href="termodeuso.html">Termos</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="copy1">
+            <div class="copy-conteudo">
+                <p>© 2025 Sweet Candy - Adoçando seus melhores momentos</p>
+                <div class="bandeiras">
+                    <img src="imagens/Visa.png" alt="Visa" />
+                    <img src="imagens/PayPal.png" alt="PayPal" />
+                    <img src="imagens/Mastercard.png" alt="Mastercard" />
+                    <img src="imagens/GooglePay.png" alt="Google Pay" />
+                    <img src="imagens/pix.png" alt="Pix" />
+                    <img src="imagens/boleto.png" alt="Boleto" />
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
