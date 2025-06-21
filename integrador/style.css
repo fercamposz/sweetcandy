@@ -1213,7 +1213,7 @@ body.produto {
 }
 
 ::placeholder {
-  color: #a8a3d8;
+  color: #717171;
   font-family: "Baloo", cursive;
 }
 
@@ -2579,12 +2579,12 @@ main.fundo {
   margin-right: 25px;
 }
 
-.info-produto h2 {
+.info-produto1 h2 {
   font-family: "Baloo", cursive;
   font-size: 18px;
   color: #a31611;
   margin: 0;
-  margin-left: 10rem !important;
+  margin-left: 0rem;
 }
 
 .preco-antigo1 {
@@ -2599,7 +2599,7 @@ main.fundo {
   font-size: 16px;
 }
 
-.quantidade {
+.quantidade1 {
   display: flex;
   align-items: center;
   margin-top: 8px;
@@ -2609,7 +2609,7 @@ main.fundo {
   margin-left: 10rem;
 }
 
-.quantidade button {
+.quantidade1 button {
   background-color: transparent;
   border: 1px solid #a31611;
   color: #a31611;
@@ -2619,7 +2619,7 @@ main.fundo {
   transition: 0.2s;
 }
 
-.quantidade button:hover {
+.quantidade1 button:hover {
   background-color: #a31611;
   color: white;
 }
