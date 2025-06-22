@@ -1,442 +1,441 @@
 body {
-    margin: 0;
-    display: flex;
-    font-family: 'Baloo 2', cursive;
-    background-color: #FFD8E7;
-    height: 100vh;
+  margin: 0;
+  display: flex;
+  font-family: "Baloo 2", cursive;
+  background-color: #ffd8e7;
+  height: 100vh;
 }
 
 .sidebar {
-    width: 220px;
-    background-color: #FFA1C3;
-    padding: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  width: 220px;
+  background-color: #ffa1c3;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .sidebar .logo img {
-    width: 150px;
-    margin: 0 auto 1rem;
-    display: block;
+  width: 150px;
+  margin: 0 auto 1rem;
+  display: block;
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .sidebar ul li {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .sidebar ul li a {
-    color: #A31611;
-    text-decoration: none;
-    padding: 0.8rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  color: #a31611;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .sidebar ul li.ativo a,
 .sidebar ul li a:hover {
-    background-color: #FCD8E2;
-    color: #A31611;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  background-color: #fcd8e2;
+  color: #a31611;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .sidebar ul li a img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .dashboard {
-    flex-grow: 1;
-    padding: 2rem;
-    overflow-y: auto;
+  flex-grow: 1;
+  padding: 2rem;
+  overflow-y: auto;
 }
 
 .topo-admin {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .botao-sair {
-    background-color: #A31611;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    text-decoration: none;
-    margin-left: 1rem;
+  background-color: #a31611;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
 h1 {
-    font-family: 'Baloo', cursive;
-    color: #A31611;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-family: "Baloo", cursive;
+  color: #a31611;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .status-cards {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .status-cards .card {
-    flex: 1;
-    padding: 1rem;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .status-cards .card img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 0.5rem;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0.5rem;
 }
 
 .status-cards .produtos,
 .status-cards .clientes,
 .status-cards .pedidos,
 .status-cards .receita {
-    background-color: #A8A3D8;
+  background-color: #a8a3d8;
 }
 
 .status-cards .card p {
-    margin: 0;
-    font-size: 1rem;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .status-cards .card h2 {
-    margin: 0.3rem 0 0;
-    font-size: 1.5rem;
-    font-weight: bold;
+  margin: 0.3rem 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .blocos-info {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .bloco h3 {
-    color: #A31611;
+  color: #a31611;
 }
 
 .blocos-info .bloco {
-    flex: 1;
-    background-color: white;
-    padding: 0.8rem 1rem;
-    border-radius: 10px;
-    position: relative;
+  flex: 1;
+  background-color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  position: relative;
 }
 
 .blocos-info .bloco.grafico img {
-    width: 100%;
-    margin-top: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 .blocos-info .bloco a {
-    color: #A31611;
-    font-size: 0.85rem;
-    text-decoration: none;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+  color: #a31611;
+  font-size: 0.85rem;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .ultimos-pedidos {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .ultimos-pedidos h3 {
-    color: #A31611;
-    font-family: 'Baloo', cursive;
-    font-size: 1.3rem;
-
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 1.3rem;
 }
 .ultimos-pedidos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .ultimos-pedidos ul li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
-    font-size: 0.9rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
 }
 
 .ultimos-pedidos a {
-    color: #A31611;
-    font-size: 0.85rem;
-    text-decoration: none;
-    display: block;
-    margin-top: 0.5rem;
-    text-align: right;
+  color: #a31611;
+  font-size: 0.85rem;
+  text-decoration: none;
+  display: block;
+  margin-top: 0.5rem;
+  text-align: right;
 }
 
 /* ==========produt==================== */
 .sidebar {
-    width: 220px;
-    background-color: #FFA1C3;
-    padding: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  width: 220px;
+  background-color: #ffa1c3;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .sidebar .logo img {
-    width: 150px;
-    margin: 0 auto 1rem;
-    display: block;
+  width: 150px;
+  margin: 0 auto 1rem;
+  display: block;
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .sidebar ul li {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .sidebar ul li a {
-    color: #000;
-    text-decoration: none;
-    padding: 0.8rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  color: #000;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .sidebar ul li.ativo a,
 .sidebar ul li a:hover {
-    background-color: #FCD8E2;
-    color: #A31611;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  background-color: #fcd8e2;
+  color: #a31611;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .sidebar ul li a img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .dashboard {
-    flex-grow: 1;
-    padding: 2rem;
-    overflow-y: auto;
+  flex-grow: 1;
+  padding: 2rem;
+  overflow-y: auto;
 }
 
 .topo-admin {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .botao-sair {
-    background-color: #A31611;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    text-decoration: none;
-    margin-left: 1rem;
+  background-color: #a31611;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 1rem;
 }
 
 h1 {
-    font-family: 'Baloo', cursive;
-    color: #A31611;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-family: "Baloo", cursive;
+  color: #a31611;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* ======= BOTÃO ADICIONAR ======= */
 .botao-adicionar {
-    background-color: #A31611;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    display: inline-block;
+  background-color: #a31611;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-block;
 }
 
 .botao-adicionar:hover {
-    background-color: #fc527e;
-    transition: 0.2s;
+  background-color: #fc527e;
+  transition: 0.2s;
 }
 
 /* ======= BARRA DE PESQUISA ======= */
 .barra-pesquisa input {
-    width: 100%;
-    padding: 0.7rem 1rem;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 1.5rem;
-    font-family: 'Baloo 2', cursive;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1.5rem;
+  font-family: "Baloo 2", cursive;
 }
 
 /* ======= TABELA PRODUTOS ======= */
 .tabela-produtos {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .tabela-produtos thead tr {
-    background-color: #A31611;
-    color: white;
-    text-align: left;
+  background-color: #a31611;
+  color: white;
+  text-align: left;
 }
 
 .tabela-produtos th,
 .tabela-produtos td {
-    padding: 0.8rem 1rem;
-    font-size: 0.95rem;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
 }
 
 .tabela-produtos tbody tr:nth-child(even) {
-    background-color: #fce2e8;
+  background-color: #fce2e8;
 }
 
 .tabela-produtos tbody tr img {
-    width: 40px;
-    height: 40px;
-    border-radius: 6px;
-    margin-right: 0.5rem;
-    vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 .tabela-produtos tbody td:first-child {
-    width: 40px;
+  width: 40px;
 }
 
 .tabela-produtos tbody td:nth-child(2) img {
-    vertical-align: middle;
-    margin-right: 0.5rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
 }
 
 /* ======= STATUS BADGES ======= */
 .status {
-    padding: 0.2rem 0.6rem;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .status.ativo {
-    background-color: #55cc77;
-    color: white;
+  background-color: #55cc77;
+  color: white;
 }
 
 .status.esgotando {
-    background-color: #FFD43B;
-    color: #A31611;
+  background-color: #ffd43b;
+  color: #a31611;
 }
 
 .status.inativo {
-    background-color: #999;
-    color: white;
+  background-color: #999;
+  color: white;
 }
 
 /* ======= BOTÕES DE AÇÃO ======= */
 .botao {
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    color: white;
-    font-family: 'Baloo 2', cursive;
-    cursor: pointer;
-    font-size: 0.85rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  font-size: 0.85rem;
 }
 
 .botao.editar {
-    background-color: #A31611;
+  background-color: #a31611;
 }
 
 .botao.remover {
-    background-color: #d92020;
+  background-color: #d92020;
 }
 
 .botao.editar:hover {
-    background-color: #fc527e;
-    transition: 0.2s;
+  background-color: #fc527e;
+  transition: 0.2s;
 }
 
 .botao.remover:hover {
-    background-color: #ff5a5a;
-    transition: 0.2s;
+  background-color: #ff5a5a;
+  transition: 0.2s;
 }
 
 /* =============CLIENTES================== */
 
 /* ======= PÁGINA CLIENTES ======= */
 .titulo-clientes {
-    color: #A31611;
-    font-family: 'Baloo', cursive;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .tabela-clientes {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .tabela-clientes th {
-    background-color: #A31611;
-    color: white;
-    text-align: left;
-    padding: 0.8rem 1rem;
-    font-weight: bold;
+  background-color: #a31611;
+  color: white;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
 }
 
 .tabela-clientes td {
-    padding: 0.8rem 1rem;
-    font-size: 0.9rem;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
 }
 
 .tabela-clientes tbody tr:nth-child(even) {
-    background-color: #fce2e8;
+  background-color: #fce2e8;
 }
 
 .tabela-clientes .botao-visualizar {
-    background-color: #A31611;
-    color: white;
-    padding: 0.4rem 0.8rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-family: 'Baloo 2', cursive;
-    border: none;
-    cursor: pointer;
+  background-color: #a31611;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-family: "Baloo 2", cursive;
+  border: none;
+  cursor: pointer;
 }
 
 .tabela-clientes .botao-visualizar:hover {
-    background-color: #fc527e;
-    transition: 0.2s;
+  background-color: #fc527e;
+  transition: 0.2s;
 }

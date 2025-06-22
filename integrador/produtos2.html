@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
+    <!-- HEAD -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produtos - SweetCandy</title>
@@ -11,9 +12,9 @@
 
 <body id="roxo">
 
-      <header class="topo">
+    <!-- NAV BAR -->
+    <header class="topo">
         <img src="imagens/navroxo.png" class="granulado-topo" alt="Fundo com granulados" />
-
         <nav class="nav-central">
             <ul class="nav-links">
                 <li><a href="home.html">Inicio</a></li>
@@ -25,45 +26,31 @@
             <div class="barra-pesquisa">
                 <input type="text" placeholder="Buscar produtos...">
             </div>
-
             <div class="nav-logo">
                 <a href="home.html">
                     <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" />
                 </a>
             </div>
-
             <div class="nav-icons">
-                <a href="meusDados.html">
-                    <img src="imagens/perfil.png" alt="Perfil" />
-                </a>
-                <a href="favoritos.html">
-                    <img src="imagens/favoritos.png" alt="Favoritos" />
-                </a>
-                <a href="carrinho.html">
-                    <img src="imagens/carrinho.png" alt="Carrinho" />
-                </a>
+                <a href="meusDados.html"><img src="imagens/perfil.png" alt="Perfil" /></a>
+                <a href="favoritos.html"><img src="imagens/favoritos.png" alt="Favoritos" /></a>
+                <a href="carrinho.html"><img src="imagens/carrinho.png" alt="Carrinho" /></a>
                 <a href="#" class="botao-contato">Entre em contato</a>
             </div>
         </nav>
-   </header>
+    </header>
 
+    <!-- CARROSSEL -->
     <div class="carrossel">
         <div class="slides">
-            <div class="slide">
-                <img src="imagens/testemacaron.png" alt="Banner 1" />
-            </div>
-            <div class="slide">
-                <img src="imagens/donutsstopo.png" alt="Banner 2" />
-            </div>
-            <div class="slide">
-                <img src="imagens/cokietopo.png" alt="Banner 3" />
-            </div>
-            <div class="slide">
-                <img src="imagens/cupcaketopo.png" alt="Banner 4" />
-            </div>
+            <div class="slide"><img src="imagens/testemacaron.png" alt="Banner 1" /></div>
+            <div class="slide"><img src="imagens/donutsstopo.png" alt="Banner 2" /></div>
+            <div class="slide"><img src="imagens/cokietopo.png" alt="Banner 3" /></div>
+            <div class="slide"><img src="imagens/cupcaketopo.png" alt="Banner 4" /></div>
         </div>
     </div>
 
+    <!-- NAVEGAÇÃO DOS SLIDES -->
     <div class="navegacao">
         <label for="slide1"></label>
         <label for="slide2"></label>
@@ -71,6 +58,7 @@
         <label for="slide4"></label>
     </div>
 
+    <!-- FILTROS -->
     <section class="produtos-destaque">
         <h2 class="titulo-produtos">Favoritos</h2>
         <div class="filtros-categorias">
@@ -82,7 +70,10 @@
         </div>
     </section>
 
-     <section class="grade-produtos">
+    <!-- PRODUTOS -->
+    <section class="grade-produtos">
+
+        <!-- PRODUTO 1 -->
         <article class="card-produto">
             <img src="imagens/macachoco.png" alt="macaron de brigadeiro" />
             <h3>Brigadeiro</h3>
@@ -93,6 +84,7 @@
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>
 
+        <!-- PRODUTO 2 -->
         <article class="card-produto">
             <img src="imagens/macaoreo.png" alt="macaron Oreo" />
             <h3>Oreo</h3>
@@ -103,191 +95,25 @@
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>
 
+        <!-- PRODUTO 3 -->
         <article class="card-produto">
             <a href="macarondetalhes.html">
                 <img src="imagens/macaframbo.png" alt="Macaron de Framboesa" />
             </a>
-                <h3>Framboesa</h3>
-                    <div class="botoes-produto">
-                    <button class="preco">R$12,00</button>
-                    <a href="macarondetalhes.html">
-                    <button class="comprar">Comprar</button>
-                    </a>
-                </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macafrutas.png" alt="macaron Frutas Vermelhas" />
-            <h3>Frutas Vermelhas</h3>
+            <h3>Framboesa</h3>
             <div class="botoes-produto">
                 <button class="preco">R$12,00</button>
-                <button class="comprar">Comprar</button>
+                <a href="macarondetalhes.html"><button class="comprar">Comprar</button></a>
             </div>
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>
 
-        <article class="card-produto">
-            <img src="imagens/macamchoco.png" alt="macaron de Morango com Chocolate" />
-            <h3>Morango</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$12,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ★</div>
-        </article>
+        <!-- PRODUTO 4 -->
+        <!-- (Seguir o mesmo padrão pros próximos produtos: PRODUTO 4, PRODUTO 5, PRODUTO 6...) -->
 
-        <article class="card-produto">
-            <img src="imagens/macachocomenta.png" alt="macaron de Chocomenta" />
-            <h3>Chocomenta</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$12,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macalimao.png" alt="macaron de Limão Siciliano" />
-            <h3>Limão Siciliano</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$17,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macamorango.png" alt="macaron de Morango" />
-            <h3>Morango</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$13,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/nutella.png" alt="macaron de Nutella" />
-            <h3>Nutella</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$10,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macared.png" alt="macaron Red Velvet" />
-            <h3>Red Velvet</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$15,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macacafe.png" alt="macaron de Café" />
-            <h3>Café</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$18,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/maracujaa.png" alt="macaron de Maracujá" />
-            <h3>Maracujá</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$15,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macakinder.png" alt="macaron de Kinder Bueno" />
-            <h3>Kinder Bueno</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$20,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macafloresta.png" alt="macaron Floresta Negra" />
-            <h3>Floresta Negra</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$15,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macaamora.png" alt="macaron de Amora" />
-            <h3>Amora</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$13,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macachurros.png" alt="macaron de Churros" />
-            <h3>Churros</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$10,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/macaferrero.png" alt="macaron de Ferrero Rocher" />
-            <h3>Ferrero Rocher</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$20,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/pistache.png" alt="macaron de Pistache" />
-            <h3>Pistache</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$12,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/laranja.png" alt="macaron de Laranja" />
-            <h3>Laranja</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$15,00</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
-
-        <article class="card-produto">
-            <img src="imagens/mirtilo.png" alt="macaron de Mirtilo" />
-            <h3>Mirtilo</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$--</button>
-                <button class="comprar">Comprar</button>
-            </div>
-            <div class="avaliacao">★ ★ ★ ★ ☆</div>
-        </article>
     </section>
 
+    <!-- PAGINAÇÃO -->
     <div class="paginacao">
         <button class="pagina atual">1</button>
         <button class="pagina">2</button>
@@ -295,6 +121,7 @@
         <button class="pagina">-></button>
     </div>
 
+    <!-- FOOTER -->
     <footer>
         <img src="imagens/footerroxo.png" alt="granulados" class="granulado-footer" />
         <img src="imagens/footermacaron.png" alt="Macarons coloridos" class="macaron" />

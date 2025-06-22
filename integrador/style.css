@@ -2588,8 +2588,8 @@ main.fundo {
 }
 
 .preco-antigo1 {
-  text-decoration: line-through ;
-  color: #888 ;
+  text-decoration: line-through;
+  color: #888;
   font-size: 14px;
   margin-bottom: 3px;
 }
@@ -2651,7 +2651,6 @@ main.fundo {
   text-decoration: underline;
   margin-left: 10rem;
 }
-
 
 .resumo-carrinho {
   flex: 1;
@@ -2840,7 +2839,6 @@ main.fundo {
   width: 100%;
   margin-top: 10px;
   text-decoration: none;
-  
 }
 
 .finalizar-compra:hover {
@@ -3284,14 +3282,14 @@ main.produto-detalhe {
 }
 
 .valor1 {
-  text-decoration: line-through ;
+  text-decoration: line-through;
   color: #888;
-  font-size: 1.4rem!important;
+  font-size: 1.4rem !important;
   margin-left: 0 !important;
 }
 
 .valor2 {
-  font-size: 2.5rem!important;
+  font-size: 2.5rem !important;
   color: #a31611;
   font-weight: bold;
   margin-top: -8px;
@@ -3328,28 +3326,25 @@ main.produto-detalhe {
 }
 
 .botaocomprar {
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    border: 2px solid #7c76ba;
-    background-color: transparent;
-    font-family: "Baloo 2", cursive;
-    cursor: pointer;
-    color: #494949 !important;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none !important;
-    transition: 0.2s ease-in-out;
-    margin-left: 5rem !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #7c76ba;
+  background-color: transparent;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  color: #494949 !important;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none !important;
+  transition: 0.2s ease-in-out;
+  margin-left: 5rem !important;
 }
 
 .botaocomprar:hover {
-    background-color: #c3a0e9;
-    color: white;
-    transform: scale(1.05);
+  background-color: #c3a0e9;
+  color: white;
+  transform: scale(1.05);
 }
-
-
-
 
 .favoritar-produto {
   display: flex;
@@ -3530,119 +3525,118 @@ main.produto-detalhe {
   font-size: 1rem;
 }
 .popup-carrinho {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    color: #a31611;
-    padding: 1.5rem 2rem;
-    border: 3px solid #a31611;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-    font-family: 'Baloo 2', cursive;
-    text-align: center;
-    z-index: 999;
-    display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: #a31611;
+  padding: 1.5rem 2rem;
+  border: 3px solid #a31611;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Baloo 2", cursive;
+  text-align: center;
+  z-index: 999;
+  display: none;
 }
 
 .popup-carrinho p {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-   margin-right: 10rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-right: 10rem;
 }
 
 .popup-carrinho label {
-    background-color: #a31611;
-    color: white;
-    padding: 0.5rem 1.2rem;
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: 'Baloo 2', cursive;
+  background-color: #a31611;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Baloo 2", cursive;
 }
 
 #popup-carrinho:checked ~ .popup-carrinho {
-    display: block;
+  display: block;
 }
 
 .botao-estilo {
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    border: 2px solid #7c76ba;
-    background-color: transparent;
-    font-family: "Baloo 2", cursive;
-    cursor: pointer;
-    color: #494949;
-    display: inline-block;
-    text-align: center;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #7c76ba;
+  background-color: transparent;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  color: #494949;
+  display: inline-block;
+  text-align: center;
 }
 /* =============================senha pop================================ */
 .popup-recuperar {
-    display: none;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-    background-color: #ffd8e7;
-    border: 3px solid #a31611;
-    border-radius: 10px;
-    padding: 2rem;
-    text-align: center;
-    z-index: 999;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color: #ffd8e7;
+  border: 3px solid #a31611;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .popup-recuperar p {
-    color: #a31611;
-    font-family: "Baloo 2", cursive;
-    margin-bottom: 1rem;
+  color: #a31611;
+  font-family: "Baloo 2", cursive;
+  margin-bottom: 1rem;
 }
 
 .popup-recuperar input {
-    padding: 0.6rem 1rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 1rem;
-    font-family: "Baloo 2", cursive;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  font-family: "Baloo 2", cursive;
 }
 
 .botao-popup {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #a31611;
-    color: white;
-    border-radius: 8px;
-    font-family: "Baloo 2", cursive;
-    cursor: pointer;
-    text-align: center;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #a31611;
+  color: white;
+  border-radius: 8px;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  text-align: center;
 }
-
 
 /* Mostrar o popup quando o checkbox estiver marcado */
 #popup-recuperar:checked ~ .popup-recuperar {
-    display: block;
+  display: block;
 }
 
 .link-recuperar {
-    color: #a31611;
-    cursor: pointer;
-    text-decoration: underline;
-    font-family: "Baloo 2", cursive;
+  color: #a31611;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Baloo 2", cursive;
 }
 
 .link-recuperar:hover {
-    color: #7b0d0d;
+  color: #7b0d0d;
 }
 
 /* ==tira linha dos links======== */
 .filtros-categorias a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .itens-populares a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .info-beneficios a {
@@ -3650,22 +3644,21 @@ main.produto-detalhe {
   color: #212121;
 }
 
-
 /* ==================barra d pesquisa======== */
 .barra-pesquisa {
-    display: flex;
-    gap: 0.5rem;
-    margin-left: 25rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 25rem;
 }
 
 .barra-pesquisa input {
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 2px solid #a31911;
-    font-family: "Baloo 2", cursive;
-    width: 200px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #a31911;
+  font-family: "Baloo 2", cursive;
+  width: 200px;
 }
 
 .barra-pesquisa button:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
