@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 
-.granulado-topo {
+.granuladoTopo {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -22,7 +22,7 @@ body {
   z-index: 0;
 }
 
-.nav-central {
+.navCentral {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -41,17 +41,17 @@ body {
 }
 
 /* ==================logo ============*/
-.nav-logo {
+.navLogo {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.nav-logo img {
+.navLogo img {
   height: 220px;
 }
 
-.nav-links {
+.navLinks {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -59,25 +59,25 @@ body {
   padding: 0;
 }
 
-.nav-links li a {
+.navLinks li a {
   text-decoration: none;
   color: #a31911;
   font-family: "Baloo 2", cursive;
   font-weight: bold;
 }
 
-.nav-icons {
+.navIcons {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-.nav-icons img {
+.navIcons img {
   width: 22px;
   height: 22px;
 }
 
-.botao-contato {
+.botaoContato {
   background-color: #a31911;
   color: white;
   padding: 0.4rem 1rem;
@@ -114,7 +114,7 @@ main.fundo {
   z-index: 1;
 }
 
-.decoracao.esquerda {
+.decoracaoEsquerda {
   position: absolute;
   bottom: -210px;
   left: 50px;
@@ -122,7 +122,7 @@ main.fundo {
   z-index: -1;
 }
 
-.decoracao.direita {
+.decoracaoDireita {
   position: absolute;
   top: -10%;
   right: 0px;
@@ -152,7 +152,7 @@ main.fundo {
   margin-bottom: -25px;
 }
 
-.botao-social {
+.botaoSocial {
   background: #ffffff;
   border: none;
   padding: 0.8rem;
@@ -168,7 +168,7 @@ main.fundo {
   max-width: 500px;
 }
 
-.botao-social img {
+.botaoSocial img {
   width: 24px;
   height: 24px;
 }
@@ -200,7 +200,7 @@ main.fundo {
   color: #a31911;
 }
 
-.campo-input {
+.campoInput {
   background: white;
   border-radius: 50px;
   display: flex;
@@ -211,13 +211,13 @@ main.fundo {
   max-width: 370px;
 }
 
-.campo-input img {
+.campoInput img {
   width: 20px;
   height: 20px;
   margin-right: 0.5rem;
 }
 
-.campo-input input {
+.campoInput input {
   border: none;
   outline: none;
   width: 100%;
@@ -239,7 +239,7 @@ main.fundo {
   gap: 1rem;
 }
 
-.botao-social.entrar {
+.botaoSocial.entrar {
   background-color: #a31911;
   color: white;
   font-weight: bold;
@@ -247,7 +247,7 @@ main.fundo {
   font-size: 1rem;
   margin-top: 1rem;
 }
-.botao-social.entrar:hover {
+.botaoSocial.entrar:hover {
   background-color: #fc527e;
   transform: scale(1.02);
   transition: 0.2s ease-in-out;
@@ -272,13 +272,13 @@ main.fundo {
 
 /* ====== EFEITOS HOVER ====== */
 
-.botao-social:hover {
+.botaoSocial:hover {
   background-color: #ffd8e7;
   transform: scale(1.02);
   transition: 0.2s ease-in-out;
 }
 
-.campo-input input:hover {
+.campoInput input:hover {
   background-color: #faeef3;
   transition: 0.2s;
 }
@@ -296,26 +296,26 @@ main.fundo {
 }
 
 /* ==================== HOVER NOS ÍCONES DA NAV BAR =================== */
-.nav-links li a:hover {
+.navLinks li a:hover {
   color: #fc68a1;
   text-decoration: underline;
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
-.nav-logo img:hover {
+.navLogo img:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
-.nav-icons img:hover {
+.navIcons img:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
 /* ======= HOVER NO BOTÃO "ENTRE EM CONTATO" =============== */
-.botao-contato:hover {
+.botaoContato:hover {
   background-color: #fc68a1;
   color: white;
   transform: scale(1.05);
@@ -331,7 +331,7 @@ footer {
   font-family: "Baloo 2", cursive;
 }
 
-.granulado-footer {
+.granuladoFooter {
   position: absolute;
   top: 0;
   left: 0;
@@ -341,7 +341,7 @@ footer {
   z-index: 0;
 }
 
-.conteudo-footer {
+.conteudoFooter {
   position: relative;
   z-index: 1;
   display: flex;
@@ -433,7 +433,7 @@ footer {
   z-index: 1;
 }
 
-.copy-conteudo {
+.copyConteudo {
   height: 30px;
   margin-left: 0.5rem;
   display: flex;
@@ -443,14 +443,14 @@ footer {
   gap: 1rem;
 }
 
-.copy-conteudo p {
+.copyConteudo p {
   font-family: "Baloo 2", cursive;
   font-size: 0.95rem;
   margin: 0;
   color: #000000;
 }
 
-.copy-conteudo img {
+.copyConteudo img {
   height: 30px;
 }
 
@@ -470,7 +470,7 @@ footer {
   position: absolute;
 }
 
-.logo-footer {
+.logoFooter {
   width: 350px;
   height: 350px;
   margin-top: -15vh;
@@ -563,7 +563,7 @@ footer {
 
 /* =======barrinha do frete ========= */
 
-.info-beneficios {
+.infoBeneficios {
   display: flex;
   margin-top: 50px;
   justify-content: center;
@@ -604,7 +604,7 @@ footer {
 }
 
 /* ============================produtos populares ================================ */
-.fundo-populares {
+.fundoPopulares {
   position: relative;
   width: 100%;
   min-height: 700px;
@@ -615,7 +615,7 @@ footer {
   overflow: hidden;
 }
 
-.img-fundo-populares {
+.imgFundoPopulares {
   position: absolute;
   top: 0;
   left: 0;
@@ -624,7 +624,7 @@ footer {
   z-index: 0;
 }
 
-.conteudo-populares {
+.conteudoPopulares {
   position: relative;
   z-index: 1;
   max-width: 1200px;
@@ -636,7 +636,7 @@ footer {
   gap: 3rem;
 }
 
-.conteudo-populares h2 {
+.conteudoPopulares h2 {
   display: flex;
   position: absolute;
   font-family: "Baloo", cursive;
@@ -646,7 +646,7 @@ footer {
   top: 5vh;
 }
 
-.itens-populares {
+.itensPopulares {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -662,31 +662,31 @@ footer {
   height: 220px;
 }
 
-.item-cupcake img {
+.itemCupcake img {
   width: 300px;
   margin-top: -50px;
   margin-right: 450px;
 }
 
-.item-cheesecake img {
+.itemCheesecake img {
   width: 250px;
   margin-top: -50px;
   margin-right: 260px;
 }
 
-.item-donuts img {
+.itemDonuts img {
   width: 200px;
   margin-top: -30px;
   margin-right: 30px;
 }
 
-.item-cookies img {
+.itemCookies img {
   width: 250px;
   margin-top: 50px;
   margin-left: 210px;
 }
 
-.item-macaron img {
+.itemMacaron img {
   width: 180px;
   margin-top: -80px;
   margin-left: 450px;
@@ -699,33 +699,33 @@ footer {
   margin: 0;
 }
 
-.item-cupcake p {
+.itemCupcake p {
   margin-top: -20px;
   margin-right: 450px;
 }
-.item-cheesecake p {
+.itemCheesecake p {
   margin-top: 10px;
   margin-right: 260px;
 }
 
-.item-donuts p {
+.itemDonuts p {
   margin-top: 60px;
   margin-right: 30px;
 }
 
-.item-cookies p {
+.itemCookies p {
   margin-top: 35px;
   margin-left: 220px;
 }
 
-.item-macaron p {
+.itemMacaron p {
   margin-top: 47px;
   margin-left: 450px;
 }
 
 /* ========================EFEITOS HOVER NAS IMAGENS ===================================== */
 
-.itens-populares img:hover {
+.itensPopulares img:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
@@ -733,7 +733,7 @@ footer {
 
 /* =========================HOVER NAS LETRAS ============================== */
 
-.itens-populares p:hover {
+.itensPopulares p:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
   cursor: pointer;
@@ -864,10 +864,11 @@ footer {
   margin-top: 1rem;
 }
 
-.faixa-clara {
+.faixaClara {
   background-color: #ffd8e7;
   height: 250px;
 }
+
 
 /* =======================PRODUYOS======================== */
 body.produto {
@@ -1036,7 +1037,7 @@ body.produto {
 
 /* ===============================footer roxo============================= */
 .copy1 {
-  background-color: #eeecf7;
+  background-color: #EEECF7;
   width: 90%;
   margin: 0 4rem;
   padding: 1.5rem 2rem;
@@ -1105,37 +1106,37 @@ body.produto {
 }
 
 /* ====================FAQ====================================== */
-.faq-bloco {
+.faqBloco {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 20vh 20vh;
 }
 
-.faq-bloco.reverse {
+.faqBloco.reverse {
   flex-direction: row-reverse;
 }
 
-.faq-img img {
+.faqImg img {
   width: 35vw;
   max-width: 500px;
   border-radius: 20px;
   object-fit: cover;
 }
 
-.faq-conteudo {
+.faqConteudo {
   max-width: 800px;
   flex: 1;
 }
 
-.faq-conteudo h2 {
+.faqConteudo h2 {
   font-family: "Baloo", cursive;
   font-size: 2.5rem;
   color: #a31911;
   margin-bottom: 2rem;
 }
 
-.faq-lista details {
+.faqLista details {
   background-color: #fc86b1;
   border-radius: 12px;
   margin-bottom: 1rem;
@@ -1144,31 +1145,31 @@ body.produto {
   transition: 0.3s ease;
 }
 
-.faq-lista summary {
+.faqLista summary {
   font-family: "Baloo 2", cursive;
   font-size: 1rem;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   padding: 1rem 1.5rem;
   cursor: pointer;
   list-style: none;
 }
 
-.faq-lista summary::marker,
-.faq-lista summary::-webkit-details-marker {
+.faqLista summary::marker,
+.faqLista summary::-webkit-details-marker {
   display: none;
 }
 
-.faq-lista p {
+.faqLista p {
   padding: 0 1.5rem 1rem;
   font-family: "Baloo 2", cursive;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 0.95rem;
 }
 
 /* =======================AJUDA========================= */
 
-.contato-bloco {
+.contatoBloco {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1178,36 +1179,36 @@ body.produto {
   margin: 20vh 0;
 }
 
-.contato-bloco .img-ajuda img {
+.contatoBloco .imgAjuda img {
   width: 50rem;
 }
 
-.contato-conteudo {
+.contatoConteudo {
   flex: 1;
   max-width: 600px;
 }
 
-.contato-conteudo h2 {
+.contatoConteudo h2 {
   font-family: "Baloo", cursive;
   color: white;
   font-size: 3rem;
   margin-bottom: 0.2rem;
 }
 
-.contato-conteudo p {
+.contatoConteudo p {
   font-family: "Baloo 2", cursive;
   font-size: 0.8rem;
   color: white;
   margin-bottom: 1rem;
 }
 
-.contato-form {
+.contatoForm {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
 
-.contato-form .linha {
+.contatoForm .linha {
   display: flex;
   gap: 0.5rem;
 }
@@ -1217,8 +1218,8 @@ body.produto {
   font-family: "Baloo", cursive;
 }
 
-.contato-form input,
-.contato-form textarea {
+.contatoForm input,
+.contatoForm textarea {
   flex: 1;
   padding: 0.6rem 1rem;
   border: none;
@@ -1229,13 +1230,13 @@ body.produto {
   color: #a8a3d8;
 }
 
-.contato-form textarea {
+.contatoForm textarea {
   height: 100px;
   resize: none;
   color: #a8a3d8;
 }
 
-.contato-form button {
+.contatoForm button {
   align-self: flex-start;
   background-color: white;
   border: none;
@@ -1248,19 +1249,18 @@ body.produto {
   margin-top: 0.5rem;
 }
 
-.contato-form button:hover {
+.contatoForm button:hover {
   background-color: #ffe2ec;
 }
-
 /* ============================CONTATOO====================================== */
-.contato-page main {
+.contatoPage main {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
   flex-wrap: wrap;
 }
 
-.atendimento-container {
+.atendimentoContainer {
   display: flex;
   gap: 40px;
   width: 90%;
@@ -1268,31 +1268,31 @@ body.produto {
   flex-wrap: wrap;
 }
 
-.bloco-esquerdo {
+.blocoEsquerdo {
   flex: 1;
   min-width: 300px;
 }
 
-.titulo-suporte {
+.tituloSuporte {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.titulo-suporte h2 {
+.tituloSuporte h2 {
   font-size: 28px;
   color: #e34f4d;
   font-weight: bold;
 }
 
-.nossa-loja h3 {
+.nossaLoja h3 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #e34f4d;
 }
 
-.nossa-loja .info-item {
+.nossaLoja .infoItem {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -1300,31 +1300,31 @@ body.produto {
   color: black;
 }
 
-.nossa-loja .info-item img {
+.nossaLoja .infoItem img {
   width: 24px;
   height: 24px;
 }
 
-.form-contato h3 {
+.formContato h3 {
   margin-top: 30px;
   margin-bottom: 15px;
   color: #e34f4d;
   font-size: 20px;
 }
 
-.form-contato form {
+.formContato form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.form-contato .linha-inputs {
+.formContato .linhaInputs {
   display: flex;
   gap: 10px;
 }
 
-.form-contato input,
-.form-contato textarea {
+.formContato input,
+.formContato textarea {
   width: 100%;
   padding: 10px;
   border-radius: 8px;
@@ -1334,12 +1334,12 @@ body.produto {
   font-size: 15px;
 }
 
-.form-contato textarea {
+.formContato textarea {
   resize: none;
   height: 100px;
 }
 
-.form-contato button {
+.formContato button {
   background-color: #e34f4d;
   color: white;
   padding: 10px 20px;
@@ -1350,11 +1350,11 @@ body.produto {
   font-size: 16px;
 }
 
-.form-contato button:hover {
+.formContato button:hover {
   background-color: #8c1210;
 }
 
-.bloco-direito {
+.blocoDireito {
   margin-top: 10rem;
   flex: 1;
   min-width: 300px;
@@ -1365,47 +1365,47 @@ body.produto {
   font-family: "Baloo 2", cursive;
 }
 
-.bloco-direito h2 {
+.blocoDireito h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.bloco-direito p {
+.blocoDireito p {
   font-size: 14px;
   line-height: 1.4;
   margin-bottom: 20px;
 }
 
-.bloco-direito form {
+.blocoDireito form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.bloco-direito form .linha-inputs {
+.blocoDireito form .linhaInputs {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
 
-.campo-data,
-.campo-hora {
+.campoData,
+.campoHora {
   flex: 1 1 45%;
   display: flex;
   flex-direction: column;
 }
 
-.campo-data h3,
-.campo-hora h3 {
+.campoData h3,
+.campoHora h3 {
   font-size: 14px;
   margin-bottom: 5px;
   color: white;
 }
 
-.bloco-direito input[type="date"],
-.bloco-direito input[type="time"],
-.bloco-direito select {
+.blocoDireito input[type="date"],
+.blocoDireito input[type="time"],
+.blocoDireito select {
   padding: 10px;
   border-radius: 6px;
   border: 2px solid #ffd8e7;
@@ -1415,7 +1415,7 @@ body.produto {
   font-size: 14px;
 }
 
-.bloco-direito select {
+.blocoDireito select {
   appearance: none;
   background-color: #fd85b2;
   border: 2px solid #ffd8e7;
@@ -1437,7 +1437,7 @@ body.produto {
   gap: 8px;
 }
 
-.botao-verde {
+.botaoVerde {
   background-color: #73c8bd;
   color: white;
   padding: 14px 0;
@@ -1453,23 +1453,23 @@ body.produto {
   transition: 0.3s;
 }
 
-.botao-verde:hover {
+.botaoVerde:hover {
   background-color: #5abf85;
 }
 /*================================ MAPA ----------------------------------------------*/
 
-.mapa-container {
+.mapaContainer {
   position: relative;
   margin-top: 40px;
   text-align: center;
 }
 
-.mapa-container .mapa-fundo {
+.mapaContainer .mapaFundo {
   width: 100%;
   border-radius: 20px;
 }
 
-.botoes-mapa {
+.botoesMapa {
   position: absolute;
   top: 8%;
   left: 50%;
@@ -1481,19 +1481,19 @@ body.produto {
   align-items: center;
 }
 
-.botoes-mapa img {
+.botoesMapa img {
   width: 20rem;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s;
 }
 
-.botoes-mapa img:hover {
+.botoesMapa img:hover {
   transform: scale(1.05);
 }
 
 /* ===========================ERRO 404====================== */
-.pagina-404 {
+.pagina404 {
   text-align: center;
   padding: 4rem 2rem;
   font-family: "Baloo 2", cursive;
@@ -1501,23 +1501,23 @@ body.produto {
   position: relative;
 }
 
-.img-404 {
+.img404 {
   width: 70rem;
   max-width: 100%;
   margin-bottom: 2rem;
 }
 
-.pagina-404 h1 {
+.pagina404 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.pagina-404 p {
+.pagina404 p {
   font-size: 1rem;
   margin-bottom: 2rem;
 }
 
-.botao-voltar {
+.botaoVoltar {
   background-color: #a31611;
   color: white;
   padding: 0.8rem 1.5rem;
@@ -1527,14 +1527,14 @@ body.produto {
   font-weight: bold;
 }
 
-.botao-voltar:hover {
+.botaoVoltar:hover {
   background-color: #fc527e;
   transition: 0.2s ease-in-out;
 }
 
 /* ====================FOOTER COM OFERTA========================================================= */
 
-.fundo-footer-ofertas {
+.fundoFooterOfertas {
   width: 100%;
   z-index: 5;
   margin-top: 15rem;
@@ -1543,7 +1543,7 @@ body.produto {
 
 /* =================ESQUECI SENHA=============== */
 
-.form-recuperar {
+.formRecuperar {
   background-color: #ffd8e7;
   max-width: 600px;
   margin: 4rem auto;
@@ -1552,23 +1552,23 @@ body.produto {
   font-family: "Baloo 2", cursive;
 }
 
-.form-recuperar h2 {
+.formRecuperar h2 {
   color: #a31611;
   margin-bottom: 1rem;
 }
 
-.form-recuperar p {
+.formRecuperar p {
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
 }
 
-.form-recuperar label {
+.formRecuperar label {
   display: block;
   margin-bottom: 0.5rem;
   color: #a31611;
 }
 
-.form-recuperar input {
+.formRecuperar input {
   width: 100%;
   padding: 0.7rem;
   border-radius: 8px;
@@ -1577,7 +1577,7 @@ body.produto {
   font-family: "Baloo 2", cursive;
 }
 
-.form-recuperar button {
+.formRecuperar button {
   width: 100%;
   padding: 0.8rem;
   background-color: #a31611;
@@ -1588,13 +1588,13 @@ body.produto {
   cursor: pointer;
 }
 
-.form-recuperar button:hover {
+.formRecuperar button:hover {
   background-color: #d11c1c;
 }
 
 /* =================== RECUPERAR SENHA =================== */
 
-.titulo-recuperar {
+.tituloRecuperar {
   text-align: center;
   color: #a31611;
   font-family: "Baloo", cursive;
@@ -1612,7 +1612,7 @@ main.fundo {
   padding: 2rem 1rem;
 }
 
-.container-recuperar {
+.containerRecuperar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1623,7 +1623,7 @@ main.fundo {
   max-width: 1000px;
 }
 
-.form-recuperar {
+.formRecuperar {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1633,7 +1633,7 @@ main.fundo {
   margin-top: -10rem;
 }
 
-.form-recuperar input[type="password"] {
+.formRecuperar input[type="password"] {
   width: 100%;
   padding: 0.8rem 1rem;
   border-radius: 8px;
@@ -1643,7 +1643,7 @@ main.fundo {
   background-color: white;
 }
 
-.form-recuperar button {
+.formRecuperar button {
   background-color: #a31611;
   color: white;
   border: none;
@@ -1654,12 +1654,12 @@ main.fundo {
   font-size: 1rem;
 }
 
-.form-recuperar button:hover {
+.formRecuperar button:hover {
   background-color: #e74040;
   transition: 0.2s;
 }
 
-.cozinheira-img {
+.cozinheiraImg {
   max-width: 30rem;
   width: 100%;
   height: auto;
@@ -1668,18 +1668,18 @@ main.fundo {
 }
 
 /* ====================LOCALLL=================== */
-.secao-mapa {
+.secaoMapa {
   text-align: center;
 }
 
-.secao-mapa img {
+.secaoMapa img {
   margin-top: 10rem;
   width: 90%;
   max-width: 900px;
   border-radius: 15px;
 }
 
-.secao-disponivel img {
+.secaoDisponivel img {
   margin-top: 10rem;
 }
 
@@ -1698,7 +1698,7 @@ main.fundo {
 
 /* =========================politicas================== */
 
-.pagina-politica {
+.paginaPolitica {
   max-width: 900px;
   margin: 50px auto;
   padding: 40px 50px;
@@ -1711,7 +1711,7 @@ main.fundo {
   text-align: justify;
 }
 
-.pagina-politica h1 {
+.paginaPolitica h1 {
   font-family: "Baloo", cursive;
   font-size: 40px;
   text-align: center;
@@ -1720,7 +1720,7 @@ main.fundo {
   text-transform: uppercase;
 }
 
-.pagina-politica h2 {
+.paginaPolitica h2 {
   font-family: "Baloo", cursive;
   font-size: 28px;
   color: #a31611;
@@ -1730,7 +1730,7 @@ main.fundo {
   padding-bottom: 5px;
 }
 
-.pagina-politica h3 {
+.paginaPolitica h3 {
   font-family: "Baloo 2", sans-serif;
   font-size: 22px;
   color: #a31611;
@@ -1738,32 +1738,32 @@ main.fundo {
   margin-bottom: 10px;
 }
 
-.pagina-politica p {
+.paginaPolitica p {
   font-size: 17px;
   margin-bottom: 15px;
 }
 
-.pagina-politica ul {
+.paginaPolitica ul {
   padding-left: 25px;
   margin-bottom: 20px;
 }
 
-.pagina-politica li {
+.paginaPolitica li {
   margin-bottom: 8px;
   font-size: 17px;
 }
 
-.pagina-politica strong {
+.paginaPolitica strong {
   color: #a31611;
   font-weight: bold;
 }
 
-.pagina-politica a {
+.paginaPolitica a {
   color: #a31611;
   text-decoration: underline;
 }
 
-.pagina-politica blockquote {
+.paginaPolitica blockquote {
   background-color: #f9f9f9;
   border-left: 5px solid #a31611;
   padding: 12px 20px;
@@ -1774,7 +1774,7 @@ main.fundo {
 }
 
 /* ===============================TERMO DE USO==================== */
-.pagina-politica {
+.paginaPolitica {
   max-width: 950px;
   margin: 60px auto;
   padding: 40px 50px;
@@ -1787,7 +1787,7 @@ main.fundo {
   text-align: justify;
 }
 
-.pagina-politica h1 {
+.paginaPolitica h1 {
   font-family: "Baloo", cursive;
   font-size: 42px;
   text-align: center;
@@ -1797,7 +1797,7 @@ main.fundo {
   letter-spacing: 1px;
 }
 
-.pagina-politica h2 {
+.paginaPolitica h2 {
   font-family: "Baloo", cursive;
   font-size: 28px;
   color: #a31611;
@@ -1807,7 +1807,7 @@ main.fundo {
   padding-bottom: 8px;
 }
 
-.pagina-politica h3 {
+.paginaPolitica h3 {
   font-family: "Baloo 2", sans-serif;
   font-size: 22px;
   color: #a31611;
@@ -1815,32 +1815,32 @@ main.fundo {
   margin-bottom: 10px;
 }
 
-.pagina-politica p {
+.paginaPolitica p {
   font-size: 17px;
   margin-bottom: 16px;
 }
 
-.pagina-politica ul {
+.paginaPolitica ul {
   padding-left: 25px;
   margin-bottom: 20px;
 }
 
-.pagina-politica li {
+.paginaPolitica li {
   margin-bottom: 8px;
   font-size: 17px;
 }
 
-.pagina-politica strong {
+.paginaPolitica strong {
   color: #a31611;
   font-weight: bold;
 }
 
-.pagina-politica a {
+.paginaPolitica a {
   color: #a31611;
   text-decoration: underline;
 }
 
-.pagina-politica blockquote {
+.paginaPolitica blockquote {
   background-color: #f9f9f9;
   border-left: 5px solid #a31611;
   padding: 12px 20px;
@@ -1851,7 +1851,7 @@ main.fundo {
 }
 
 /* =========================== MEUS PEDIDOS=============================== */
-.pagina-pedidos {
+.paginaPedidos {
   display: flex;
   background-color: #ffd8e7;
   padding: 50px 80px;
@@ -1859,7 +1859,7 @@ main.fundo {
 }
 
 /* Menu Lateral */
-.menu-pedidos {
+.menuPedidos {
   width: 220px;
   background-color: #ffa1c3;
   border-radius: 20px;
@@ -1867,7 +1867,7 @@ main.fundo {
   margin-right: 30px;
   align-self: flex-start;
 }
-.menu-pedidos a {
+.menuPedidos a {
   color: #a31611;
   text-decoration: none;
   display: flex;
@@ -1876,18 +1876,18 @@ main.fundo {
   font-family: "Baloo 2", sans-serif;
 }
 
-.menu-pedidos a:hover {
+.menuPedidos a:hover {
   color: #7b0d0d;
   text-decoration: none;
 }
 
-.menu-pedidos ul {
+.menuPedidos ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.menu-pedidos li {
+.menuPedidos li {
   display: flex;
   align-items: center;
   padding: 15px 20px;
@@ -1897,31 +1897,31 @@ main.fundo {
   transition: background-color 0.3s;
 }
 
-.menu-pedidos li:hover {
+.menuPedidos li:hover {
   background-color: #ffd8e7;
 }
 
-.menu-pedidos li img {
+.menuPedidos li img {
   width: 24px;
   height: 24px;
   margin-right: 12px;
 }
 
-.area-pedidos {
+.areaPedidos {
   flex-grow: 1;
   background-color: #ffe6f0;
   border-radius: 20px;
   padding: 30px 40px;
 }
 
-.area-pedidos h1 {
+.areaPedidos h1 {
   color: #a31611;
   font-family: "Baloo", cursive;
   font-size: 28px;
   margin-bottom: 25px;
 }
 
-.box-filtro button {
+.boxFiltro button {
   border: 2px solid #a31611;
   background-color: transparent;
   color: #a31611;
@@ -1933,12 +1933,12 @@ main.fundo {
   transition: 0.3s;
 }
 
-.box-filtro button:hover {
+.boxFiltro button:hover {
   background-color: #a31611;
   color: #fff;
 }
 
-.pedido-item {
+.pedidoItem {
   background-color: #ffd8e7;
   border: 2px solid #a31611;
   border-radius: 15px;
@@ -1948,12 +1948,12 @@ main.fundo {
   font-family: "Baloo 2", sans-serif;
 }
 
-.pedido-item p {
+.pedidoItem p {
   margin-bottom: 8px;
   font-size: 16px;
 }
 
-.pedido-item button {
+.pedidoItem button {
   background-color: transparent;
   border: 2px solid #a31611;
   color: #a31611;
@@ -1965,13 +1965,13 @@ main.fundo {
   transition: 0.3s;
 }
 
-.pedido-item button:hover {
+.pedidoItem button:hover {
   background-color: #a31611;
   color: #fff;
 }
 
 /* ========================MEU DAADOS==================================== */
-.area-dados {
+.areaDados {
   flex-grow: 1;
   display: flex;
   justify-content: flex-start;
@@ -1980,7 +1980,7 @@ main.fundo {
   background-color: transparent;
 }
 
-.form-dados {
+.formDados {
   width: 700px;
   background-color: #ffe6f0;
   padding: 30px 40px;
@@ -1991,7 +1991,7 @@ main.fundo {
   gap: 15px;
 }
 
-.form-dados h1 {
+.formDados h1 {
   font-family: "Baloo", cursive;
   font-size: 36px;
   color: #a31611;
@@ -1999,7 +1999,7 @@ main.fundo {
   text-align: left;
 }
 
-.form-dados input {
+.formDados input {
   padding: 12px 15px;
   border: none;
   border-radius: 10px;
@@ -2009,29 +2009,29 @@ main.fundo {
   font-size: 16px;
 }
 
-.form-dados input::placeholder {
+.formDados input::placeholder {
   color: #a31611;
   opacity: 0.7;
 }
 
-.linha-dupla {
+.linhaDupla {
   display: flex;
   gap: 15px;
 }
 
-.linha-dupla input {
+.linhaDupla input {
   flex: 1;
 }
 
-.checkbox-group {
+.checkboxGroup {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-top: 10px;
 }
 
-.checkbox-group label,
-.checkbox-alterar {
+.checkboxGroup label,
+.checkboxAlterar {
   font-family: "Baloo 2", sans-serif;
   color: #a31611;
   font-size: 16px;
@@ -2040,15 +2040,15 @@ main.fundo {
   gap: 8px;
 }
 
-.checkbox-group input[type="checkbox"],
-.checkbox-alterar input[type="checkbox"] {
+.checkboxGroup input[type="checkbox"],
+.checkboxAlterar input[type="checkbox"] {
   accent-color: #a31611;
   width: 18px;
   height: 18px;
   cursor: pointer;
 }
 
-.form-dados h2 {
+.formDados h2 {
   margin-top: 20px;
   margin-bottom: 8px;
   font-family: "Baloo", cursive;
@@ -2057,7 +2057,7 @@ main.fundo {
   text-align: left;
 }
 
-.form-dados button {
+.formDados button {
   margin-top: 15px;
   padding: 12px 20px;
   background-color: #ffa1c3;
@@ -2071,20 +2071,20 @@ main.fundo {
   align-self: flex-end;
 }
 
-.form-dados button:hover {
+.formDados button:hover {
   background-color: #a31611;
   color: #fff;
 }
 
 /* ======================CARTOES ============================================== */
 
-.titulo-cartoes {
+.tituloCartoes {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-top: -4rem;
   font-size: 20px;
 }
-.area-cartoes {
+.areaCartoes {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -2093,26 +2093,26 @@ main.fundo {
   max-width: 1000px;
 }
 
-.conteudo-cartoes {
+.conteudoCartoes {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
 }
 
-.cartao-item img {
+.cartaoItem img {
   width: 450px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.lado-direito-cartoes {
+.ladoDireitoCartoes {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.btn-adicionar-cartao {
+.btnAdicionarCartao {
   background-color: #ffa1c3;
   color: #a31611;
   border: none;
@@ -2125,12 +2125,12 @@ main.fundo {
   width: fit-content;
 }
 
-.btn-adicionar-cartao:hover {
+.btnAdicionarCartao:hover {
   background-color: #a31611;
   color: #fff;
 }
 
-.formulario-cartao {
+.formularioCartao {
   display: none;
   flex-direction: column;
   gap: 12px;
@@ -2143,24 +2143,24 @@ main.fundo {
   box-sizing: border-box;
 }
 
-#abrirCartao:checked ~ .formulario-cartao {
+#abrirCartao:checked ~ .formularioCartao {
   display: flex;
 }
 
-.formulario-cartao h2 {
+.formularioCartao h2 {
   font-family: "Baloo", cursive;
   font-size: 22px;
   color: #a31611;
   margin-bottom: 10px;
 }
 
-.formulario-cartao label {
+.formularioCartao label {
   font-size: 18px;
   color: #a31611;
   margin-bottom: 4px;
 }
 
-.formulario-cartao input {
+.formularioCartao input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -2172,24 +2172,24 @@ main.fundo {
   box-sizing: border-box;
 }
 
-.linha-dupla-cartao {
+.linhaDuplaCartao {
   display: flex;
   gap: 10px;
   width: 100%;
 }
 
-.campo-menor {
+.campoMenor {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.linha-dupla-cartao input {
+.linhaDuplaCartao input {
   flex: 1;
   min-width: 0;
 }
 
-.btn-salvar-cartao {
+.btnSalvarCartao {
   background-color: #fc86b1;
   color: white;
   border: none;
@@ -2208,18 +2208,18 @@ main.fundo {
   height: 45px;
   box-sizing: border-box;
 }
-.btn-salvar-cartao:hover {
+.btnSalvarCartao:hover {
   opacity: 0.9;
 }
 
 /* ==============================MEUS ENDEREÇOS=========================================== */
-.titulo-enderecos {
+.tituloEnderecos {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-top: -4rem;
   font-size: 20px;
 }
-.area-enderecos {
+.areaEnderecos {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -2228,7 +2228,7 @@ main.fundo {
   max-width: 1000px;
 }
 
-.endereco-salvo {
+.enderecoSalvo {
   background-color: white;
   border-radius: 8px;
   padding: 15px;
@@ -2236,7 +2236,7 @@ main.fundo {
   font-family: "Baloo 2", sans-serif;
 }
 
-.btn-editar {
+.btnEditar {
   background-color: #a31611;
   color: white;
   border: none;
@@ -2247,7 +2247,7 @@ main.fundo {
   font-family: "Baloo 2", sans-serif;
 }
 
-.btn-adicionar-endereco {
+.btnAdicionarEndereco {
   background-color: #a31611;
   color: white;
   border: none;
@@ -2262,11 +2262,11 @@ main.fundo {
   margin-top: 10px;
 }
 
-#abrirEndereco:checked ~ .formulario-endereco {
+#abrirEndereco:checked ~ .formularioEndereco {
   display: flex;
 }
 
-.formulario-endereco {
+.formularioEndereco {
   display: none;
   flex-direction: column;
   gap: 12px;
@@ -2279,20 +2279,20 @@ main.fundo {
   box-sizing: border-box;
 }
 
-.formulario-endereco h2 {
+.formularioEndereco h2 {
   font-family: "Baloo", cursive;
   font-size: 22px;
   color: #a31611;
   margin-bottom: 10px;
 }
 
-.formulario-endereco label {
+.formularioEndereco label {
   font-size: 14px;
   color: #a31611;
   margin-bottom: 4px;
 }
 
-.formulario-endereco input {
+.formularioEndereco input {
   padding: 10px;
   border: 1px solid #666666;
   border-radius: 6px;
@@ -2304,19 +2304,19 @@ main.fundo {
   box-sizing: border-box;
 }
 
-.linha-dupla-endereco {
+.linhaDuplaEndereco {
   display: flex;
   gap: 10px;
   width: 100%;
 }
 
-.campo-menor {
+.campoMenor {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
-.btn-salvar-endereco {
+.btnSalvarEndereco {
   background-color: #ff92b2;
   border: none;
   padding: 12px;
@@ -2335,12 +2335,657 @@ main.fundo {
   box-sizing: border-box;
 }
 
-.btn-salvar-endereco:hover {
+.btnSalvarEndereco:hover {
+  opacity: 0.9;
+}
+.btnAlterarHorario {
+  background-color: transparent;
+  color: #a31611;
+  border: 1px solid #a31611;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btnAlterarHorario:hover {
+  background-color: #a31611;
+  color: white;
+  transition: 0.2s;
+}
+
+.formularioHorario {
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  background-color: #ffe6f0;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+#abrirHorario:checked ~ .formularioHorario {
+  display: flex;
+}
+
+.formularioHorario select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+}
+
+.btnConfirmarHorario {
+  background-color: #a31611;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btnConfirmarHorario:hover {
   opacity: 0.9;
 }
 
+/* =======================DETALHES DA COMPRA================================================ */
+.topoPedido {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  position: relative;
+  gap: 2rem;
+}
+
+.infoPedido {
+  flex: 1;
+  max-width: 60rem;
+}
+
+.infoPedido h2 {
+  color: #a31611;
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-family: "Baloo", cursive;
+  text-align: left;
+}
+
+.infoPedido p {
+  color: #a31611;
+  font-size: 18px;
+  font-family: "Baloo 2", cursive;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.voltar {
+  color: #a31611;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-left: -15rem;
+}
+
+.statusPedido {
+  width: 100%;
+  margin: 2rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.statusBarra {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border-radius: 30px;
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.statusPreenchido {
+  background-color: #a31611;
+  height: 100%;
+  border-radius: 30px;
+  width: 40%;
+  position: relative;
+}
+
+.statusPreenchido img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -10px;
+  left: -15px;
+}
+
+.etapasStatus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-family: "Baloo 2", cursive;
+  font-size: 0.9rem;
+  color: #a31611;
+  font-weight: bold;
+}
+
+.tabelaPedido {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  font-family: "Baloo 2", cursive;
+  width: 100%;
+}
+
+.tabelaPedido .linha {
+  display: grid;
+  grid-template-columns: 1fr 80px 120px;
+  align-items: center;
+  padding: 18px 30px;
+  border-bottom: 2px solid #a01313;
+  font-size: 16px;
+  color: #a31611;
+}
+
+.tabelaPedido .linha:last-child {
+  border-bottom: none;
+}
+
+.tabelaPedido .linha.header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: 2px solid #a01313;
+}
+
+.itemInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.itemInfo img {
+  width: 65px;
+  height: 65px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.textoProduto strong {
+  font-size: 16px;
+  color: #a31611;
+}
+
+.linhaStatus {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  align-items: center;
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #a31611;
+  border-top: 1px solid #ffd8e7;
+  font-family: "Baloo 2", cursive;
+}
+
+.linhaStatus span:first-child {
+  grid-column: 1 / 2;
+}
+
+.linhaStatus span:last-child {
+  text-align: right;
+}
+
+.chefLado {
+  width: 260px;
+  position: absolute;
+  top: 10px;
+  right: -150px;
+}
+
+/* ==================================================DETALHES DO PRODUTO ESCOLHIDO============================================================ */
+
+main.produtoDetalhe {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  padding: 4rem 6rem;
+  background-color: #f0e9ff;
+  align-items: start;
+}
+
+.produtoImagemInfo {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.imagemPrincipal {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  margin-left: -8rem;
+}
+.infoProduto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
+  margin-left: -8rem;
+}
+
+.infoProduto h2 {
+  font-family: "Baloo", cursive;
+  color: #504A87;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+}
+
+.infoProduto .resumo {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+  margin-left: 0rem;
+}
+
+.valor1 {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 1.4rem !important;
+  margin-left: 0 !important;
+}
+
+.valor2 {
+  font-size: 2.5rem !important;
+  color: #a31611;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-left: 0 !important;
+}
+
+.quantidadeProduto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  font-family: "Baloo 2", cursive;
+}
+
+.quantidadeProduto label {
+  font-size: 1rem;
+  color: #504A87;
+}
+
+.quantidadeProduto select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #504A87;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #494949;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Baloo 2", cursive;
+}
+
+.quantidadeProduto select:focus {
+  outline: none;
+  border-color: #e1cecd;
+}
+
+.botaocomprar {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #504A87;
+  background-color: transparent;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  color: #494949 !important;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none !important;
+  transition: 0.2s ease-in-out;
+  margin-left: 5rem !important;
+}
+
+.botaocomprar:hover {
+  background-color: #c3a0e9;
+  color: white;
+  transform: scale(1.05);
+}
+
+.favoritarProduto {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  font-family: "Baloo 2", cursive;
+  color: #000;
+}
+.iconeFavorito.vazio {
+  width: 1.5rem;
+}
+.iconeFavorito.cheio {
+  display: none;
+  width: 1.5rem;
+}
+
+#favoritar:checked + label .vazio {
+  display: none;
+}
+
+#favoritar:checked + label .cheio {
+  display: inline-block;
+}
+
+.garantiaPagamento {
+  margin-top: 1.5rem;
+}
+
+.garantiaPagamento p {
+  font-size: 0.9rem;
+  color: #494949;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+}
+
+.formasPagamento {
+  gap: 0.5rem;
+  margin-left: 10rem;
+  margin-top: -2rem;
+}
+
+.formasPagamento img {
+  width: 3rem;
+  height: 2rem;
+}
+
+.galeriaImagens {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.galeriaImagens img {
+  width: 138px;
+  height: 138px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.galeriaImagens img:hover {
+  border-color: #7c76ba;
+}
+
+.imagemPrincipal img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  margin-left: -8rem;
+}
+
+.descricaoProduto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 6rem;
+  background-color: #f0e9ff;
+  margin-top: 3rem;
+}
+
+.textoDescricao {
+  flex: 2;
+}
+
+.textoDescricao h3 {
+  color: #504A87;
+  margin-bottom: 0.5rem;
+  font-family: "Baloo", cursive;
+  font-size: 1.3rem;
+}
+
+.textoDescricao p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.ingredientesBeneficios {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.ingredientesLista,
+.beneficiosLista {
+  flex: 1;
+}
+
+.ingredientesLista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredientesLista li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Baloo 2", cursive;
+}
+
+.ingredientesLista li img {
+  width: 20px;
+  height: 25px;
+}
+
+.linhaIconeBeneficios {
+  display: flex;
+  margin-left: 43rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.linhaIconeBeneficios img {
+  width: 60px;
+  height: auto;
+}
+
+/* ===== TABELA NUTRICIONAL ===== */
+.tabelaNutricional img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.avaliacoesProduto {
+  background-color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 15px;
+  margin: 4rem auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: "Baloo 2", cursive;
+}
+
+.avaliacoesProduto h2 {
+  color: #a31611;
+  font-family: "Baloo", cursive;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.avaliacao {
+  border-bottom: 1px solid #ffd8e7;
+  padding: 1rem 0;
+}
+
+.avaliacao:last-child {
+  border-bottom: none;
+}
+
+.avaliacao p {
+  margin: 0.4rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+.popupCarrinho {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: #a31611;
+  padding: 1.5rem 2rem;
+  border: 3px solid #a31611;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Baloo 2", cursive;
+  text-align: center;
+  z-index: 999;
+  display: none;
+}
+
+.popupCarrinho p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-right: 10rem;
+}
+
+.popupCarrinho label {
+  background-color: #a31611;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Baloo 2", cursive;
+}
+
+#popupCarrinho:checked ~ .popupCarrinho {
+  display: block;
+}
+
+.botaoEstilo {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #504A87;
+  background-color: transparent;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  color: #494949;
+  display: inline-block;
+  text-align: center;
+}
+/* =============================senha pop================================ */
+.popupRecuperar {
+  display: none;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background-color: #ffd8e7;
+  border: 3px solid #a31611;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.popupRecuperar p {
+  color: #a31611;
+  font-family: "Baloo 2", cursive;
+  margin-bottom: 1rem;
+}
+
+.popupRecuperar input {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  font-family: "Baloo 2", cursive;
+}
+
+.botaoPopup {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #a31611;
+  color: white;
+  border-radius: 8px;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  text-align: center;
+}
+
+#popupRecuperar:checked ~ .popupRecuperar {
+  display: block;
+}
+
+.linkRecuperar {
+  color: #a31611;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Baloo 2", cursive;
+}
+
+.linkRecuperar:hover {
+  color: #7b0d0d;
+}
+
+/* ====tira linha dos links======== */
+.filtrosCategorias a {
+  text-decoration: none;
+}
+
+.itensPopulares a {
+  text-decoration: none;
+}
+
+.infoBeneficios a {
+  text-decoration: none;
+  color: #212121;
+}
+
+/* ==================barra d pesquisa======== */
+.barraPesquisa {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 25rem;
+}
+
+.barraPesquisa input {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #a31911;
+  font-family: "Baloo 2", cursive;
+  width: 200px;
+}
+
+.barraPesquisa button:hover {
+  background-color: #505050;
+}
 /* ================================MEUS FAVORITOS======================================= */
-.area-favoritos {
+.areaFavoritos {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -2350,14 +2995,14 @@ main.fundo {
   margin-top: -5rem;
 }
 
-.area-favoritos h1 {
+.areaFavoritos h1 {
   font-family: "Baloo", cursive;
   color: #a31611;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-.favorito-item {
+.favoritoItem {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2368,21 +3013,21 @@ main.fundo {
   gap: 20px;
 }
 
-.favorito-item img.produto-foto {
+.favoritoItem img.produtoFoto {
   width: 130px;
   height: 130px;
   border-radius: 12px;
   object-fit: cover;
 }
 
-.info-favorito {
+.infoFavorito {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.info-favorito h2 {
+.infoFavorito h2 {
   font-family: "Baloo 2", sans-serif;
   color: #a31611;
   font-size: 18px;
@@ -2390,21 +3035,21 @@ main.fundo {
   margin: 0;
 }
 
-.preco-antigo2 {
+.precoAntigo2 {
   text-decoration: line-through;
   color: #888;
   font-size: 14px;
   margin: 0;
 }
 
-.preco-novo2 {
+.precoNovo2 {
   color: #a31611;
   font-weight: bold;
   font-size: 16px;
   margin: 0;
 }
 
-.btn-adicionar-carrinho {
+.btnAdicionarCarrinho {
   background-color: #a31611;
   color: white;
   border: none;
@@ -2420,22 +3065,22 @@ main.fundo {
   letter-spacing: 0.5px;
 }
 
-.btn-adicionar-carrinho:hover {
+.btnAdicionarCarrinho:hover {
   opacity: 0.9;
 }
 
-.icone-favorito img {
+.iconeFavorito img {
   content: url("imagens/fav.png");
   transition: 0.3s;
   margin-bottom: 10rem;
 }
 
-.icone-favorito:hover img {
+.iconeFavorito:hover img {
   content: url("imagens/fav2.png");
 }
 
 /* ====================================== carrinho identificação========================== */
-.nav-etapas {
+.navEtapas {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -2444,7 +3089,7 @@ main.fundo {
   position: relative;
 }
 
-.nav-etapas::before {
+.navEtapas::before {
   content: "";
   position: absolute;
   top: 25px;
@@ -2498,19 +3143,19 @@ main.fundo {
 }
 
 /* ==========================finalizado============================= */
-.area-sucesso {
+.areaSucesso {
   text-align: center;
   padding: 50px 20px;
 }
 
-.area-sucesso h1 {
+.areaSucesso h1 {
   color: #a31611;
   font-family: "Baloo", cursive;
   font-size: 28px;
   margin-bottom: 20px;
 }
 
-.cupcake-final {
+.cupcakeFinal {
   max-width: 80rem;
   width: 100%;
   margin: 25px auto;
@@ -2518,7 +3163,7 @@ main.fundo {
   margin-left: 15rem;
 }
 
-.botao-voltar {
+.botaoVoltar {
   display: inline-block;
   background-color: #a31611;
   color: white;
@@ -2530,12 +3175,12 @@ main.fundo {
   transition: 0.3s;
 }
 
-.botao-voltar:hover {
+.botaoVoltar:hover {
   opacity: 0.9;
 }
 
 /* ==============================caRRINHO============================== */
-.area-carrinho {
+.areaCarrinho {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -2544,26 +3189,26 @@ main.fundo {
   flex-wrap: wrap;
 }
 
-.produtos-carrinho {
+.produtosCarrinho {
   flex: 3;
   max-width: 900px;
 }
 
-.produtos-carrinho h1 {
+.produtosCarrinho h1 {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-bottom: 10px;
   font-size: 3rem;
 }
 
-.produtos-carrinho h2 {
+.produtosCarrinho h2 {
   color: #a31611 !important;
   font-family: "Baloo", cursive;
   margin-bottom: 10px;
   font-size: 3rem;
 }
 
-.item-carrinho {
+.itemCarrinho {
   display: flex;
   position: relative;
   background: white;
@@ -2573,13 +3218,13 @@ main.fundo {
   align-items: flex-start;
 }
 
-.item-carrinho img {
+.itemCarrinho img {
   width: 150px;
   object-fit: cover;
   margin-right: 25px;
 }
 
-.info-produto1 h2 {
+.infoProduto1 h2 {
   font-family: "Baloo", cursive;
   font-size: 18px;
   color: #a31611;
@@ -2587,14 +3232,14 @@ main.fundo {
   margin-left: 0rem;
 }
 
-.preco-antigo1 {
+.precoAntigo1 {
   text-decoration: line-through;
   color: #888;
   font-size: 14px;
   margin-bottom: 3px;
 }
 
-.preco-atual1 {
+.precoAtual1 {
   color: #a31611;
   font-size: 16px;
 }
@@ -2624,7 +3269,7 @@ main.fundo {
   color: white;
 }
 
-.botao-remover {
+.botaoRemover {
   position: absolute;
   top: 8px;
   right: 10px;
@@ -2635,24 +3280,24 @@ main.fundo {
   transition: 0.2s;
 }
 
-.botao-remover:hover {
+.botaoRemover:hover {
   color: #7b0f0f;
 }
 
-.info-produto p {
+.infoProduto p {
   margin: 4px 0;
   font-size: 15px;
   margin-left: 10rem;
 }
 
-.info-produto a {
+.infoProduto a {
   color: #a31611;
   font-size: 14px;
   text-decoration: underline;
   margin-left: 10rem;
 }
 
-.resumo-carrinho {
+.resumoCarrinho {
   flex: 1;
   background: white;
   padding: 15px;
@@ -2661,25 +3306,25 @@ main.fundo {
   margin-top: 10rem;
 }
 
-.resumo-carrinho h2 {
+.resumoCarrinho h2 {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-bottom: 15px;
 }
 
-.miniaturas-produtos {
+.miniaturasProdutos {
   display: flex;
   gap: 5px;
   margin-bottom: 10px;
 }
 
-.miniaturas-produtos img {
+.miniaturasProdutos img {
   width: 80px;
   height: 100px;
   object-fit: cover;
 }
 
-.resumo-carrinho p {
+.resumoCarrinho p {
   display: flex;
   justify-content: space-between;
   margin: 10px 0px;
@@ -2687,24 +3332,24 @@ main.fundo {
   font-size: 15px;
 }
 
-.resumo-carrinho p span,
-.resumo-carrinho p strong {
+.resumoCarrinho p span,
+.resumoCarrinho p strong {
   font-weight: bold;
 }
 
-.resumo-carrinho .preco span,
-.resumo-carrinho .desconto span,
-.resumo-carrinho .frete span,
-.resumo-carrinho .total strong {
+.resumoCarrinho .preco span,
+.resumoCarrinho .desconto span,
+.resumoCarrinho .frete span,
+.resumoCarrinho .total strong {
   color: #a31611;
 }
 
-.resumo-carrinho .frete span.gratis {
+.resumoCarrinho .frete span.gratis {
   color: green;
 }
 
-.resumo-carrinho .botao-comprar,
-.resumo-carrinho .botao-continuar {
+.resumoCarrinho .botaoComprar,
+.resumoCarrinho .botaoContinuar {
   display: block;
   text-align: center;
   margin-top: 12px;
@@ -2716,28 +3361,28 @@ main.fundo {
   font-size: 15px;
 }
 
-.resumo-carrinho .botao-comprar {
+.resumoCarrinho .botaoComprar {
   background-color: #a31611;
   color: white;
 }
 
-.resumo-carrinho .botao-comprar:hover {
+.resumoCarrinho .botaoComprar:hover {
   opacity: 0.9;
 }
 
-.resumo-carrinho .botao-continuar {
+.resumoCarrinho .botaoContinuar {
   background-color: transparent;
   color: #a31611;
   border: 1px solid #a31611;
 }
 
-.resumo-carrinho .botao-continuar:hover {
+.resumoCarrinho .botaoContinuar:hover {
   background-color: #a31611;
   color: white;
 }
 
 /* ===============================COMPRA DOS PRODUTOS========================================= */
-.pagina-pagamento {
+.paginaPagamento {
   display: flex;
   flex-direction: column;
   padding: 40px 80px;
@@ -2747,25 +3392,25 @@ main.fundo {
 }
 
 /* ====== ENDEREÇO NO TOPO ====== */
-.endereco-pagamento {
+.enderecoPagamento {
   background-color: #ffffff;
   padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.endereco-pagamento h2 {
+.enderecoPagamento h2 {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-bottom: 10px;
 }
 
-.endereco-pagamento p {
+.enderecoPagamento p {
   margin: 3px 0;
   color: #a31611;
 }
 
-.btn-editar {
+.btnEditar {
   background-color: #a31611;
   color: white;
   border: none;
@@ -2775,17 +3420,17 @@ main.fundo {
   margin-top: 10px;
 }
 
-.btn-editar:hover {
+.btnEditar:hover {
   background-color: #7b0f0f;
 }
 /* ============================================================= DETALHES DO PEDIDO ============================ */
-.area-pagamento-conteudo {
+.areaPagamentoConteudo {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
 }
 
-.detalhes-pedido {
+.detalhesPedido {
   flex: 2;
   background-color: white;
   padding: 20px;
@@ -2793,43 +3438,43 @@ main.fundo {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.detalhes-pedido h2,
-.detalhes-pedido h3 {
+.detalhesPedido h2,
+.detalhesPedido h3 {
   color: #a31611;
   font-family: "Baloo", cursive;
 }
 
-.produto-pedido {
+.produtoPedido {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-bottom: 15px;
 }
 
-.produto-pedido img {
+.produtoPedido img {
   width: 80px;
   height: 80px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.resumo-pedido p {
+.resumoPedido p {
   display: flex;
   justify-content: space-between;
   margin: 25px 0;
   color: #a31611;
 }
 
-.resumo-pedido span,
-.resumo-pedido strong {
+.resumoPedido span,
+.resumoPedido strong {
   font-weight: bold;
 }
 
-.resumo-pedido .gratis {
+.resumoPedido .gratis {
   color: green;
 }
 
-.finalizar-compra {
+.finalizarCompra {
   background-color: #a31611;
   color: white;
   border: none;
@@ -2841,12 +3486,12 @@ main.fundo {
   text-decoration: none;
 }
 
-.finalizar-compra:hover {
+.finalizarCompra:hover {
   opacity: 0.9;
 }
 
 /* ================================== OPÇÕES DE ENTREGA ========================== */
-.opcoes-entrega {
+.opcoesEntrega {
   flex: 1;
   background-color: white;
   padding: 20px;
@@ -2854,13 +3499,13 @@ main.fundo {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.opcoes-entrega h3 {
+.opcoesEntrega h3 {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-bottom: 10px;
 }
 
-.opcao-entrega {
+.opcaoEntrega {
   padding: 12px;
   border: 2px solid #ffd8e7;
   border-radius: 8px;
@@ -2869,32 +3514,32 @@ main.fundo {
   transition: 0.3s;
 }
 
-.opcao-entrega:hover {
+.opcaoEntrega:hover {
   background-color: #ffe6f0;
 }
 
-.opcao-entrega.selecionada {
+.opcaoEntrega.selecionada {
   border-color: #a31611;
   background-color: #ffd8e7;
 }
 
-.opcao-entrega p {
+.opcaoEntrega p {
   margin: 0;
   color: #a31611;
   font-weight: bold;
 }
 
-.opcao-entrega span {
+.opcaoEntrega span {
   font-size: 14px;
   color: #a31611;
 }
 
-.opcao-entrega .frete-gratis {
+.opcaoEntrega .freteGratis {
   color: green;
 }
 
 /* ====================================== FORMA DE PAGAMENTO ====================== */
-.forma-pagamento {
+.formaPagamento {
   flex: 1;
   background-color: white;
   padding: 20px;
@@ -2902,13 +3547,13 @@ main.fundo {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.forma-pagamento h3 {
+.formaPagamento h3 {
   color: #a31611;
   font-family: "Baloo", cursive;
   margin-bottom: 10px;
 }
 
-.opcao-pagamento {
+.opcaoPagamento {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -2920,38 +3565,38 @@ main.fundo {
   transition: 0.3s;
 }
 
-.opcao-pagamento:hover {
+.opcaoPagamento:hover {
   background-color: #ffe6f0;
 }
 
-.opcao-pagamento.selecionada {
+.opcaoPagamento.selecionada {
   border-color: #a31611;
   background-color: #ffd8e7;
 }
 
-.opcao-pagamento img {
+.opcaoPagamento img {
   width: 40px;
   height: 40px;
 }
 
-.opcao-pagamento p {
+.opcaoPagamento p {
   margin: 0;
   color: #a31611;
   font-weight: bold;
   flex: 1;
 }
 
-.bandeiras-cartoes img {
+.bandeirasCartoes img {
   width: 30px;
   height: auto;
 }
 
 /* =============================================== FORMULÁRIO DE ADICIONAR ENDEREÇO ============================= */
-#abrirEndereco:checked ~ .formulario-endereco {
+#abrirEndereco:checked ~ .formularioEndereco {
   display: flex;
 }
 
-.formulario-endereco {
+.formularioEndereco {
   display: none;
   flex-direction: column;
   gap: 12px;
@@ -2964,20 +3609,20 @@ main.fundo {
   font-family: "Baloo 2", sans-serif;
 }
 
-.formulario-endereco h2 {
+.formularioEndereco h2 {
   font-family: "Baloo", cursive;
   font-size: 22px;
   color: #a31611;
   margin-bottom: 10px;
 }
 
-.formulario-endereco label {
+.formularioEndereco label {
   font-size: 14px;
   color: #a31611;
   margin-bottom: 4px;
 }
 
-.formulario-endereco input {
+.formularioEndereco input {
   padding: 10px;
   border: 1px solid #666666;
   border-radius: 6px;
@@ -2988,18 +3633,18 @@ main.fundo {
   width: 100%;
 }
 
-.linha-dupla-endereco {
+.linhaDuplaEndereco {
   display: flex;
   gap: 10px;
 }
 
-.campo-menor {
+.campoMenor {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.btn-salvar-endereco {
+.btnSalvarEndereco {
   background-color: #fc86b1;
   color: white;
   border: none;
@@ -3012,10 +3657,10 @@ main.fundo {
   margin-top: 8px;
 }
 
-.btn-salvar-endereco:hover {
+.btnSalvarEndereco:hover {
   opacity: 0.9;
 }
-.btn-alterar-horario {
+.btnAlterarHorario {
   background-color: transparent;
   color: #a31611;
   border: 1px solid #a31611;
@@ -3029,13 +3674,13 @@ main.fundo {
   text-align: center;
 }
 
-.btn-alterar-horario:hover {
+.btnAlterarHorario:hover {
   background-color: #a31611;
   color: white;
   transition: 0.2s;
 }
 
-.formulario-horario {
+.formularioHorario {
   display: none;
   flex-direction: column;
   gap: 8px;
@@ -3045,11 +3690,11 @@ main.fundo {
   border-radius: 8px;
 }
 
-#abrirHorario:checked ~ .formulario-horario {
+#abrirHorario:checked ~ .formularioHorario {
   display: flex;
 }
 
-.formulario-horario select {
+.formularioHorario select {
   padding: 6px 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -3057,7 +3702,7 @@ main.fundo {
   font-size: 12px;
 }
 
-.btn-confirmar-horario {
+.btnConfirmarHorario {
   background-color: #a31611;
   color: white;
   border: none;
@@ -3070,12 +3715,12 @@ main.fundo {
   display: inline-block;
 }
 
-.btn-confirmar-horario:hover {
+.btnConfirmarHorario:hover {
   opacity: 0.9;
 }
 
 /* =======================DETALHES DA COMPRA================================================ */
-.topo-pedido {
+.topoPedido {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -3086,12 +3731,12 @@ main.fundo {
   gap: 2rem;
 }
 
-.info-pedido {
+.infoPedido {
   flex: 1;
   max-width: 60rem;
 }
 
-.info-pedido h2 {
+.infoPedido h2 {
   color: #a31611;
   font-size: 45px;
   margin-bottom: 10px;
@@ -3099,7 +3744,7 @@ main.fundo {
   text-align: left;
 }
 
-.info-pedido p {
+.infoPedido p {
   color: #a31611;
   font-size: 18px;
   font-family: "Baloo 2", cursive;
@@ -3116,14 +3761,14 @@ main.fundo {
   margin-left: -15rem;
 }
 
-.status-pedido {
+.statusPedido {
   width: 100%;
   margin: 2rem 0;
   position: relative;
   text-align: center;
 }
 
-.status-barra {
+.statusBarra {
   width: 100%;
   height: 40px;
   background-color: white;
@@ -3135,7 +3780,7 @@ main.fundo {
   justify-content: flex-start;
 }
 
-.status-preenchido {
+.statusPreenchido {
   background-color: #a31611;
   height: 100%;
   border-radius: 30px;
@@ -3143,7 +3788,7 @@ main.fundo {
   position: relative;
 }
 
-.status-preenchido img {
+.statusPreenchido img {
   width: 60px;
   height: 60px;
   position: absolute;
@@ -3151,7 +3796,7 @@ main.fundo {
   left: -15px;
 }
 
-.etapas-status {
+.etapasStatus {
   display: flex;
   justify-content: space-between;
   margin-top: 0.5rem;
@@ -3161,7 +3806,7 @@ main.fundo {
   font-weight: bold;
 }
 
-.tabela-pedido {
+.tabelaPedido {
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
@@ -3170,7 +3815,7 @@ main.fundo {
   width: 100%;
 }
 
-.tabela-pedido .linha {
+.tabelaPedido .linha {
   display: grid;
   grid-template-columns: 1fr 80px 120px;
   align-items: center;
@@ -3180,36 +3825,36 @@ main.fundo {
   color: #a31611;
 }
 
-.tabela-pedido .linha:last-child {
+.tabelaPedido .linha:last-child {
   border-bottom: none;
 }
 
-.tabela-pedido .linha.header {
+.tabelaPedido .linha.header {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
   border-bottom: 2px solid #a01313;
 }
 
-.item-info {
+.itemInfo {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-.item-info img {
+.itemInfo img {
   width: 65px;
   height: 65px;
   border-radius: 8px;
   object-fit: cover;
 }
 
-.texto-produto strong {
+.textoProduto strong {
   font-size: 16px;
   color: #a31611;
 }
 
-.linha-status {
+.linhaStatus {
   display: grid;
   grid-template-columns: 1fr 120px;
   align-items: center;
@@ -3220,15 +3865,15 @@ main.fundo {
   font-family: "Baloo 2", cursive;
 }
 
-.linha-status span:first-child {
+.linhaStatus span:first-child {
   grid-column: 1 / 2;
 }
 
-.linha-status span:last-child {
+.linhaStatus span:last-child {
   text-align: right;
 }
 
-.chef-lado {
+.chefLado {
   width: 260px;
   position: absolute;
   top: 10px;
@@ -3237,7 +3882,7 @@ main.fundo {
 
 /* ==================================================DETALHES DO PRODUTO ESCOLHIDO============================================================ */
 
-main.produto-detalhe {
+main.produtoDetalhe {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 2rem;
@@ -3246,19 +3891,19 @@ main.produto-detalhe {
   align-items: start;
 }
 
-.produto-imagem-info {
+.produtoImagemInfo {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
 }
 
-.imagem-principal {
+.imagemPrincipal {
   width: 100%;
   max-width: 600px;
   border-radius: 20px;
   margin-left: -8rem;
 }
-.info-produto {
+.infoProduto {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -3266,15 +3911,15 @@ main.produto-detalhe {
   margin-left: -8rem;
 }
 
-.info-produto h2 {
+.infoProduto h2 {
   font-family: "Baloo", cursive;
-  color: #7c76ba;
+  color: #504A87;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
   margin-left: 0rem;
 }
 
-.info-produto .resumo {
+.infoProduto .resumo {
   font-size: 1rem;
   color: #555;
   margin-bottom: 0.8rem;
@@ -3296,7 +3941,7 @@ main.produto-detalhe {
   margin-left: 0 !important;
 }
 
-.quantidade-produto {
+.quantidadeProduto {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -3304,12 +3949,12 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-.quantidade-produto label {
+.quantidadeProduto label {
   font-size: 1rem;
   color: #7c76ba;
 }
 
-.quantidade-produto select {
+.quantidadeProduto select {
   padding: 0.5rem 1rem;
   border: 2px solid #7c76ba;
   border-radius: 20px;
@@ -3320,7 +3965,7 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-.quantidade-produto select:focus {
+.quantidadeProduto select:focus {
   outline: none;
   border-color: #e1cecd;
 }
@@ -3346,7 +3991,7 @@ main.produto-detalhe {
   transform: scale(1.05);
 }
 
-.favoritar-produto {
+.favoritarProduto {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -3354,10 +3999,10 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
   color: #000;
 }
-.icone-favorito.vazio {
+.iconeFavorito.vazio {
   width: 1.5rem;
 }
-.icone-favorito.cheio {
+.iconeFavorito.cheio {
   display: none;
   width: 1.5rem;
 }
@@ -3370,35 +4015,35 @@ main.produto-detalhe {
   display: inline-block;
 }
 
-.garantia-pagamento {
+.garantiaPagamento {
   margin-top: 1.5rem;
 }
 
-.garantia-pagamento p {
+.garantiaPagamento p {
   font-size: 0.9rem;
   color: #494949;
   margin-bottom: 0.5rem;
   margin-left: 0rem;
 }
 
-.formas-pagamento {
+.formasPagamento {
   gap: 0.5rem;
   margin-left: 10rem;
   margin-top: -2rem;
 }
 
-.formas-pagamento img {
+.formasPagamento img {
   width: 3rem;
   height: 2rem;
 }
 
-.galeria-imagens {
+.galeriaImagens {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.galeria-imagens img {
+.galeriaImagens img {
   width: 138px;
   height: 138px;
   object-fit: cover;
@@ -3407,18 +4052,18 @@ main.produto-detalhe {
   border: 2px solid transparent;
 }
 
-.galeria-imagens img:hover {
+.galeriaImagens img:hover {
   border-color: #7c76ba;
 }
 
-.imagem-principal img {
+.imagemPrincipal img {
   width: 100%;
   max-width: 400px;
   border-radius: 20px;
   margin-left: -8rem;
 }
 
-.descricao-produto {
+.descricaoProduto {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -3428,40 +4073,40 @@ main.produto-detalhe {
   margin-top: 3rem;
 }
 
-.texto-descricao {
+.textoDescricao {
   flex: 2;
 }
 
-.texto-descricao h3 {
+.textoDescricao h3 {
   color: #7c76ba;
   margin-bottom: 0.5rem;
   font-family: "Baloo", cursive;
   font-size: 1.3rem;
 }
 
-.texto-descricao p {
+.textoDescricao p {
   font-size: 0.95rem;
   color: #555;
   margin-bottom: 1rem;
 }
 
-.ingredientes-beneficios {
+.ingredientesBeneficios {
   display: flex;
   gap: 2rem;
   margin-top: 1rem;
 }
 
-.ingredientes-lista,
-.beneficios-lista {
+.ingredientesLista,
+.beneficiosLista {
   flex: 1;
 }
 
-.ingredientes-lista ul {
+.ingredientesLista ul {
   list-style: none;
   padding: 0;
 }
 
-.ingredientes-lista li {
+.ingredientesLista li {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -3469,31 +4114,31 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-.ingredientes-lista li img {
+.ingredientesLista li img {
   width: 20px;
   height: 25px;
 }
 
-.linha-icone-beneficios {
+.linhaIconeBeneficios {
   display: flex;
   margin-left: 43rem;
   gap: 1rem;
   margin-top: 2rem;
 }
 
-.linha-icone-beneficios img {
+.linhaIconeBeneficios img {
   width: 60px;
   height: auto;
 }
 
 /* ===== TABELA NUTRICIONAL ===== */
-.tabela-nutricional img {
+.tabelaNutricional img {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
 }
 
-.avaliacoes-produto {
+.avaliacoesProduto {
   background-color: #fff;
   padding: 3rem 6rem;
   border-radius: 15px;
@@ -3503,7 +4148,7 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-.avaliacoes-produto h2 {
+.avaliacoesProduto h2 {
   color: #a31611;
   font-family: "Baloo", cursive;
   font-size: 2rem;
@@ -3524,7 +4169,7 @@ main.produto-detalhe {
   color: #555;
   font-size: 1rem;
 }
-.popup-carrinho {
+.popupCarrinho {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -3541,13 +4186,13 @@ main.produto-detalhe {
   display: none;
 }
 
-.popup-carrinho p {
+.popupCarrinho p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   margin-right: 10rem;
 }
 
-.popup-carrinho label {
+.popupCarrinho label {
   background-color: #a31611;
   color: white;
   padding: 0.5rem 1.2rem;
@@ -3556,11 +4201,11 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-#popup-carrinho:checked ~ .popup-carrinho {
+#popupCarrinho:checked ~ .popupCarrinho {
   display: block;
 }
 
-.botao-estilo {
+.botaoEstilo {
   padding: 0.6rem 1.2rem;
   border-radius: 20px;
   border: 2px solid #7c76ba;
@@ -3572,7 +4217,7 @@ main.produto-detalhe {
   text-align: center;
 }
 /* =============================senha pop================================ */
-.popup-recuperar {
+.popupRecuperar {
   display: none;
   position: fixed;
   top: 30%;
@@ -3587,13 +4232,13 @@ main.produto-detalhe {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-.popup-recuperar p {
+.popupRecuperar p {
   color: #a31611;
   font-family: "Baloo 2", cursive;
   margin-bottom: 1rem;
 }
 
-.popup-recuperar input {
+.popupRecuperar input {
   padding: 0.6rem 1rem;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -3603,7 +4248,7 @@ main.produto-detalhe {
   font-family: "Baloo 2", cursive;
 }
 
-.botao-popup {
+.botaoPopup {
   display: inline-block;
   padding: 0.5rem 1rem;
   background-color: #a31611;
@@ -3614,43 +4259,43 @@ main.produto-detalhe {
   text-align: center;
 }
 
-#popup-recuperar:checked ~ .popup-recuperar {
+#popupRecuperar:checked ~ .popupRecuperar {
   display: block;
 }
 
-.link-recuperar {
+.linkRecuperar {
   color: #a31611;
   cursor: pointer;
   text-decoration: underline;
   font-family: "Baloo 2", cursive;
 }
 
-.link-recuperar:hover {
+.linkRecuperar:hover {
   color: #7b0d0d;
 }
 
 /* ====tira linha dos links======== */
-.filtros-categorias a {
+.filtrosCategorias a {
   text-decoration: none;
 }
 
-.itens-populares a {
+.itensPopulares a {
   text-decoration: none;
 }
 
-.info-beneficios a {
+.infoBeneficios a {
   text-decoration: none;
   color: #212121;
 }
 
 /* ==================barra d pesquisa======== */
-.barra-pesquisa {
+.barraPesquisa {
   display: flex;
   gap: 0.5rem;
   margin-left: 25rem;
 }
 
-.barra-pesquisa input {
+.barraPesquisa input {
   padding: 0.5rem 1rem;
   border-radius: 20px;
   border: 2px solid #a31911;
@@ -3658,6 +4303,6 @@ main.produto-detalhe {
   width: 200px;
 }
 
-.barra-pesquisa button:hover {
+.barraPesquisa button:hover {
   background-color: #505050;
 }

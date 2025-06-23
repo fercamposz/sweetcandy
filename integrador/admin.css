@@ -59,14 +59,14 @@ body {
   overflow-y: auto;
 }
 
-.topo-admin {
+.topoAdmin {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.botao-sair {
+.botaoSair {
   background-color: #a31611;
   color: white;
   padding: 0.5rem 1rem;
@@ -82,13 +82,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.status-cards {
+.statusCards {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
 }
 
-.status-cards .card {
+.statusCards .card {
   flex: 1;
   padding: 1rem;
   border-radius: 10px;
@@ -101,31 +101,31 @@ h1 {
   align-items: center;
 }
 
-.status-cards .card img {
+.statusCards .card img {
   width: 30px;
   height: 30px;
   margin-bottom: 0.5rem;
 }
 
-.status-cards .produtos,
-.status-cards .clientes,
-.status-cards .pedidos,
-.status-cards .receita {
+.statusCards .produtos,
+.statusCards .clientes,
+.statusCards .pedidos,
+.statusCards .receita {
   background-color: #a8a3d8;
 }
 
-.status-cards .card p {
+.statusCards .card p {
   margin: 0;
   font-size: 1rem;
 }
 
-.status-cards .card h2 {
+.statusCards .card h2 {
   margin: 0.3rem 0 0;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.blocos-info {
+.blocosInfo {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -135,7 +135,7 @@ h1 {
   color: #a31611;
 }
 
-.blocos-info .bloco {
+.blocosInfo .bloco {
   flex: 1;
   background-color: white;
   padding: 0.8rem 1rem;
@@ -143,12 +143,12 @@ h1 {
   position: relative;
 }
 
-.blocos-info .bloco.grafico img {
+.blocosInfo .bloco.grafico img {
   width: 100%;
   margin-top: 0.5rem;
 }
 
-.blocos-info .bloco a {
+.blocosInfo .bloco a {
   color: #a31611;
   font-size: 0.85rem;
   text-decoration: none;
@@ -157,30 +157,31 @@ h1 {
   right: 10px;
 }
 
-.ultimos-pedidos {
+.ultimosPedidos {
   background-color: white;
   padding: 1rem;
   border-radius: 10px;
 }
 
-.ultimos-pedidos h3 {
+.ultimosPedidos h3 {
   color: #a31611;
   font-family: "Baloo", cursive;
   font-size: 1.3rem;
 }
-.ultimos-pedidos ul {
+
+.ultimosPedidos ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.ultimos-pedidos ul li {
+.ultimosPedidos ul li {
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
   font-size: 0.9rem;
 }
 
-.ultimos-pedidos a {
+.ultimosPedidos a {
   color: #a31611;
   font-size: 0.85rem;
   text-decoration: none;
@@ -189,85 +190,7 @@ h1 {
   text-align: right;
 }
 
-/* ==========produt==================== */
-.sidebar {
-  width: 220px;
-  background-color: #ffa1c3;
-  padding: 1rem 0;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.sidebar .logo img {
-  width: 150px;
-  margin: 0 auto 1rem;
-  display: block;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidebar ul li {
-  margin: 1rem 0;
-}
-
-.sidebar ul li a {
-  color: #000;
-  text-decoration: none;
-  padding: 0.8rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.sidebar ul li.ativo a,
-.sidebar ul li a:hover {
-  background-color: #fcd8e2;
-  color: #a31611;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.sidebar ul li a img {
-  width: 20px;
-  height: 20px;
-}
-
-.dashboard {
-  flex-grow: 1;
-  padding: 2rem;
-  overflow-y: auto;
-}
-
-.topo-admin {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.botao-sair {
-  background-color: #a31611;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  text-decoration: none;
-  margin-left: 1rem;
-}
-
-h1 {
-  font-family: "Baloo", cursive;
-  color: #a31611;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-/* ======= BOTÃO ADICIONAR ======= */
-.botao-adicionar {
+.botaoAdicionar {
   background-color: #a31611;
   color: white;
   padding: 0.6rem 1.2rem;
@@ -278,13 +201,12 @@ h1 {
   display: inline-block;
 }
 
-.botao-adicionar:hover {
+.botaoAdicionar:hover {
   background-color: #fc527e;
   transition: 0.2s;
 }
 
-/* ======= BARRA DE PESQUISA ======= */
-.barra-pesquisa input {
+.barraPesquisa input {
   width: 100%;
   padding: 0.7rem 1rem;
   border-radius: 10px;
@@ -293,8 +215,7 @@ h1 {
   font-family: "Baloo 2", cursive;
 }
 
-/* ======= TABELA PRODUTOS ======= */
-.tabela-produtos {
+.tabelaProdutos {
   width: 100%;
   border-collapse: collapse;
   background-color: white;
@@ -302,23 +223,23 @@ h1 {
   overflow: hidden;
 }
 
-.tabela-produtos thead tr {
+.tabelaProdutos thead tr {
   background-color: #a31611;
   color: white;
   text-align: left;
 }
 
-.tabela-produtos th,
-.tabela-produtos td {
+.tabelaProdutos th,
+.tabelaProdutos td {
   padding: 0.8rem 1rem;
   font-size: 0.95rem;
 }
 
-.tabela-produtos tbody tr:nth-child(even) {
+.tabelaProdutos tbody tr:nth-child(even) {
   background-color: #fce2e8;
 }
 
-.tabela-produtos tbody tr img {
+.tabelaProdutos tbody tr img {
   width: 40px;
   height: 40px;
   border-radius: 6px;
@@ -326,16 +247,6 @@ h1 {
   vertical-align: middle;
 }
 
-.tabela-produtos tbody td:first-child {
-  width: 40px;
-}
-
-.tabela-produtos tbody td:nth-child(2) img {
-  vertical-align: middle;
-  margin-right: 0.5rem;
-}
-
-/* ======= STATUS BADGES ======= */
 .status {
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
@@ -359,7 +270,6 @@ h1 {
   color: white;
 }
 
-/* ======= BOTÕES DE AÇÃO ======= */
 .botao {
   border: none;
   padding: 0.5rem 1rem;
@@ -388,17 +298,14 @@ h1 {
   transition: 0.2s;
 }
 
-/* =============CLIENTES================== */
-
-/* ======= PÁGINA CLIENTES ======= */
-.titulo-clientes {
+.tituloClientes {
   color: #a31611;
   font-family: "Baloo", cursive;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
 
-.tabela-clientes {
+.tabelaClientes {
   width: 100%;
   border-collapse: collapse;
   background-color: white;
@@ -406,7 +313,7 @@ h1 {
   overflow: hidden;
 }
 
-.tabela-clientes th {
+.tabelaClientes th {
   background-color: #a31611;
   color: white;
   text-align: left;
@@ -414,16 +321,16 @@ h1 {
   font-weight: bold;
 }
 
-.tabela-clientes td {
+.tabelaClientes td {
   padding: 0.8rem 1rem;
   font-size: 0.9rem;
 }
 
-.tabela-clientes tbody tr:nth-child(even) {
+.tabelaClientes tbody tr:nth-child(even) {
   background-color: #fce2e8;
 }
 
-.tabela-clientes .botao-visualizar {
+.tabelaClientes .botaoVisualizar {
   background-color: #a31611;
   color: white;
   padding: 0.4rem 0.8rem;
@@ -435,7 +342,7 @@ h1 {
   cursor: pointer;
 }
 
-.tabela-clientes .botao-visualizar:hover {
+.tabelaClientes .botaoVisualizar:hover {
   background-color: #fc527e;
   transition: 0.2s;
 }
