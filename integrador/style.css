@@ -40,7 +40,7 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-/* logo */
+/* ==================logo ============*/
 .nav-logo {
   position: absolute;
   left: 50%;
@@ -295,7 +295,7 @@ main.fundo {
   transition: 0.2s;
 }
 
-/* ====== HOVER NOS ÍCONES DA NAV BAR ====== */
+/* ==================== HOVER NOS ÍCONES DA NAV BAR =================== */
 .nav-links li a:hover {
   color: #fc68a1;
   text-decoration: underline;
@@ -314,7 +314,7 @@ main.fundo {
   cursor: pointer;
 }
 
-/* ====== HOVER NO BOTÃO "ENTRE EM CONTATO" ====== */
+/* ======= HOVER NO BOTÃO "ENTRE EM CONTATO" =============== */
 .botao-contato:hover {
   background-color: #fc68a1;
   color: white;
@@ -322,7 +322,7 @@ main.fundo {
   transition: 0.2s ease-in-out;
 }
 
-/* ===== FOOTER ===== */
+/* =================== FOOTER ============= */
 footer {
   background-color: transparent;
   position: relative;
@@ -500,7 +500,7 @@ footer {
 
 /* ===================== HOMEE ================================== */
 
-/* embarque neste carrosselllll */
+/* ==================== carrosselllll ===============*/
 
 .carrossel {
   position: relative;
@@ -3614,7 +3614,6 @@ main.produto-detalhe {
   text-align: center;
 }
 
-/* Mostrar o popup quando o checkbox estiver marcado */
 #popup-recuperar:checked ~ .popup-recuperar {
   display: block;
 }
@@ -3630,7 +3629,7 @@ main.produto-detalhe {
   color: #7b0d0d;
 }
 
-/* ==tira linha dos links======== */
+/* ====tira linha dos links======== */
 .filtros-categorias a {
   text-decoration: none;
 }

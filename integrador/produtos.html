@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
-    <!-- HEAD -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produtos - SweetCandy</title>
@@ -11,10 +10,10 @@
 </head>
 
 <body id="roxo">
-
-    <!-- NAV BAR -->
+<!-- nav bar -->
     <header class="topo">
         <img src="imagens/navroxo.png" class="granulado-topo" alt="Fundo com granulados" />
+
         <nav class="nav-central">
             <ul class="nav-links">
                 <li><a href="home.html">Inicio</a></li>
@@ -26,31 +25,45 @@
             <div class="barra-pesquisa">
                 <input type="text" placeholder="Buscar produtos...">
             </div>
+
             <div class="nav-logo">
                 <a href="home.html">
                     <img src="imagens/sweetcandy.png" alt="Logo Sweet Candy" />
                 </a>
             </div>
+
             <div class="nav-icons">
-                <a href="meusDados.html"><img src="imagens/perfil.png" alt="Perfil" /></a>
-                <a href="favoritos.html"><img src="imagens/favoritos.png" alt="Favoritos" /></a>
-                <a href="carrinho.html"><img src="imagens/carrinho.png" alt="Carrinho" /></a>
+                <a href="meusDados.html">
+                    <img src="imagens/perfil.png" alt="Perfil" />
+                </a>
+                <a href="favoritos.html">
+                    <img src="imagens/favoritos.png" alt="Favoritos" />
+                </a>
+                <a href="carrinho.html">
+                    <img src="imagens/carrinho.png" alt="Carrinho" />
+                </a>
                 <a href="#" class="botao-contato">Entre em contato</a>
             </div>
         </nav>
     </header>
-
-    <!-- CARROSSEL -->
+<!-- carrossel com os banners -->
     <div class="carrossel">
         <div class="slides">
-            <div class="slide"><img src="imagens/testemacaron.png" alt="Banner 1" /></div>
-            <div class="slide"><img src="imagens/donutsstopo.png" alt="Banner 2" /></div>
-            <div class="slide"><img src="imagens/cokietopo.png" alt="Banner 3" /></div>
-            <div class="slide"><img src="imagens/cupcaketopo.png" alt="Banner 4" /></div>
+            <div class="slide">
+                <img src="imagens/testemacaron.png" alt="Banner 1" />
+            </div>
+            <div class="slide">
+                <img src="imagens/donutsstopo.png" alt="Banner 2" />
+            </div>
+            <div class="slide">
+                <img src="imagens/cokietopo.png" alt="Banner 3" />
+            </div>
+            <div class="slide">
+                <img src="imagens/cupcaketopo.png" alt="Banner 4" />
+            </div>
         </div>
     </div>
 
-    <!-- NAVEGAÇÃO DOS SLIDES -->
     <div class="navegacao">
         <label for="slide1"></label>
         <label for="slide2"></label>
@@ -58,33 +71,33 @@
         <label for="slide4"></label>
     </div>
 
-    <!-- FILTROS -->
     <section class="produtos-destaque">
         <h2 class="titulo-produtos">Favoritos</h2>
-        <div class="filtros-categorias">
-            <a href="produtos.html" class="filtro ativo">Cupcake</a>
-            <a href="produtos3.html" class="filtro">Donuts</a>
-            <a href="erro.html" class="filtro">Cookies</a>
-            <a href="produtos2.html" class="filtro">Macaron</a>
-            <a href="erro.html" class="filtro">Cheesecake</a>
-        </div>
-    </section>
-
-    <!-- LISTA DE PRODUTOS -->
-    <section class="grade-produtos">
-
-        <!-- PRODUTO 1 -->
-        <article class="card-produto">
-            <a href="detalhes.html"><img src="imagens/brigadeiro1.jfif" alt="Cupcake de Brigadeiro" /></a>
-            <h3>Brigadeiro</h3>
-            <div class="botoes-produto">
-                <button class="preco">R$12,00</button>
-                <a href="detalhes.html"><button class="comprar">Comprar</button></a>
+            <div class="filtros-categorias">
+                <a href="produtos.html" class="filtro ativo">Cupcake</a>
+                <a href="produtos3.html" class="filtro">Donuts</a>
+                <a href="erro.html" class="filtro">Cookies</a>
+                <a href="produtos2.html" class="filtro">Macaron</a>
+                <a href="erro.html" class="filtro">Cheesecake</a>
             </div>
+    </section>
+<!-- produtos -->
+
+     <section class="grade-produtos">
+        <article class="card-produto">
+            <a href="detalhes.html">
+                <img src="imagens/brigadeiro1.jfif" alt="Cupcake de Brigadeiro" />
+            </a>
+                <h3>Brigadeiro</h3>
+                    <div class="botoes-produto">
+                        <button class="preco">R$12,00</button>
+                        <a href="detalhes.html">
+                        <button class="comprar">Comprar</button>
+                    </a>
+                </div>
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>
 
-        <!-- PRODUTO 2 -->
         <article class="card-produto">
             <img src="imagens/oreo.png" alt="Cupcake Oreo" />
             <h3>Oreo</h3>
@@ -95,7 +108,6 @@
             <div class="avaliacao">★ ★ ★ ★ ☆</div>
         </article>
 
-        <!-- PRODUTO 3 -->
         <article class="card-produto">
             <img src="imagens/framboesa.png" alt="Cupcake Framboesa" />
             <h3>Framboesa</h3>
@@ -106,20 +118,184 @@
             <div class="avaliacao">★ ★ ★ ★ ★</div>
         </article>
 
-        <!-- PRODUTO 4 -->
-        <!-- Segue o mesmo padrão: PRODUTO 4, PRODUTO 5, PRODUTO 6, etc... até o último produto -->
+        <article class="card-produto">
+            <img src="imagens/frutasvermeia.png" alt="Cupcake Frutas Vermelhas" />
+            <h3>Frutas Vermelhas</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$12,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
 
+        <article class="card-produto">
+            <img src="imagens/morangochoco.jfif" alt="Cupcake de Morango com Chocolate" />
+            <h3>Morango</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$12,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ★</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/chocomenta.jfif" alt="Cupcake de Chocomenta" />
+            <h3>Chocomenta</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$12,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/limao1.png" alt="Cupcake de Limão Siciliano" />
+            <h3>Limão Siciliano</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$17,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/morango.png" alt="Cupcake de Morango" />
+            <h3>Morango</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$13,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/banana.png" alt="Cupcake de Banana" />
+            <h3>Banana</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$10,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/redvelvet.png" alt="Cupcake Red Velvet" />
+            <h3>Red Velvet</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$15,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/cafe.png" alt="Cupcake de Café" />
+            <h3>Café</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$18,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/maracuja.png" alt="Cupcake de Maracujá" />
+            <h3>Maracujá</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$15,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/kinder.png" alt="Cupcake de Kinder Bueno" />
+            <h3>Kinder Bueno</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$20,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/fl.png" alt="Cupcake Floresta Negra" />
+            <h3>Floresta Negra</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$15,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/amora.png" alt="Cupcake de Amora" />
+            <h3>Amora</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$13,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/churros.png" alt="Cupcake de Churros" />
+            <h3>Churros</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$10,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/ferrero.png" alt="Cupcake de Ferrero Rocher" />
+            <h3>Ferrero Rocher</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$20,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/paçoca.png" alt="Cupcake de Paçoca" />
+            <h3>Paçoca</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$12,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/manga.png" alt="Cupcake de Manga" />
+            <h3>Manga</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$15,00</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
+
+        <article class="card-produto">
+            <img src="imagens/pessego.png" alt="Cupcake de Pêssego" />
+            <h3>Pêssego</h3>
+            <div class="botoes-produto">
+                <button class="preco">R$--</button>
+                <button class="comprar">Comprar</button>
+            </div>
+            <div class="avaliacao">★ ★ ★ ★ ☆</div>
+        </article>
     </section>
-
-    <!-- PAGINAÇÃO -->
+<!--paginação -->
     <div class="paginacao">
         <button class="pagina atual">1</button>
         <button class="pagina">2</button>
         <button class="pagina">3</button>
         <button class="pagina">-></button>
     </div>
-
-    <!-- FOOTER -->
+<!-- footer -->
     <footer>
         <img src="imagens/footerroxo.png" alt="granulados" class="granulado-footer" />
         <img src="imagens/footermacaron.png" alt="Macarons coloridos" class="macaron" />
